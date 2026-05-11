@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /c/Users/splettner/PythonProjects/FeeQuoteEstimator/src/ui /c/Users/splettner/PythonProjects/FeeQuoteEstimator/quotes /c/Users/splettner/PythonProjects/FeeQuoteEstimator/templates)",
+      "Bash(pip install *)",
+      "Bash(python -c \"import fitz; print\\(fitz.__version__\\)\")",
+      "Bash(python -c \"import pymupdf; print\\(pymupdf.__version__, pymupdf.__file__\\)\")",
+      "Bash(pip show *)",
+      "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(python -m pip install pymupdf reportlab openpyxl anthropic)",
+      "Bash(python -c ' *)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(python -m pip install truststore -q)",
+      "Bash(python -c \"import truststore; print\\('truststore OK'\\)\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\splettner\\PythonProjects\\FeeQuoteEstimator\\src"
+    ]
+  }
+}

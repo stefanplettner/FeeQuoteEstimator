@@ -1,0 +1,154 @@
+{
+    "forms": [
+        {
+            "code": "1120",
+            "description": "Form 1120 - U.S. Corporation Income Tax Return (base)",
+            "category": "core_1120",
+            "fee": 2500.0
+        },
+        {
+            "code": "1120-SCH-C",
+            "description": "Schedule C - Dividends, Inclusions, and Special Deductions",
+            "category": "core_1120",
+            "fee": 100.0
+        },
+        {
+            "code": "1120-SCH-D",
+            "description": "Schedule D - Capital Gains and Losses",
+            "category": "core_1120",
+            "fee": 150.0
+        },
+        {
+            "code": "1120-SCH-G",
+            "description": "Schedule G - Information on Certain Persons Owning the Corporation's Voting Stock",
+            "category": "core_1120",
+            "fee": 350.0
+        },
+        {
+            "code": "1120-SCH-H",
+            "description": "Schedule H - Section 280H Limitations for a Personal Service Corporation",
+            "category": "core_1120",
+            "fee": 450.0
+        },
+        {
+            "code": "1120-SCH-J",
+            "description": "Schedule J - Tax Computation and Payment",
+            "category": "core_1120",
+            "fee": 100.0
+        },
+        {
+            "code": "1120-SCH-K",
+            "description": "Schedule K - Other Information",
+            "category": "core_1120",
+            "fee": 100.0
+        },
+        {
+            "code": "1120-SCH-L",
+            "description": "Schedule L - Balance Sheets per Books",
+            "category": "core_1120",
+            "fee": 500.0
+        },
+        {
+            "code": "1120-SCH-M1",
+            "description": "Schedule M-1 - Reconciliation of Income per Books with Income per Return",
+            "category": "core_1120",
+            "fee": 1000.0
+        },
+        {
+            "code": "1120-SCH-M2",
+            "description": "Schedule M-2 - Analysis of Unappropriated Retained Earnings per Books",
+            "category": "core_1120",
+            "fee": 50.0
+        },
+        {
+            "code": "1120-SCH-M3",
+            "description": "Schedule M-3 - Net Income (Loss) Reconciliation for Corporations",
+            "category": "core_1120",
+            "fee": 1250.0
+        },
+        {
+            "code": "4797",
+            "description": "Form 4797 - Sales of Business Property",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "8949",
+            "description": "Form 8949 - Sales and Other Dispositions of Capital Assets",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "5471",
+            "description": "Form 5471 - Information Return of U.S. Persons With Respect to Certain Foreign Corporations",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "5472",
+            "description": "Form 5472 - Information Return of a 25% Foreign-Owned U.S. Corporation",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "8858",
+            "description": "Form 8858 - Information Return of U.S. Persons With Respect to Foreign Disregarded Entities",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "965",
+            "description": "Form 965 / Schedule 965-A - Transition Tax on Deferred Foreign Income",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "8990",
+            "description": "Form 8990 - Limitation on Business Interest Expense Under Section 163(j)",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "8991",
+            "description": "Form 8991 - Tax on Base Erosion Payments (BEAT)",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "8992",
+            "description": "Form 8992 - U.S. Shareholder Calculation of GILTI",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "8993",
+            "description": "Form 8993 - Section 250 Deduction for FDII and GILTI",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "1118",
+            "description": "Form 1118 - Foreign Tax Credit - Corporations",
+            "category": "federal_schedule",
+            "fee": 0.0
+        },
+        {
+            "code": "851",
+            "description": "Form 851 - Affiliations Schedule (Consolidated Groups)",
+            "category": "consolidated_group",
+            "fee": 0.0
+        },
+        {
+            "code": "1120-PC",
+            "description": "Form 1120-PC - U.S. Property and Casualty Insurance Company",
+            "category": "consolidated_group",
+            "fee": 0.0
+        },
+        {
+            "code": "1120-L",
+            "description": "Form 1120-L - U.S. Life Insurance Company Income Tax Return",
+            "category": "consolidated_group",
+            "fee": 0.0
+        }
+    ]
+}

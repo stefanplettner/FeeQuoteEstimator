@@ -1,0 +1,111 @@
+{
+  "client_name": "The Flower Patch",
+  "pdf_name": "1120 Case Study - Answer Key - Tax Return.pdf",
+  "created": "2026-05-11",
+  "items": [
+    {
+      "form_code": "1120",
+      "form_name": "Form 1120",
+      "category": "core_1120",
+      "fee": 5000.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "1120-SCH-C",
+      "form_name": "Schedule C (Form 1120)",
+      "category": "core_1120",
+      "fee": 100.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "1120-SCH-J",
+      "form_name": "Schedule J (Form 1120)",
+      "category": "core_1120",
+      "fee": 100.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "1120-SCH-K",
+      "form_name": "Schedule K (Form 1120)",
+      "category": "core_1120",
+      "fee": 100.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "1120-SCH-L",
+      "form_name": "Schedule L (Form 1120)",
+      "category": "core_1120",
+      "fee": 500.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "1120-SCH-M1",
+      "form_name": "Schedule M-1 (Form 1120)",
+      "category": "core_1120",
+      "fee": 1000.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "1120-SCH-M2",
+      "form_name": "Schedule M-2 (Form 1120)",
+      "category": "core_1120",
+      "fee": 50.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "1120-SCH-B",
+      "form_name": "Schedule B (Form 1120)",
+      "category": "federal_schedule",
+      "fee": 0.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "1120-SCH-M3",
+      "form_name": "Schedule M-3 (Form 1120)",
+      "category": "federal_schedule",
+      "fee": 1250.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "1125-A",
+      "form_name": "Form 1125-A",
+      "category": "federal_schedule",
+      "fee": 0.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "4562",
+      "form_name": "Form 4562",
+      "category": "federal_schedule",
+      "fee": 0.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "4797",
+      "form_name": "Form 4797",
+      "category": "federal_schedule",
+      "fee": 0.0,
+      "notes": "",
+      "included": true
+    },
+    {
+      "form_code": "8916-A",
+      "form_name": "Form 8916-A",
+      "category": "federal_schedule",
+      "fee": 0.0,
+      "notes": "",
+      "included": true
+    }
+  ]
+}
