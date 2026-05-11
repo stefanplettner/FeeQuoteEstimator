@@ -1,0 +1,16 @@
+# User-specific settings (contains API key and firm details)
+config.json
+
+# Environment variable files
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+dist/
+build/
+*.egg-info/

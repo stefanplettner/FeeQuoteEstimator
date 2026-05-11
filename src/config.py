@@ -1,4 +1,5 @@
 import json
+import os
 import tkinter as tk
 from tkinter import ttk, messagebox
 from pathlib import Path
@@ -42,6 +43,9 @@ def _write(data: dict) -> None:
 
 def ensure_api_key(parent: tk.Tk | None = None) -> str:
     """Return a valid API key, prompting the user if one is not configured."""
+    if env_key := os.environ.get("ANTHROPIC_API_KEY", "").strip():
+        return env_key
+
     cfg = load()
     if cfg.get("api_key", "").strip():
         return cfg["api_key"].strip()
