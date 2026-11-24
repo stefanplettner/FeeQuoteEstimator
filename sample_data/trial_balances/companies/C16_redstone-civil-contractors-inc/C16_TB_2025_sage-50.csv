@@ -1,0 +1,82 @@
+﻿"Redstone Civil Contractors, Inc."
+General Ledger Trial Balance
+"As of Dec 31, 2025"
+Filter Criteria includes: Report order is by ID. Report is printed in Detail Format.
+
+Account ID,Account Description,Debit Amt,Credit Amt
+10100,Operating Checking,"1,076,114.67",
+10200,Payroll Checking,"111,277.90",
+10300,Money Market Savings,"301,261.65",
+10400,Accounts Receivable,"2,277,229.71",
+10500,Retainage Receivable,"401,864.62",
+10600,Allowance for Doubtful Accounts,,"59,249.53"
+10700,Costs in Excess of Billings,"412,014.21",
+10800,Prepaid Expenses,"91,396.30",
+10900,Prepaid Insurance,"22,014.13",
+11000,Employee Advances,"5,114.70",
+11100,Machinery & Equipment,"381,083.00",
+11200,Furniture & Fixtures,"90,237.00",
+11300,Vehicles,"605,351.00",
+11400,Computer Equipment,"132,458.00",
+11500,Accumulated Depreciation,,"413,083.54"
+11600,Goodwill,"935,620.00",
+11700,Customer List,"402,070.00",
+11800,Accumulated Amortization,,"134,301.08"
+11900,Security Deposits,"35,767.00",
+20100,Accounts Payable,,"1,259,955.50"
+20200,Corporate Credit Card,,"18,679.72"
+20300,Accrued Wages,,"20,973.92"
+20400,Payroll Taxes Payable,,"12,049.17"
+20500,Accrued Expenses,,"162,486.48"
+20600,Billings in Excess of Costs,,"569,970.17"
+20700,Retainage Payable,,"557,051.07"
+20800,Federal Income Tax Payable,,"25,335.62"
+20900,State Income Tax Payable,,"5,005.58"
+21000,Line of Credit,,"149,608.00"
+21100,Current Portion of Long-Term Debt,,"15,417.36"
+21200,Equipment Loans Payable,,"92,501.86"
+21300,Deferred Tax Liability,,"41,793.41"
+30100,Common Stock,,"25,000.00"
+30200,Retained Earnings,,"3,166,099.90"
+40100,Contract Revenue,,"14,151,172.09"
+50100,Materials & Purchases,"2,783,302.15",
+50200,Direct Labor,"1,808,701.36",
+50300,Subcontractors,"6,158,020.18",
+50400,Equipment Rental - Jobs,"192,869.93",
+60000,Officer Compensation,"452,766.48",
+60100,Salaries & Wages,"566,787.83",
+60200,Payroll Tax Expense,"205,279.53",
+60300,Employee Health Insurance,"136,321.42",
+60400,401(k) Matching Contributions,"44,027.46",
+60500,Rent Expense,"238,675.27",
+60600,Repairs & Maintenance,"43,273.61",
+60700,Bad Debt Expense,"53,290.40",
+60800,Taxes & Licenses,"24,101.72",
+60900,State Income Tax Expense,"26,186.44",
+61000,Interest Expense,"70,548.60",
+61100,Depreciation Expense,"112,089.21",
+61200,Amortization Expense,"26,805.47",
+61300,Advertising & Marketing,"49,102.85",
+61400,Auto & Truck Expense,"126,992.06",
+61500,Bank Service Charges,"5,860.49",
+61600,Charitable Contributions,"14,494.87",
+61700,Dues & Subscriptions,"6,537.25",
+61800,Insurance - General Liability,"48,547.56",
+61900,Workers' Compensation Insurance,"46,228.47",
+62000,Meals (50%),"18,116.75",
+62100,Office Supplies,"27,456.08",
+62200,Accounting Fees,"41,045.38",
+62300,Legal Fees,"4,043.05",
+62400,Software & SaaS Subscriptions,"32,208.08",
+62500,Telephone & Internet,"21,405.46",
+62600,Travel,"33,266.52",
+62700,Utilities,"58,414.18",
+62800,Uniforms,"13,954.39",
+62900,Club Dues,"7,000.39",
+63000,Miscellaneous Expense,"1,821.09",
+80100,Interest Income,,"7,733.36"
+80200,Gain on Sale of Assets,,"7,941.96"
+80300,Other Income,,"36,097.06"
+90100,Federal Income Tax Expense - Current,"141,857.34",
+90200,Federal Income Tax Expense - Deferred,"9,233.17",
+,Total:,"20,931,506.38","20,931,506.38"

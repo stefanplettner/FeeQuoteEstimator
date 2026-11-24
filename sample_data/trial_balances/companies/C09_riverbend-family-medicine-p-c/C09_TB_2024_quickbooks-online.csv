@@ -1,0 +1,75 @@
+﻿"Riverbend Family Medicine, P.C."
+Trial Balance
+"As of December 31, 2024"
+
+,Debit,Credit
+1010 Operating Checking,"747,267.78",
+1020 Payroll Checking,"65,839.52",
+1030 Money Market Savings,"156,824.46",
+1040 Accounts Receivable,"1,056,540.53",
+1050 Allowance for Doubtful Accounts,,"16,305.11"
+1060 Prepaid Expenses,"32,232.96",
+1070 Prepaid Insurance,"38,512.65",
+1080 Employee Advances,"3,195.88",
+1090 Machinery & Equipment,"594,507.00",
+1100 Furniture & Fixtures,"277,247.00",
+1110 Computer Equipment,"301,083.00",
+1120 Leasehold Improvements,"334,655.00",
+1130 Accumulated Depreciation,,"626,001.79"
+1140 Security Deposits,"19,246.00",
+1150 Right-of-Use Asset - Operating Lease,"1,107,285.59",
+1160 Cash Surrender Value - Officer Life Insurance,"141,589.14",
+2010 Accounts Payable,,"95,853.93"
+2020 Corporate Credit Card,,"7,772.73"
+2030 Accrued Wages,,"103,051.97"
+2040 Payroll Taxes Payable,,"10,213.35"
+2050 Accrued Expenses,,"42,373.02"
+2060 Federal Income Tax Payable,,"21,609.62"
+2070 State Income Tax Payable,,"2,986.85"
+2080 Operating Lease Liability,,"1,143,235.43"
+2090 Deferred Tax Liability,,"46,278.63"
+3010 Common Stock,,"25,000.00"
+3020 Additional Paid-In Capital,,"556,630.00"
+3030 Retained Earnings,,"1,962,327.00"
+3040 Dividends Paid,"113,093.00",
+4010 Patient Service Revenue,,"7,850,000.20"
+4020 Sales Discounts,"294,467.35",
+5010 Medical Supplies,"406,838.48",
+6000 Officer Compensation,"370,083.91",
+6010 Salaries & Wages,"3,864,896.66",
+6020 Payroll Tax Expense,"319,031.54",
+6030 Employee Health Insurance,"371,337.53",
+6040 401(k) Matching Contributions,"117,494.21",
+6050 Rent Expense,"334,681.04",
+6060 Repairs & Maintenance,"110,473.94",
+6070 Bad Debt Expense,"27,894.63",
+6080 Taxes & Licenses,"21,348.18",
+6090 State Income Tax Expense,"16,395.03",
+6100 Interest Expense,0.09,
+6110 Depreciation Expense,"190,493.58",
+6120 Advertising & Marketing,"127,435.28",
+6130 Bank Service Charges,"5,292.42",
+6140 Charitable Contributions,"10,406.10",
+6150 Dues & Subscriptions,"18,856.37",
+6160 Insurance - General Liability,"118,550.74",
+6170 Workers' Compensation Insurance,"55,920.82",
+6180 Officer Life Insurance Premiums,"21,243.44",
+6190 Meals (50%),"33,874.54",
+6200 Office Supplies,"55,279.39",
+6210 Accounting Fees,"39,375.76",
+6220 Legal Fees,"27,136.70",
+6230 Contract Labor,"129,949.30",
+6240 Software & SaaS Subscriptions,"107,583.22",
+6250 Telephone & Internet,"20,369.12",
+6260 Travel,"84,970.88",
+6270 Utilities,"52,909.26",
+6280 Training & Education,"26,703.01",
+6290 Janitorial & Cleaning,"36,977.05",
+6300 Miscellaneous Expense,"7,846.17",
+8010 Interest Income,,"3,333.04"
+9010 Federal Income Tax Expense - Current,"92,259.61",
+9020 Federal Income Tax Expense - Deferred,"5,477.81",
+TOTAL,"$12,512,972.67","$12,512,972.67"
+
+
+"Accrual Basis Tuesday, January 14, 2025 09:42 AM GMT-05:00"

@@ -1,0 +1,80 @@
+﻿"Halvorsen Structural Engineering, P.C."
+Trial Balance
+Basis: Accrual
+As of 12/31/2025
+
+Account,Account Code,Net Debit,Net Credit
+Assets
+Operating Checking,,"666,713.02",
+Payroll Checking,,"39,627.34",
+Money Market Savings,,"121,169.40",
+Accounts Receivable,,"1,022,793.01",
+Allowance for Doubtful Accounts,,,"13,238.67"
+Prepaid Expenses,,"36,067.15",
+Prepaid Insurance,,"45,067.97",
+Furniture & Fixtures,,"56,411.00",
+Vehicles,,"171,068.00",
+Computer Equipment,,"106,180.00",
+Leasehold Improvements,,"29,862.00",
+Accumulated Depreciation,,,"198,446.44"
+Security Deposits,,"18,245.00",
+Right-of-Use Asset - Operating Lease,,"1,305,065.85",
+Cash Surrender Value - Officer Life Insurance,,"92,955.42",
+Total for Assets,,"3,711,225.16","211,685.11"
+Liabilities
+Accounts Payable,,,"188,015.08"
+Corporate Credit Card,,,"24,292.57"
+Accrued Wages,,,"144,860.29"
+Payroll Taxes Payable,,,"11,386.55"
+Accrued Expenses,,,"46,831.73"
+Federal Income Tax Payable,,,"16,387.88"
+State Income Tax Payable,,,"3,846.00"
+Operating Lease Liability,,,"1,358,632.51"
+Total for Liabilities,,,"1,794,252.61"
+Equities
+Common Stock,,,"1,000.00"
+Additional Paid-In Capital,,,"408,402.00"
+Retained Earnings,,,"1,017,234.42"
+Total for Equities,,,"1,426,636.42"
+Income
+Service Revenue,,,"402,654.12"
+Professional Services Revenue,,,"6,308,238.61"
+Interest Income,,,"2,887.19"
+Total for Income,,,"6,713,779.92"
+Expense
+Officer Compensation,,"317,412.86",
+Salaries & Wages,,"3,451,174.29",
+Payroll Tax Expense,,"296,616.73",
+Employee Health Insurance,,"232,491.69",
+401(k) Matching Contributions,,"68,043.13",
+Rent Expense,,"479,166.76",
+Repairs & Maintenance,,"99,684.82",
+Bad Debt Expense,,"19,900.79",
+Taxes & Licenses,,"37,745.02",
+State Income Tax Expense,,"17,077.59",
+Interest Expense,,"25,200.31",
+Depreciation Expense,,"40,279.80",
+Advertising & Marketing,,"213,219.19",
+Auto & Truck Expense,,"23,817.40",
+Bank Service Charges,,"11,627.97",
+Charitable Contributions,,"20,759.23",
+Dues & Subscriptions,,"9,885.85",
+Insurance - General Liability,,"141,661.90",
+Workers' Compensation Insurance,,"70,427.49",
+Officer Life Insurance Premiums,,"22,449.37",
+Meals (50%),,"31,704.14",
+Office Supplies,,"51,490.76",
+Accounting Fees,,"63,164.37",
+Legal Fees,,"22,347.85",
+Contract Labor,,"321,403.40",
+Software & SaaS Subscriptions,,"32,679.49",
+Telephone & Internet,,"31,958.81",
+Travel,,"84,008.67",
+Utilities,,"79,859.84",
+Training & Education,,"25,675.85",
+Club Dues,,"2,316.24",
+Miscellaneous Expense,,"5,003.51",
+Federal Income Tax Expense - Current,,"82,804.10",
+Federal Income Tax Expense - Deferred,,"2,069.68",
+Total for Expense,,"6,435,128.90",
+Total,,"10,146,354.06","10,146,354.06"

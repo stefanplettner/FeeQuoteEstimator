@@ -1,0 +1,72 @@
+﻿"Saguaro Grill Concepts, Inc."
+Trial Balance
+End of Dec 2025
+Account,Debit,Credit
+1010 Operating Checking,"2,565,697.80",
+1020 Payroll Checking,"169,329.80",
+1030 Money Market Savings,"843,864.94",
+1040 Petty Cash,500.00,
+1050 Accounts Receivable,"51,861.21",
+1060 Inventory,"95,078.73",
+1070 Prepaid Expenses,"91,122.22",
+1080 Prepaid Insurance,"46,601.76",
+1090 Prepaid Federal Income Tax,"8,449.06",
+1110 Machinery & Equipment,"1,617,089.00",
+1120 Furniture & Fixtures,"553,799.00",
+1130 Computer Equipment,"833,242.00",
+1140 Leasehold Improvements,"305,157.00",
+1150 Accumulated Depreciation,,"1,670,264.90"
+1160 Security Deposits,"28,289.00",
+1170 Right-of-Use Asset - Operating Lease,"1,746,237.31",
+2010 Accounts Payable,,"256,826.18"
+2020 Corporate Credit Card,,"25,432.26"
+2030 Accrued Wages,,"81,402.13"
+2040 Payroll Taxes Payable,,"6,908.53"
+2050 Sales Tax Payable,,"77,708.83"
+2060 Accrued Expenses,,"77,652.32"
+2070 State Income Tax Payable,,"6,827.52"
+2080 Current Portion of Long-Term Debt,,"54,555.73"
+2090 Note Payable - Bank,,"327,332.33"
+2100 Operating Lease Liability,,"1,864,937.15"
+2110 Deferred Tax Liability,,"86,049.30"
+3010 Common Stock,,"1,000.00"
+3020 Retained Earnings,,"3,700,070.44"
+4010 Food Sales,,"7,314,400.92"
+4020 Beverage Sales,,"2,569,924.64"
+4030 Sales Discounts,"109,729.86",
+5010 Food Cost,"2,847,818.13",
+5020 Beverage Cost,"677,002.80",
+6000 Officer Compensation,"919,763.37",
+6010 Salaries & Wages,"1,770,508.25",
+6020 Payroll Tax Expense,"196,231.11",
+6030 Employee Health Insurance,"335,160.41",
+6040 401(k) Matching Contributions,"43,866.22",
+6050 Rent Expense,"460,665.77",
+6060 Repairs & Maintenance,"77,185.41",
+6070 Taxes & Licenses,"30,688.58",
+6080 State Income Tax Expense,"48,498.27",
+6090 Interest Expense,"29,708.50",
+6100 Depreciation Expense,"426,409.02",
+6110 Advertising & Marketing,"182,211.89",
+6120 Bank Service Charges,"9,130.10",
+6130 Merchant Processing Fees,"236,564.51",
+6140 Charitable Contributions,"19,331.10",
+6150 Dues & Subscriptions,"9,877.11",
+6160 Insurance - General Liability,"126,638.60",
+6170 Workers' Compensation Insurance,"79,345.84",
+6180 Meals (50%),"16,604.73",
+6190 Office Supplies,"24,260.76",
+6200 Accounting Fees,"55,494.75",
+6210 Legal Fees,"19,541.80",
+6220 Software & SaaS Subscriptions,"45,783.16",
+6230 Telephone & Internet,"30,110.70",
+6240 Travel,"23,492.66",
+6250 Utilities,"38,318.98",
+6260 Uniforms,"17,345.17",
+6270 Janitorial & Cleaning,"63,062.34",
+6280 Penalties & Fines,"3,140.90",
+6290 Miscellaneous Expense,"6,936.27",
+8010 Interest Income,,"9,719.05"
+9010 Federal Income Tax Expense - Current,"185,263.74",
+9020 Federal Income Tax Expense - Deferred,"9,002.59",
+Total,"18,131,012.23","18,131,012.23"

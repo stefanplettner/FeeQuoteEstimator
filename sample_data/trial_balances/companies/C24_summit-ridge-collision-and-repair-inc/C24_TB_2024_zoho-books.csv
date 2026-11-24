@@ -1,0 +1,81 @@
+﻿"Summit Ridge Collision & Repair, Inc."
+Trial Balance
+Basis: Accrual
+As of 12/31/2024
+
+Account,Account Code,Net Debit,Net Credit
+Assets
+Operating Checking,,"262,906.63",
+Payroll Checking,,"20,481.11",
+Petty Cash,,500.00,
+Accounts Receivable,,"119,068.07",
+Inventory,,"162,394.11",
+Prepaid Expenses,,"23,926.83",
+Prepaid Insurance,,"6,230.01",
+Machinery & Equipment,,"130,845.00",
+Furniture & Fixtures,,"78,160.00",
+Vehicles,,"183,427.00",
+Computer Equipment,,"76,480.00",
+Leasehold Improvements,,"42,154.00",
+Accumulated Depreciation,,,"253,862.69"
+Security Deposits,,"8,946.00",
+Right-of-Use Asset - Operating Lease,,"288,605.30",
+Cash Surrender Value - Officer Life Insurance,,"132,953.98",
+Total for Assets,,"1,537,078.04","253,862.69"
+Liabilities
+Accounts Payable,,,"133,228.60"
+Corporate Credit Card,,,"7,664.48"
+Accrued Wages,,,"33,688.58"
+Payroll Taxes Payable,,,"3,821.47"
+Sales Tax Payable,,,"16,897.33"
+Accrued Expenses,,,"23,050.84"
+Federal Income Tax Payable,,,0.40
+Due to Shareholder,,,"72,627.00"
+Operating Lease Liability,,,"308,319.58"
+Total for Liabilities,,,"599,298.28"
+Equities
+Common Stock,,,"25,000.00"
+Additional Paid-In Capital,,,"71,803.00"
+Retained Earnings,,,"593,688.00"
+Total for Equities,,,"690,491.00"
+Income
+Sales,,,"1,098,200.10"
+Service Revenue,,,"1,791,800.20"
+Sales Discounts,,"18,073.55",
+Interest Income,,,771.28
+Total for Income,,"18,073.55","2,890,771.58"
+Expense
+Cost of Goods Sold,,"782,789.73",
+Direct Labor,,"561,450.64",
+Officer Compensation,,"145,661.53",
+Salaries & Wages,,"771,853.15",
+Payroll Tax Expense,,"117,015.56",
+Employee Health Insurance,,"71,243.08",
+401(k) Matching Contributions,,"10,267.42",
+Rent Expense,,"86,173.78",
+Repairs & Maintenance,,"21,680.62",
+Taxes & Licenses,,"8,664.48",
+State Income Tax Expense,,0.64,
+Interest Expense,,"11,560.46",
+Depreciation Expense,,"65,876.13",
+Advertising & Marketing,,"41,743.17",
+Bank Service Charges,,"1,465.50",
+Merchant Processing Fees,,"43,168.48",
+Charitable Contributions,,"6,024.97",
+Dues & Subscriptions,,"1,902.05",
+Insurance - General Liability,,"15,369.01",
+Workers' Compensation Insurance,,"9,647.50",
+Officer Life Insurance Premiums,,"16,593.23",
+Meals (50%),,"9,056.68",
+Office Supplies,,"8,784.26",
+Accounting Fees,,"16,507.08",
+Legal Fees,,"2,323.53",
+Software & SaaS Subscriptions,,"15,185.27",
+Telephone & Internet,,"8,032.96",
+Travel,,"10,196.14",
+Utilities,,"6,442.68",
+Uniforms,,"10,970.17",
+Miscellaneous Expense,,"1,622.01",
+Federal Income Tax Expense - Current,,0.05,
+Total for Expense,,"2,879,271.96",
+Total,,"4,434,423.55","4,434,423.55"

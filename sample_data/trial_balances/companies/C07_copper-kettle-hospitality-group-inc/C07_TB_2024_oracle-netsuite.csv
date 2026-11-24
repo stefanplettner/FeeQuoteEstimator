@@ -1,0 +1,73 @@
+﻿"Copper Kettle Hospitality Group, Inc."
+Trial Balance
+End of Dec 2024
+Account,Debit,Credit
+1010 Operating Checking,"1,653,934.64",
+1020 Payroll Checking,"203,248.98",
+1030 Money Market Savings,"400,424.56",
+1040 Petty Cash,500.00,
+1050 Accounts Receivable,"23,550.91",
+1060 Inventory,"57,948.75",
+1070 Prepaid Expenses,"48,132.01",
+1080 Prepaid Insurance,"12,745.32",
+1090 Machinery & Equipment,"501,584.00",
+1100 Furniture & Fixtures,"348,190.00",
+1110 Computer Equipment,"434,396.00",
+1120 Leasehold Improvements,"426,586.00",
+1130 Accumulated Depreciation,,"569,111.00"
+1140 Security Deposits,"8,427.00",
+1150 Right-of-Use Asset - Operating Lease,"979,567.86",
+2010 Accounts Payable,,"115,677.16"
+2020 Corporate Credit Card,,"8,095.95"
+2030 Accrued Wages,,"75,211.12"
+2040 Payroll Taxes Payable,,"8,697.77"
+2050 Sales Tax Payable,,"43,814.48"
+2060 Accrued Expenses,,"34,366.44"
+2070 Federal Income Tax Payable,,"4,821.43"
+2080 State Income Tax Payable,,708.33
+2090 Current Portion of Long-Term Debt,,"76,934.19"
+2100 Note Payable - Bank,,"461,602.29"
+2110 Due to Shareholder,,"131,582.00"
+2120 Operating Lease Liability,,"1,025,239.90"
+2130 Deferred Tax Liability,,"59,936.60"
+3010 Common Stock,,"500,000.00"
+3020 Retained Earnings,,"1,904,971.00"
+4010 Food Sales,,"4,055,200.86"
+4020 Beverage Sales,,"1,424,800.74"
+4030 Sales Discounts,"42,306.74",
+5010 Food Cost,"1,489,266.56",
+5020 Beverage Cost,"342,488.85",
+6000 Officer Compensation,"301,180.33",
+6010 Salaries & Wages,"1,847,226.45",
+6020 Payroll Tax Expense,"160,918.90",
+6030 Employee Health Insurance,"109,447.26",
+6040 401(k) Matching Contributions,"52,964.16",
+6050 Rent Expense,"244,252.43",
+6060 Repairs & Maintenance,"51,471.26",
+6070 Taxes & Licenses,"11,059.38",
+6080 State Income Tax Expense,"5,490.39",
+6090 Interest Expense,"54,712.89",
+6100 Depreciation Expense,"154,540.74",
+6110 Advertising & Marketing,"45,740.26",
+6120 Bank Service Charges,"6,767.42",
+6130 Merchant Processing Fees,"126,194.61",
+6140 Charitable Contributions,"8,298.38",
+6150 Dues & Subscriptions,"8,477.84",
+6160 Insurance - General Liability,"31,257.76",
+6170 Workers' Compensation Insurance,"23,733.18",
+6180 Meals (50%),"25,910.14",
+6190 Entertainment (Nondeductible),"3,514.87",
+6200 Office Supplies,"15,115.20",
+6210 Accounting Fees,"19,990.17",
+6220 Legal Fees,"7,045.27",
+6230 Software & SaaS Subscriptions,"47,213.69",
+6240 Telephone & Internet,"15,348.94",
+6250 Travel,"25,104.42",
+6260 Utilities,"40,926.13",
+6270 Uniforms,"11,019.36",
+6280 Janitorial & Cleaning,"48,555.52",
+6290 Miscellaneous Expense,"4,962.41",
+8010 Interest Income,,"6,206.16"
+9010 Federal Income Tax Expense - Current,"20,520.96",
+9020 Federal Income Tax Expense - Deferred,"4,718.52",
+Total,"10,506,977.42","10,506,977.42"

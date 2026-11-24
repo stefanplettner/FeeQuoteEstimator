@@ -1,0 +1,75 @@
+﻿,,Bluewater Industrial Supply Corp.
+,,Trial Balance
+,,"As of December 31, 2025"
+Accrual Basis
+,"Dec 31, 25",
+,Debit,Credit
+10100 · Operating Checking,"1,001,357.16",
+10200 · Payroll Checking,"119,330.72",
+10300 · Money Market Savings,"345,225.09",
+10400 · Accounts Receivable,"3,508,181.67",
+10500 · Allowance for Doubtful Accounts,,"74,878.16"
+10600 · Inventory,"4,387,137.75",
+10700 · Prepaid Expenses,"336,134.97",
+10800 · Prepaid Insurance,"90,481.86",
+11000 · Machinery & Equipment,"1,179,592.00",
+11100 · Furniture & Fixtures,"255,914.00",
+11200 · Vehicles,"1,446,061.00",
+11300 · Computer Equipment,"1,035,707.00",
+11400 · Leasehold Improvements,"469,935.00",
+11500 · Accumulated Depreciation,,"2,462,800.08"
+11600 · Security Deposits,"48,426.00",
+20100 · Accounts Payable,,"3,155,921.28"
+20200 · Corporate Credit Card,,"111,858.80"
+20300 · Accrued Wages,,"34,441.68"
+20400 · Payroll Taxes Payable,,"7,430.72"
+20500 · Sales Tax Payable,,"208,268.81"
+20600 · Accrued Expenses,,"344,294.04"
+20700 · Federal Income Tax Payable,,"127,706.42"
+20800 · State Income Tax Payable,,"13,387.36"
+20900 · Line of Credit,,"848,000.00"
+21000 · Deferred Tax Liability,,"101,031.52"
+30100 · Common Stock,,"100,000.00"
+30200 · Retained Earnings,,"5,510,290.31"
+30300 · Dividends Paid,"807,737.00",
+40100 · Sales - Wholesale,,"31,651,440.70"
+40200 · Sales - E-commerce,,"2,752,299.17"
+40300 · Sales Returns & Allowances,"381,272.93",
+40400 · Sales Discounts,"290,490.10",
+50100 · Cost of Goods Sold,"25,405,573.42",
+50200 · Freight-In,"342,974.41",
+50300 · Inventory Shrinkage & Adjustments,"61,412.69",
+60000 · Officer Compensation,"634,858.45",
+60100 · Salaries & Wages,"1,214,351.26",
+60200 · Payroll Tax Expense,"136,677.53",
+60300 · Employee Health Insurance,"246,603.10",
+60400 · 401(k) Matching Contributions,"74,954.10",
+60500 · Rent Expense,"658,722.65",
+60600 · Repairs & Maintenance,"94,457.99",
+60700 · Taxes & Licenses,"39,287.70",
+60800 · State Income Tax Expense,"108,856.42",
+60900 · Interest Expense,"131,000.28",
+61000 · Depreciation Expense,"520,650.79",
+61100 · Advertising & Marketing,"164,232.92",
+61200 · Bank Service Charges,"14,761.96",
+61300 · Merchant Processing Fees,"116,024.83",
+61400 · Charitable Contributions,"11,598.67",
+61500 · Dues & Subscriptions,"20,991.70",
+61600 · Insurance - General Liability,"255,429.27",
+61700 · Workers' Compensation Insurance,"117,679.26",
+61800 · Meals (50%),"55,316.73",
+61900 · Entertainment (Nondeductible),"57,634.39",
+62000 · Office Supplies,"50,347.10",
+62100 · Freight-Out,"499,726.49",
+62200 · Accounting Fees,"58,394.84",
+62300 · Legal Fees,"39,535.72",
+62400 · Software & SaaS Subscriptions,"73,884.31",
+62500 · Telephone & Internet,"24,638.74",
+62600 · Travel,"89,493.10",
+62700 · Utilities,"55,784.61",
+62800 · Miscellaneous Expense,"5,960.93",
+80100 · Interest Income,,"35,031.46"
+80200 · Other Income,,"81,678.75"
+90100 · Federal Income Tax Expense - Current,"524,289.90",
+90200 · Federal Income Tax Expense - Deferred,"11,668.75",
+TOTAL,"47,620,759.26","47,620,759.26"

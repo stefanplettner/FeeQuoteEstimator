@@ -1,0 +1,77 @@
+﻿,,"Nimbus Ledger Software, Inc."
+,,Trial Balance
+,,"As of December 31, 2024"
+Accrual Basis
+,"Dec 31, 24",
+,Debit,Credit
+10100 · Operating Checking,"235,559.12",
+10200 · Payroll Checking,"16,050.97",
+10300 · Money Market Savings,"88,359.84",
+10400 · Accounts Receivable,"1,014,874.72",
+10500 · Allowance for Doubtful Accounts,,"25,972.32"
+10600 · Prepaid Expenses,"57,187.84",
+10700 · Prepaid Insurance,"61,254.96",
+10800 · Investments - Marketable Securities,"580,599.26",
+10900 · Furniture & Fixtures,"199,398.00",
+11000 · Computer Equipment,"146,146.00",
+11100 · Leasehold Improvements,"87,426.00",
+11200 · Accumulated Depreciation,,"190,979.35"
+11300 · Capitalized Software,"1,682,870.12",
+11400 · Accumulated Amortization,,"342,498.92"
+11500 · Security Deposits,"25,674.00",
+11600 · Right-of-Use Asset - Operating Lease,"1,625,335.37",
+20100 · Accounts Payable,,"270,569.20"
+20200 · Corporate Credit Card,,"34,329.29"
+20300 · Accrued Wages,,"77,544.80"
+20400 · Payroll Taxes Payable,,"13,049.87"
+20500 · Accrued Expenses,,"44,153.85"
+20600 · Deferred Revenue,,"2,873,021.66"
+20700 · Federal Income Tax Payable,,"8,776.62"
+20800 · State Income Tax Payable,,"11,660.96"
+20900 · Line of Credit,,"1,127,000.00"
+21000 · Operating Lease Liability,,"1,709,334.92"
+30100 · Common Stock,,"10,000.00"
+30200 · Preferred Stock,,"1,734,953.00"
+30300 · Additional Paid-In Capital,,"234,673.00"
+30400 · Retained Earnings,"3,445,271.00",
+40100 · Subscription Revenue,,"8,202,500.59"
+40200 · Professional Services Revenue,,"1,447,500.04"
+50100 · Direct Labor,"766,059.38",
+50200 · Hosting & Infrastructure,"1,151,344.60",
+60000 · Officer Compensation,"659,458.15",
+60100 · Salaries & Wages,"1,812,879.88",
+60200 · Payroll Tax Expense,"241,590.99",
+60300 · Employee Health Insurance,"188,920.92",
+60400 · 401(k) Matching Contributions,"59,192.06",
+60500 · Rent Expense,"403,491.23",
+60600 · Repairs & Maintenance,"82,869.23",
+60700 · Bad Debt Expense,"33,968.48",
+60800 · Taxes & Licenses,"34,376.76",
+60900 · State Income Tax Expense,"48,258.17",
+61000 · Interest Expense,0.74,
+61100 · Depreciation Expense,"40,249.00",
+61200 · Amortization Expense,"560,957.07",
+61300 · Advertising & Marketing,"122,898.02",
+61400 · Bank Service Charges,"4,449.68",
+61500 · Charitable Contributions,"11,450.23",
+61600 · Dues & Subscriptions,"9,764.32",
+61700 · Insurance - General Liability,"135,445.86",
+61800 · Workers' Compensation Insurance,"30,667.66",
+61900 · Meals (50%),"48,146.82",
+62000 · Office Supplies,"38,474.16",
+62100 · Accounting Fees,"54,063.86",
+62200 · Legal Fees,"21,175.06",
+62300 · Consulting Fees,"115,173.83",
+62400 · Contract Labor,"404,969.92",
+62500 · Software & SaaS Subscriptions,"66,406.49",
+62600 · Telephone & Internet,"34,592.30",
+62700 · Travel,"59,428.72",
+62800 · Utilities,"54,064.66",
+62900 · Research & Development,"1,712,911.71",
+63000 · Miscellaneous Expense,"2,675.53",
+80100 · Interest Income,,"3,181.73"
+80200 · Dividend Income,,"23,029.57"
+80400 · Unrealized Gain/Loss on Securities,,"46,249.10"
+90100 · Federal Income Tax Expense - Current,"155,052.22",
+90200 · Federal Income Tax Expense - Deferred,,456.12
+TOTAL,"18,431,434.91","18,431,434.91"

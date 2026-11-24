@@ -1,0 +1,71 @@
+﻿"Keystone Auto Care, Inc."
+General Ledger Trial Balance
+"As of Dec 31, 2025"
+Filter Criteria includes: Report order is by ID. Report is printed in Detail Format.
+
+Account ID,Account Description,Debit Amt,Credit Amt
+10100,Operating Checking,"667,619.73",
+10200,Payroll Checking,"31,868.18",
+10300,Petty Cash,500.00,
+10400,Accounts Receivable,"142,716.56",
+10500,Inventory,"172,207.15",
+10600,Prepaid Expenses,"21,887.08",
+10700,Prepaid Insurance,"9,985.69",
+10800,Prepaid Federal Income Tax,652.55,
+10900,Machinery & Equipment,"172,312.00",
+11000,Furniture & Fixtures,"73,742.00",
+11100,Vehicles,"156,389.00",
+11200,Computer Equipment,"146,795.00",
+11300,Leasehold Improvements,"83,451.00",
+11400,Accumulated Depreciation,,"331,964.08"
+11500,Security Deposits,"7,370.00",
+11600,Loan Receivable - Shareholder,"112,881.00",
+11700,Right-of-Use Asset - Operating Lease,"351,295.58",
+20100,Accounts Payable,,"133,125.14"
+20200,Corporate Credit Card,,"8,732.93"
+20300,Accrued Wages,,"35,085.80"
+20400,Payroll Taxes Payable,,"6,048.89"
+20500,Sales Tax Payable,,"19,139.72"
+20600,Accrued Expenses,,"42,146.66"
+20800,State Income Tax Payable,,"3,558.44"
+20900,Operating Lease Liability,,"359,523.11"
+30100,Common Stock,,"25,000.00"
+30200,Retained Earnings,,"973,614.19"
+40100,Sales,,"1,430,107.69"
+40200,Service Revenue,,"2,333,334.26"
+40300,Sales Discounts,"21,749.84",
+50100,Cost of Goods Sold,"985,937.48",
+50200,Direct Labor,"688,633.65",
+60000,Officer Compensation,"212,979.28",
+60100,Salaries & Wages,"791,266.11",
+60200,Payroll Tax Expense,"123,866.18",
+60300,Employee Health Insurance,"85,574.07",
+60400,401(k) Matching Contributions,"29,582.95",
+60500,Rent Expense,"111,669.97",
+60600,Repairs & Maintenance,"21,472.17",
+60700,Taxes & Licenses,"6,347.04",
+60800,State Income Tax Expense,"15,343.47",
+60900,Interest Expense,0.06,
+61000,Depreciation Expense,"80,721.12",
+61100,Advertising & Marketing,"55,576.05",
+61200,Bank Service Charges,"1,393.25",
+61300,Merchant Processing Fees,"64,892.71",
+61400,Charitable Contributions,"2,339.28",
+61500,Dues & Subscriptions,"5,474.64",
+61600,Insurance - General Liability,"46,038.85",
+61700,Workers' Compensation Insurance,"14,245.43",
+61800,Meals (50%),"11,897.05",
+61900,Entertainment (Nondeductible),"6,000.50",
+62000,Office Supplies,"5,194.87",
+62100,Accounting Fees,"19,780.47",
+62200,Legal Fees,"8,361.61",
+62300,Software & SaaS Subscriptions,"19,068.19",
+62400,Telephone & Internet,"8,133.05",
+62500,Travel,"12,372.91",
+62600,Utilities,"22,596.76",
+62700,Uniforms,"9,537.15",
+62800,Miscellaneous Expense,"3,178.42",
+80100,Interest Income,,"1,512.37"
+90100,Federal Income Tax Expense - Current,"61,457.92",
+90200,Federal Income Tax Expense - Deferred,,"1,461.74"
+,Total:,"5,704,355.02","5,704,355.02"

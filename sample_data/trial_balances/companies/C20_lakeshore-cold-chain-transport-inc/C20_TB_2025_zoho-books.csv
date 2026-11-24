@@ -1,0 +1,84 @@
+﻿"Lakeshore Cold Chain Transport, Inc."
+Trial Balance
+Basis: Accrual
+As of 12/31/2025
+
+Account,Account Code,Net Debit,Net Credit
+Assets
+Operating Checking,,"1,570,618.07",
+Payroll Checking,,"173,746.30",
+Money Market Savings,,"535,433.23",
+Accounts Receivable,,"833,979.95",
+Allowance for Doubtful Accounts,,,"22,357.46"
+Prepaid Expenses,,"84,011.72",
+Prepaid Insurance,,"11,462.26",
+Prepaid Federal Income Tax,,"15,735.48",
+Employee Advances,,"1,721.18",
+Land,,"250,499.00",
+Buildings,,"1,407,676.00",
+Machinery & Equipment,,"1,642,064.00",
+Vehicles,,"2,198,479.00",
+Computer Equipment,,"425,238.00",
+Accumulated Depreciation,,,"2,366,839.60"
+Security Deposits,,"18,683.00",
+Loan Receivable - Shareholder,,"55,535.00",
+Total for Assets,,"9,224,882.19","2,389,197.06"
+Liabilities
+Accounts Payable,,,"535,152.06"
+Corporate Credit Card,,,"11,172.07"
+Accrued Wages,,,"36,054.91"
+Payroll Taxes Payable,,,"11,774.24"
+Accrued Expenses,,,"49,784.50"
+State Income Tax Payable,,,"6,461.54"
+Current Portion of Long-Term Debt,,,"296,063.94"
+Note Payable - Bank,,,"1,051,205.10"
+Equipment Loans Payable,,,"725,171.18"
+Deferred Tax Liability,,,"186,749.55"
+Total for Liabilities,,,"2,909,589.09"
+Equities
+Common Stock,,,"500,000.00"
+Retained Earnings,,,"2,982,540.96"
+Total for Equities,,,"3,482,540.96"
+Income
+Freight Revenue,,,"9,170,205.60"
+Interest Income,,,"2,083.06"
+Gain on Sale of Assets,,,"60,141.51"
+Other Income,,,"14,245.36"
+Total for Income,,,"9,246,675.53"
+Expense
+Direct Labor,,"2,703,181.41",
+Subcontractors,,"693,758.64",
+Fuel,,"2,305,943.47",
+Officer Compensation,,"337,938.65",
+Salaries & Wages,,"786,226.57",
+Payroll Tax Expense,,"298,322.88",
+Employee Health Insurance,,"54,409.38",
+401(k) Matching Contributions,,"31,348.26",
+Rent Expense,,"86,401.64",
+Repairs & Maintenance,,"19,353.11",
+Bad Debt Expense,,"24,016.63",
+Taxes & Licenses,,"10,629.31",
+State Income Tax Expense,,"27,391.93",
+Interest Expense,,"197,840.68",
+Depreciation Expense,,"465,560.76",
+Advertising & Marketing,,"41,973.76",
+Auto & Truck Expense,,"361,470.82",
+Bank Service Charges,,"1,978.21",
+Charitable Contributions,,"3,824.70",
+Dues & Subscriptions,,"8,254.46",
+Insurance - General Liability,,"26,595.82",
+Workers' Compensation Insurance,,"30,388.91",
+Meals (50%),,"20,050.29",
+Office Supplies,,"15,897.11",
+Accounting Fees,,"16,288.84",
+Legal Fees,,"15,133.26",
+Software & SaaS Subscriptions,,"31,935.74",
+Telephone & Internet,,"5,500.04",
+Travel,,"10,161.06",
+Utilities,,"41,632.89",
+Uniforms,,"6,060.03",
+Miscellaneous Expense,,"3,075.33",
+Federal Income Tax Expense - Current,,"105,677.36",
+Federal Income Tax Expense - Deferred,,"14,898.50",
+Total for Expense,,"8,803,120.45",
+Total,,"18,028,002.64","18,028,002.64"

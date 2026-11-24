@@ -1,0 +1,82 @@
+﻿"Prairie Line Logistics, Inc."
+Trial Balance
+Basis: Accrual
+As of 12/31/2024
+
+Account,Account Code,Net Debit,Net Credit
+Assets
+Operating Checking,,"2,235,402.27",
+Payroll Checking,,"143,308.50",
+Money Market Savings,,"391,722.72",
+Accounts Receivable,,"2,074,931.16",
+Allowance for Doubtful Accounts,,,"52,264.18"
+Prepaid Expenses,,"87,019.53",
+Prepaid Insurance,,"29,070.25",
+Land,,"561,558.00",
+Buildings,,"4,210,704.00",
+Machinery & Equipment,,"1,690,375.00",
+Vehicles,,"3,517,634.00",
+Computer Equipment,,"1,161,661.00",
+Accumulated Depreciation,,,"5,659,841.63"
+Security Deposits,,"49,694.00",
+Total for Assets,,"16,153,080.43","5,712,105.81"
+Liabilities
+Accounts Payable,,,"1,101,836.63"
+Corporate Credit Card,,,"65,428.75"
+Accrued Wages,,,"92,162.71"
+Payroll Taxes Payable,,,"26,024.51"
+Accrued Expenses,,,"207,410.96"
+Federal Income Tax Payable,,,0.13
+Current Portion of Long-Term Debt,,,"487,746.68"
+Note Payable - Bank,,,"2,098,724.76"
+Equipment Loans Payable,,,"827,751.24"
+Deferred Tax Liability,,,"287,810.19"
+Total for Liabilities,,,"5,194,896.56"
+Equities
+Common Stock,,,"500,000.00"
+Additional Paid-In Capital,,,"1,081,196.00"
+Retained Earnings,,,"4,056,367.00"
+Total for Equities,,,"5,637,563.00"
+Income
+Freight Revenue,,,"21,300,000.74"
+Interest Income,,,"11,223.29"
+Gain on Sale of Assets,,,"39,535.24"
+Other Income,,,"55,224.76"
+Total for Income,,,"21,405,984.03"
+Expense
+Direct Labor,,"6,266,139.34",
+Subcontractors,,"1,909,176.36",
+Fuel,,"5,194,157.98",
+Officer Compensation,,"756,539.12",
+Salaries & Wages,,"3,065,563.46",
+Payroll Tax Expense,,"781,617.42",
+Employee Health Insurance,,"242,214.73",
+401(k) Matching Contributions,,"82,809.67",
+Rent Expense,,"416,128.91",
+Repairs & Maintenance,,"86,850.48",
+Bad Debt Expense,,"50,095.40",
+Taxes & Licenses,,"14,684.31",
+State Income Tax Expense,,0.24,
+Interest Expense,,"337,233.87",
+Depreciation Expense,,"1,274,054.65",
+Advertising & Marketing,,"118,584.31",
+Auto & Truck Expense,,"745,224.26",
+Bank Service Charges,,"3,627.33",
+Charitable Contributions,,"9,943.66",
+Dues & Subscriptions,,"9,163.64",
+Insurance - General Liability,,"59,736.14",
+Workers' Compensation Insurance,,"24,140.16",
+Meals (50%),,"23,308.16",
+Office Supplies,,"23,862.21",
+Accounting Fees,,"66,737.01",
+Legal Fees,,"17,212.45",
+Software & SaaS Subscriptions,,"68,870.27",
+Telephone & Internet,,"19,433.31",
+Travel,,"15,617.82",
+Utilities,,"78,600.90",
+Uniforms,,"20,441.74",
+Penalties & Fines,,"10,004.75",
+Miscellaneous Expense,,"5,694.56",
+Federal Income Tax Expense - Current,,0.35,
+Total for Expense,,"21,797,468.97",
+Total,,"37,950,549.40","37,950,549.40"

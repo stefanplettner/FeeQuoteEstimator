@@ -1,0 +1,92 @@
+﻿Atlas Forge & Fabrication Co.
+General Ledger Trial Balance
+"As of Dec 31, 2024"
+Filter Criteria includes: Report order is by ID. Report is printed in Detail Format.
+
+Account ID,Account Description,Debit Amt,Credit Amt
+10100,Operating Checking,"1,257,860.56",
+10200,Payroll Checking,"128,411.82",
+10300,Money Market Savings,"268,036.54",
+10400,Accounts Receivable,"5,876,781.96",
+10500,Allowance for Doubtful Accounts,,"127,978.44"
+10600,Inventory - Raw Materials,"2,132,097.24",
+10700,Inventory - Work in Process,"947,599.29",
+10800,Inventory - Finished Goods,"1,658,298.16",
+10900,Prepaid Expenses,"280,741.96",
+11000,Prepaid Insurance,"127,923.08",
+11100,Employee Advances,"1,940.90",
+11200,Investments - Municipal Bonds,"2,837,837.00",
+11300,Land,"713,690.00",
+11400,Buildings,"5,468,906.00",
+11500,Machinery & Equipment,"2,822,110.00",
+11600,Furniture & Fixtures,"1,378,271.00",
+11700,Vehicles,"6,011,266.00",
+11800,Computer Equipment,"1,330,621.00",
+11900,Accumulated Depreciation,,"8,850,837.92"
+12000,Goodwill,"2,843,061.00",
+12100,Customer List,"1,025,631.00",
+12200,Accumulated Amortization,,"320,847.23"
+12300,Security Deposits,"118,383.00",
+20100,Accounts Payable,,"2,794,069.41"
+20200,Corporate Credit Card,,"90,233.94"
+20300,Accrued Wages,,"145,825.99"
+20400,Payroll Taxes Payable,,"29,985.58"
+20500,Accrued Expenses,,"347,404.83"
+20600,Customer Deposits,,"331,121.37"
+20700,Federal Income Tax Payable,,"55,604.08"
+20800,State Income Tax Payable,,"17,130.41"
+20900,Line of Credit,,"3,767,000.00"
+21000,Current Portion of Long-Term Debt,,"573,601.92"
+21100,Note Payable - Bank,,"3,441,609.76"
+21200,Deferred Tax Liability,,"465,886.65"
+30100,Common Stock,,"10,000.00"
+30200,Retained Earnings,,"15,015,978.00"
+30300,Dividends Paid,"1,057,142.00",
+30400,Treasury Stock,"291,982.00",
+40100,Sales,,"43,262,000.67"
+40200,Sales - E-commerce,,"1,338,000.50"
+40300,Sales Returns & Allowances,"462,616.02",
+40400,Sales Discounts,"154,043.58",
+50100,Materials & Purchases,"15,550,076.66",
+50200,Direct Labor,"6,439,610.07",
+50300,Manufacturing Overhead,"3,655,951.00",
+50400,Freight-In,"536,744.07",
+50500,Inventory Shrinkage & Adjustments,"131,945.58",
+60000,Officer Compensation,"380,626.90",
+60100,Salaries & Wages,"5,165,004.94",
+60200,Payroll Tax Expense,"921,406.66",
+60300,Employee Health Insurance,"1,094,789.04",
+60400,401(k) Matching Contributions,"201,483.11",
+60500,Rent Expense,"1,587,902.10",
+60600,Repairs & Maintenance,"308,232.24",
+60700,Bad Debt Expense,"80,879.10",
+60800,Taxes & Licenses,"92,865.10",
+60900,State Income Tax Expense,"103,883.50",
+61000,Interest Expense,"262,627.93",
+61100,Depreciation Expense,"1,433,388.29",
+61200,Amortization Expense,"68,375.55",
+61300,Advertising & Marketing,"398,850.89",
+61400,Bank Service Charges,"41,697.18",
+61500,Charitable Contributions,"73,208.14",
+61600,Dues & Subscriptions,"83,033.04",
+61700,Insurance - General Liability,"255,904.52",
+61800,Workers' Compensation Insurance,"196,772.13",
+61900,Meals (50%),"73,420.19",
+62000,Office Supplies,"163,257.88",
+62100,Freight-Out,"489,381.96",
+62200,Accounting Fees,"210,021.41",
+62300,Legal Fees,"120,894.37",
+62400,Software & SaaS Subscriptions,"140,097.92",
+62500,Telephone & Internet,"47,521.87",
+62600,Travel,"149,239.87",
+62700,Utilities,"317,127.53",
+62800,Uniforms,"70,948.63",
+62900,Research & Development,"472,177.95",
+63000,Lobbying & Political Contributions,"34,280.16",
+63100,Miscellaneous Expense,"10,145.47",
+80100,Interest Income,,"19,614.89"
+80200,Tax-Exempt Interest Income,,"85,135.59"
+80300,Other Income,,"48,478.19"
+90100,Federal Income Tax Expense - Current,"415,945.34",
+90200,Federal Income Tax Expense - Deferred,"163,375.97",
+,Total:,"81,138,345.37","81,138,345.37"
