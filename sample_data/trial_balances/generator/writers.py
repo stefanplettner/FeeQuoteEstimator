@@ -60,13 +60,17 @@ def write_rows(co, year, nums):
     sw = co.software
     bal = co.bal[year]
     keys = [k for k in co.keys() if bal.get(k, 0) != 0]
+    prior_bs = {k: v for k, v in co.bal.get(year - 1, {}).items()
+                if ACCOUNTS[k][1] in ("A", "CA", "L", "E", "ED") and k != "dividends"}
+    # packages with opening-balance columns also list accounts that closed to zero
+    keys_open = [k for k in co.keys() if bal.get(k, 0) != 0 or prior_bs.get(k, 0) != 0]
     asof_long = f"As of December 31, {year}"
     tot_dr = sum(v for v in bal.values() if v > 0)
     tot_cr = -sum(v for v in bal.values() if v < 0)
     name = co.account_name
     rows = []
     if sw == "QuickBooks Online":
-        use_nums = co.rng_fmt.random() < 0.5
+        use_nums = co.qbo_numbers
         rows += [[co.name], ["Trial Balance"], [asof_long], [], ["", "Debit", "Credit"]]
         for k in keys:
             label = f"{nums[k]} {name(k)}" if use_nums else name(k)
@@ -113,11 +117,11 @@ def write_rows(co, year, nums):
                  ["Reporting book: Accrual"], [],
                  ["Account", "Account title", "Opening balance", "Debit", "Credit", "Closing balance"]]
         t_open = t_dr = t_cr = 0
-        for k in keys:
-            close = bal[k]
+        for k in keys_open:
+            close = bal.get(k, 0)
             cls = ACCOUNTS[k][1]
             if cls in ("A", "CA", "L", "E", "ED") and k != "retained_earnings":
-                opening = prior.get(k, 0) if prior else int(close * co.rng_fmt.uniform(0.85, 1.1))
+                opening = prior_bs.get(k, 0)
             else:
                 opening = 0 if k != "retained_earnings" else close
             if k == "retained_earnings":
@@ -140,11 +144,11 @@ def write_rows(co, year, nums):
                  [f"G/L Account: Date Filter: 01/01/{str(year)[2:]}..12/31/{str(year)[2:]}"], [],
                  ["No.", "Name", "Net Change Debit", "Net Change Credit", "Balance Debit", "Balance Credit"]]
         prior = co.bal.get(year - 1, {})
-        for k in keys:
+        for k in keys_open:
             cls = ACCOUNTS[k][1]
-            closing = bal[k]
-            if cls in ("A", "CA", "L", "E", "ED"):
-                opening = prior.get(k, 0) if prior else int(closing * co.rng_fmt.uniform(0.85, 1.1))
+            closing = bal.get(k, 0)
+            if cls in ("A", "CA", "L", "E", "ED") and k != "dividends":
+                opening = prior_bs.get(k, 0)
                 if k == "retained_earnings":
                     opening = closing
                 net = closing - opening

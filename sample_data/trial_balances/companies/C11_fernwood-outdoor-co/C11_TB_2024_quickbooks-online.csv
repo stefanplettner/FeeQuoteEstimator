@@ -3,71 +3,73 @@ Trial Balance
 "As of December 31, 2024"
 
 ,Debit,Credit
-1010 Operating Checking,"1,574,100.65",
-1020 Payroll Checking,"224,352.55",
-1030 Money Market Savings,"518,130.96",
-1040 Accounts Receivable,"175,575.21",
-1050 Inventory,"1,187,581.10",
-1060 Prepaid Expenses,"110,805.01",
-1070 Prepaid Insurance,"10,408.50",
-1090 Employee Advances,"5,345.45",
-1100 Investments - Marketable Securities,"749,020.94",
-1110 Machinery & Equipment,"189,933.00",
-1120 Furniture & Fixtures,"81,760.00",
-1130 Computer Equipment,"81,136.00",
-1140 Accumulated Depreciation,,"163,078.77"
-1150 Security Deposits,"15,563.00",
-2010 Accounts Payable,,"587,592.48"
-2020 Corporate Credit Card,,"14,588.90"
-2030 Accrued Wages,,"48,808.32"
-2040 Payroll Taxes Payable,,"7,354.44"
-2050 Sales Tax Payable,,"78,531.91"
-2060 Accrued Expenses,,"92,266.21"
-2070 Federal Income Tax Payable,,"55,318.74"
-2080 State Income Tax Payable,,"11,072.45"
-3010 Common Stock,,"10,000.00"
-3020 Additional Paid-In Capital,,"529,630.00"
-3030 Retained Earnings,,"2,372,484.00"
-4010 Sales - E-commerce,,"12,900,000.13"
-4020 Sales Returns & Allowances,"760,304.32",
-4030 Sales Discounts,"135,368.04",
-5010 Cost of Goods Sold,"5,439,206.70",
-5020 Freight-In,"184,292.24",
-5030 Inventory Shrinkage & Adjustments,"43,630.23",
-6000 Officer Compensation,"385,822.84",
-6010 Salaries & Wages,"1,465,520.91",
-6020 Payroll Tax Expense,"150,405.09",
-6030 Employee Health Insurance,"167,074.73",
-6040 401(k) Matching Contributions,"31,218.93",
-6050 Rent Expense,"229,288.50",
-6060 Repairs & Maintenance,"33,067.14",
-6070 Taxes & Licenses,"22,563.91",
-6080 State Income Tax Expense,"59,135.52",
-6090 Interest Expense,"51,600.17",
-6100 Depreciation Expense,"38,447.26",
-6110 Advertising & Marketing,"873,315.72",
-6120 Bank Service Charges,"8,189.57",
-6130 Merchant Processing Fees,"345,309.61",
-6140 Charitable Contributions,"16,830.22",
-6150 Dues & Subscriptions,"17,898.37",
-6160 Insurance - General Liability,"39,750.19",
-6170 Workers' Compensation Insurance,"42,859.09",
-6180 Meals (50%),"17,079.77",
-6190 Office Supplies,"22,776.71",
-6200 Postage & Shipping,"925,834.29",
-6210 Accounting Fees,"22,007.16",
-6220 Legal Fees,"12,464.94",
-6230 Software & SaaS Subscriptions,"70,627.90",
-6240 Telephone & Internet,"26,891.95",
-6250 Travel,"24,257.44",
-6260 Utilities,"43,983.81",
-6270 Miscellaneous Expense,"4,774.97",
-8010 Interest Income,,"7,145.48"
-8020 Dividend Income,,"34,347.96"
-8030 Unrealized Gain/Loss on Securities,"21,108.56",
-9010 Federal Income Tax Expense - Current,"253,418.00",
-9020 Federal Income Tax Expense - Deferred,"2,182.62",
-TOTAL,"$16,912,219.79","$16,912,219.79"
+1010 Operating Checking,"569,402.49",
+1020 Payroll Checking,"35,570.24",
+1030 Money Market Savings,"134,608.07",
+1040 Accounts Receivable,"117,540.15",
+1050 Inventory,"1,274,227.16",
+1060 Prepaid Expenses,"116,436.74",
+1070 Prepaid Insurance,"20,747.40",
+1080 Employee Advances,"4,075.61",
+1090 Investments - Marketable Securities,"1,080,927.69",
+1100 Machinery & Equipment,"253,639.00",
+1110 Furniture & Fixtures,"85,939.00",
+1120 Computer Equipment,"142,617.00",
+1130 Accumulated Depreciation,,"190,112.06"
+1140 Security Deposits,"31,006.00",
+2010 Accounts Payable,,"660,278.90"
+2020 Corporate Credit Card,,"37,553.97"
+2030 Accrued Wages,,"37,132.13"
+2040 Payroll Taxes Payable,,"6,607.02"
+2050 Sales Tax Payable,,"93,177.43"
+2060 Accrued Expenses,,"142,182.12"
+2070 Federal Income Tax Payable,,"34,164.99"
+2080 State Income Tax Payable,,"22,313.77"
+2090 Line of Credit,,"700,123.00"
+2100 Deferred Tax Liability,,"17,358.78"
+3010 Common Stock,,"100,000.00"
+3020 Retained Earnings,,"922,496.90"
+4010 Sales - E-commerce,,"12,900,000.45"
+4020 Sales Returns & Allowances,"436,109.64",
+4030 Sales Discounts,"185,183.98",
+5010 Cost of Goods Sold,"5,789,315.03",
+5020 Freight-In,"287,200.73",
+5030 Inventory Shrinkage & Adjustments,"67,113.32",
+6000 Officer Compensation,"319,316.14",
+6010 Salaries & Wages,"1,472,465.10",
+6020 Payroll Tax Expense,"145,531.97",
+6030 Employee Health Insurance,"197,652.62",
+6040 401(k) Matching Contributions,"72,261.05",
+6050 Rent Expense,"387,797.71",
+6060 Repairs & Maintenance,"25,200.45",
+6070 Taxes & Licenses,"16,085.12",
+6080 State Income Tax Expense,"94,714.01",
+6090 Interest Expense,"54,273.97",
+6100 Depreciation Expense,"57,314.48",
+6110 Advertising & Marketing,"745,265.15",
+6120 Bank Service Charges,"7,181.17",
+6130 Merchant Processing Fees,"350,316.57",
+6140 Charitable Contributions,"8,735.04",
+6150 Dues & Subscriptions,"11,648.77",
+6160 Insurance - General Liability,"45,019.54",
+6170 Workers' Compensation Insurance,"32,187.60",
+6180 Meals (50%),"36,121.96",
+6190 Office Supplies,"36,348.32",
+6200 Postage & Shipping,"716,232.15",
+6210 Accounting Fees,"31,636.99",
+6220 Legal Fees,"15,472.01",
+6230 Software & SaaS Subscriptions,"41,536.06",
+6240 Telephone & Internet,"20,391.68",
+6250 Travel,"54,231.37",
+6260 Utilities,"34,088.77",
+6270 Miscellaneous Expense,"5,868.23",
+8010 Interest Income,,"8,171.32"
+8020 Dividend Income,,"27,064.42"
+8030 Other Income,,"28,750.87"
+8040 Unrealized Loss on Securities,"12,662.61",
+9010 Federal Income Tax Expense - Current,"247,406.51",
+9020 Federal Income Tax Expense - Deferred,865.76,
+TOTAL,"$15,927,488.13","$15,927,488.13"
 
 
 "Accrual Basis Tuesday, January 14, 2025 09:42 AM GMT-05:00"

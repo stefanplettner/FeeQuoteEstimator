@@ -3,89 +3,84 @@ Trial Balance
 "As of December 31, 2025"
 
 ,Debit,Credit
-Operating Checking,"825,860.94",
-Payroll Checking,"104,583.98",
-Money Market Savings,"187,533.98",
-Accounts Receivable,"3,029,757.40",
-Allowance for Doubtful Accounts,,"57,178.43"
-Inventory - Raw Materials,"1,298,524.57",
-Inventory - Work in Process,"577,122.75",
-Inventory - Finished Goods,"1,009,963.96",
-Prepaid Expenses,"156,842.77",
-Prepaid Insurance,"74,267.95",
-Prepaid Federal Income Tax,"7,927.58",
-Investments - Municipal Bonds,"1,437,193.00",
-Land,"191,842.00",
-Buildings,"2,806,922.00",
-Machinery & Equipment,"2,049,653.00",
-Furniture & Fixtures,"901,982.00",
-Vehicles,"3,297,967.00",
-Computer Equipment,"450,930.00",
-Accumulated Depreciation,,"3,893,519.03"
-Goodwill,"1,117,980.00",
-Customer List,"428,387.00",
-Accumulated Amortization,,"154,247.35"
-Security Deposits,"74,258.00",
-Cash Surrender Value - Officer Life Insurance,"46,903.77",
-Accounts Payable,,"1,320,715.97"
-Corporate Credit Card,,"30,900.40"
-Accrued Wages,,"88,287.57"
-Payroll Taxes Payable,,"23,108.50"
-Accrued Expenses,,"205,529.86"
-State Income Tax Payable,,"1,245.35"
-Line of Credit,,"6,988,000.00"
-Current Portion of Long-Term Debt,,"310,933.49"
-Note Payable - Bank,,"1,865,598.03"
-Deferred Tax Liability,,"304,803.70"
-Common Stock,,"500,000.00"
-Retained Earnings,,"4,258,496.36"
-Dividends Paid,"107,390.00",
-Sales,,"18,822,124.23"
-Sales - E-commerce,,"582,128.13"
-Sales Returns & Allowances,"146,146.28",
-Sales Discounts,"72,342.00",
-Materials & Purchases,"6,202,142.09",
-Direct Labor,"3,187,974.21",
-Manufacturing Overhead,"1,750,350.03",
-Freight-In,"182,492.34",
-Inventory Shrinkage & Adjustments,"57,454.79",
-Officer Compensation,"775,570.77",
-Salaries & Wages,"2,768,808.23",
-Payroll Tax Expense,"530,155.91",
-Employee Health Insurance,"211,544.97",
-401(k) Matching Contributions,"156,008.57",
-Rent Expense,"343,759.22",
-Repairs & Maintenance,"95,541.43",
-Taxes & Licenses,"22,715.34",
-State Income Tax Expense,"14,890.44",
-Interest Expense,"225,354.01",
-Depreciation Expense,"1,080,461.71",
-Amortization Expense,"28,559.96",
-Advertising & Marketing,"113,992.60",
-Bank Service Charges,"8,167.68",
-Charitable Contributions,"23,550.76",
-Dues & Subscriptions,"14,095.89",
-Insurance - General Liability,"197,826.05",
-Workers' Compensation Insurance,"102,996.14",
-Officer Life Insurance Premiums,"25,991.73",
-Meals (50%),"51,814.62",
-Office Supplies,"19,210.77",
-Freight-Out,"185,134.08",
-Accounting Fees,"103,296.13",
-Legal Fees,"28,606.37",
-Software & SaaS Subscriptions,"124,937.47",
-Telephone & Internet,"29,022.62",
-Travel,"93,128.82",
-Utilities,"51,668.45",
-Uniforms,"35,549.75",
-Research & Development,"148,695.81",
-Penalties & Fines,"6,216.44",
-Miscellaneous Expense,"10,810.89",
-Interest Income,,"13,013.20"
-Tax-Exempt Interest Income,,"43,115.93"
-Federal Income Tax Expense - Current,"56,259.56",
-Federal Income Tax Expense - Deferred,,"4,093.05"
-TOTAL,"$39,467,038.58","$39,467,038.58"
+1010 Operating Checking,"1,122,481.13",
+1020 Payroll Checking,"101,020.35",
+1030 Money Market Savings,"451,152.31",
+1040 Accounts Receivable,"2,579,885.43",
+1050 Allowance for Doubtful Accounts,,"73,783.62"
+1060 Inventory - Raw Materials,"1,204,311.75",
+1070 Inventory - Work in Process,"535,250.38",
+1080 Inventory - Finished Goods,"936,686.74",
+1090 Prepaid Expenses,"136,041.42",
+1100 Prepaid Insurance,"61,262.16",
+1110 Employee Advances,"5,338.59",
+1120 Investments - Municipal Bonds,"1,231,263.00",
+1130 Land,"718,203.00",
+1140 Buildings,"2,168,266.00",
+1150 Machinery & Equipment,"3,528,070.00",
+1160 Furniture & Fixtures,"566,094.00",
+1170 Vehicles,"2,009,677.00",
+1180 Computer Equipment,"1,552,668.00",
+1190 Accumulated Depreciation,,"5,048,230.31"
+1200 Security Deposits,"42,983.00",
+1210 Cash Surrender Value - Officer Life Insurance,"150,930.94",
+2010 Accounts Payable,,"1,279,232.31"
+2020 Corporate Credit Card,,"44,423.05"
+2030 Accrued Wages,,"65,242.29"
+2040 Payroll Taxes Payable,,"21,640.30"
+2050 Accrued Expenses,,"213,534.40"
+2060 Customer Deposits,,"233,055.14"
+2080 Current Portion of Long-Term Debt,,"193,200.19"
+2090 Note Payable - Bank,,"1,159,199.04"
+2100 Deferred Tax Liability,,"414,310.26"
+3010 Common Stock,,"100,000.00"
+3020 Additional Paid-In Capital,,"23,800.00"
+3030 Retained Earnings,,"10,111,968.71"
+3040 Dividends Paid,"168,794.00",
+4010 Sales,,"18,822,123.47"
+4020 Sales - E-commerce,,"582,128.02"
+4030 Sales Returns & Allowances,"170,833.97",
+4040 Sales Discounts,"54,123.34",
+5010 Materials & Purchases,"6,929,384.28",
+5020 Direct Labor,"2,810,958.20",
+5030 Manufacturing Overhead,"1,989,671.46",
+5040 Freight-In,"255,841.44",
+5050 Inventory Shrinkage & Adjustments,"22,650.49",
+6000 Officer Compensation,"581,680.73",
+6010 Salaries & Wages,"2,020,118.22",
+6020 Payroll Tax Expense,"392,227.05",
+6030 Employee Health Insurance,"229,649.73",
+6040 401(k) Matching Contributions,"106,489.09",
+6050 Rent Expense,"627,960.47",
+6060 Repairs & Maintenance,"105,098.10",
+6070 Bad Debt Expense,"62,141.94",
+6080 Taxes & Licenses,"59,592.79",
+6090 Interest Expense,"93,157.52",
+6100 Depreciation Expense,"1,101,381.44",
+6110 Advertising & Marketing,"222,282.66",
+6120 Bank Service Charges,"17,543.90",
+6130 Charitable Contributions,"26,322.67",
+6140 Dues & Subscriptions,"10,462.38",
+6150 Insurance - General Liability,"200,704.65",
+6160 Workers' Compensation Insurance,"72,782.71",
+6170 Officer Life Insurance Premiums,"18,955.82",
+6180 Meals (50%),"59,243.45",
+6190 Office Supplies,"34,712.62",
+6200 Freight-Out,"234,116.73",
+6210 Accounting Fees,"96,037.47",
+6220 Legal Fees,"16,081.91",
+6230 Software & SaaS Subscriptions,"96,177.52",
+6240 Telephone & Internet,"27,928.19",
+6250 Travel,"67,505.34",
+6260 Utilities,"124,120.93",
+6270 Uniforms,"38,127.07",
+6280 Research & Development,"93,873.43",
+6290 Penalties & Fines,"7,299.63",
+6300 Miscellaneous Expense,"10,366.39",
+8010 Interest Income,,"16,973.92"
+8020 Tax-Exempt Interest Income,,"36,938.10"
+9020 Federal Income Tax Expense - Deferred,"81,798.20",
+TOTAL,"$38,439,783.13","$38,439,783.13"
 
 
 "Accrual Basis Tuesday, January 20, 2026 09:42 AM GMT-05:00"

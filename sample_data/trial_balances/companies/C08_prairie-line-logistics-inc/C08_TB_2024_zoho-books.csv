@@ -5,78 +5,77 @@ As of 12/31/2024
 
 Account,Account Code,Net Debit,Net Credit
 Assets
-Operating Checking,,"2,235,402.27",
-Payroll Checking,,"143,308.50",
-Money Market Savings,,"391,722.72",
-Accounts Receivable,,"2,074,931.16",
-Allowance for Doubtful Accounts,,,"52,264.18"
-Prepaid Expenses,,"87,019.53",
-Prepaid Insurance,,"29,070.25",
-Land,,"561,558.00",
-Buildings,,"4,210,704.00",
-Machinery & Equipment,,"1,690,375.00",
-Vehicles,,"3,517,634.00",
-Computer Equipment,,"1,161,661.00",
-Accumulated Depreciation,,,"5,659,841.63"
-Security Deposits,,"49,694.00",
-Total for Assets,,"16,153,080.43","5,712,105.81"
+Operating Checking,,"1,564,643.37",
+Payroll Checking,,"90,427.30",
+Money Market Savings,,"208,800.59",
+Accounts Receivable,,"1,804,206.76",
+Allowance for Doubtful Accounts,,,"34,077.05"
+Prepaid Expenses,,"148,762.82",
+Prepaid Insurance,,"37,939.58",
+Land,,"444,752.00",
+Buildings,,"2,865,835.00",
+Machinery & Equipment,,"2,775,834.00",
+Vehicles,,"3,153,693.00",
+Computer Equipment,,"828,967.00",
+Accumulated Depreciation,,,"5,247,032.07"
+Goodwill,,"1,878,549.00",
+Customer List,,"889,233.00",
+Accumulated Amortization,,,"293,530.18"
+Security Deposits,,"28,320.00",
+Total for Assets,,"16,719,963.42","5,574,639.30"
 Liabilities
-Accounts Payable,,,"1,101,836.63"
-Corporate Credit Card,,,"65,428.75"
-Accrued Wages,,,"92,162.71"
-Payroll Taxes Payable,,,"26,024.51"
-Accrued Expenses,,,"207,410.96"
-Federal Income Tax Payable,,,0.13
-Current Portion of Long-Term Debt,,,"487,746.68"
-Note Payable - Bank,,,"2,098,724.76"
-Equipment Loans Payable,,,"827,751.24"
-Deferred Tax Liability,,,"287,810.19"
-Total for Liabilities,,,"5,194,896.56"
+Accounts Payable,,,"774,995.75"
+Corporate Credit Card,,,"23,033.45"
+Accrued Wages,,,"201,313.25"
+Payroll Taxes Payable,,,"36,446.00"
+Accrued Expenses,,,"103,558.77"
+Line of Credit,,,"894,649.00"
+Current Portion of Long-Term Debt,,,"353,066.37"
+Note Payable - Bank,,,"1,348,916.53"
+Equipment Loans Payable,,,"769,476.25"
+Deferred Tax Liability,,,"174,536.53"
+Total for Liabilities,,,"4,679,991.90"
 Equities
-Common Stock,,,"500,000.00"
-Additional Paid-In Capital,,,"1,081,196.00"
-Retained Earnings,,,"4,056,367.00"
-Total for Equities,,,"5,637,563.00"
+Common Stock,,,"10,000.00"
+Retained Earnings,,,"6,755,162.40"
+Total for Equities,,,"6,765,162.40"
 Income
-Freight Revenue,,,"21,300,000.74"
-Interest Income,,,"11,223.29"
-Gain on Sale of Assets,,,"39,535.24"
-Other Income,,,"55,224.76"
-Total for Income,,,"21,405,984.03"
+Freight Revenue,,,"21,300,000.09"
+Interest Income,,,"17,356.15"
+Total for Income,,,"21,317,356.24"
 Expense
-Direct Labor,,"6,266,139.34",
-Subcontractors,,"1,909,176.36",
-Fuel,,"5,194,157.98",
-Officer Compensation,,"756,539.12",
-Salaries & Wages,,"3,065,563.46",
-Payroll Tax Expense,,"781,617.42",
-Employee Health Insurance,,"242,214.73",
-401(k) Matching Contributions,,"82,809.67",
-Rent Expense,,"416,128.91",
-Repairs & Maintenance,,"86,850.48",
-Bad Debt Expense,,"50,095.40",
-Taxes & Licenses,,"14,684.31",
-State Income Tax Expense,,0.24,
-Interest Expense,,"337,233.87",
-Depreciation Expense,,"1,274,054.65",
-Advertising & Marketing,,"118,584.31",
-Auto & Truck Expense,,"745,224.26",
-Bank Service Charges,,"3,627.33",
-Charitable Contributions,,"9,943.66",
-Dues & Subscriptions,,"9,163.64",
-Insurance - General Liability,,"59,736.14",
-Workers' Compensation Insurance,,"24,140.16",
-Meals (50%),,"23,308.16",
-Office Supplies,,"23,862.21",
-Accounting Fees,,"66,737.01",
-Legal Fees,,"17,212.45",
-Software & SaaS Subscriptions,,"68,870.27",
-Telephone & Internet,,"19,433.31",
-Travel,,"15,617.82",
-Utilities,,"78,600.90",
-Uniforms,,"20,441.74",
-Penalties & Fines,,"10,004.75",
-Miscellaneous Expense,,"5,694.56",
-Federal Income Tax Expense - Current,,0.35,
-Total for Expense,,"21,797,468.97",
-Total,,"37,950,549.40","37,950,549.40"
+Direct Labor,,"5,894,385.27",
+Subcontractors,,"1,609,965.11",
+Fuel,,"5,091,192.77",
+Officer Compensation,,"601,834.07",
+Salaries & Wages,,"4,269,537.17",
+Payroll Tax Expense,,"796,431.16",
+Employee Health Insurance,,"139,414.17",
+401(k) Matching Contributions,,"47,267.61",
+Rent Expense,,"191,602.25",
+Repairs & Maintenance,,"30,740.52",
+Taxes & Licenses,,"24,756.09",
+Interest Expense,,"220,304.44",
+Depreciation Expense,,"1,162,141.17",
+Amortization Expense,,"59,283.11",
+Advertising & Marketing,,"64,564.19",
+Auto & Truck Expense,,"927,756.13",
+Bank Service Charges,,"3,639.05",
+Charitable Contributions,,"11,654.32",
+Dues & Subscriptions,,"11,931.72",
+Insurance - General Liability,,"133,473.81",
+Workers' Compensation Insurance,,"41,598.06",
+Meals (50%),,"34,435.31",
+Office Supplies,,"23,292.77",
+Accounting Fees,,"26,551.85",
+Legal Fees,,"28,845.32",
+Software & SaaS Subscriptions,,"48,564.85",
+Telephone & Internet,,"17,558.06",
+Travel,,"65,565.75",
+Utilities,,"75,401.81",
+Uniforms,,"21,002.15",
+Penalties & Fines,,"9,901.86",
+Miscellaneous Expense,,"5,083.76",
+Federal Income Tax Expense - Deferred,,,"72,489.26"
+Total for Expense,,"21,689,675.68","72,489.26"
+Total,,"38,409,639.10","38,409,639.10"

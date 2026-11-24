@@ -52,8 +52,22 @@ TRC_LINE = {
     "60-240": "Sch M-1 L5", "60-410": "Sch M-1 L7", "60-450": "Sch M-1 L7", "62-308": "Sch M-2 L5a",
 }
 
-# Codes the research agent could not confirm against an official list.
-TRC_UNVERIFIED = set()  # all TRCs used here were marked verified in research
+# Source confidence for each TRC used (from ../research/gosystem_codes.json).
+#  "1120 list"   - seen in excerpts of the Form 1120 TRC list
+#  "1120 family" - seen only on a related-form list (1120S/1120-C/F/RIC/PC/REIT);
+#                  numbering appears shared but confirm on the 1120 list
+#  "snippet"     - seen only in search-result snippets
+TRC_SOURCE_FAMILY = {"11-100", "11-400", "11-500", "11-505", "20-300", "22-310", "31-380", "31-420",
+                     "41-810", "41-812", "41-900", "62-308"}
+TRC_SOURCE_SNIPPET = {"60-216", "60-240", "60-450"}
+
+
+def trc_confidence(trc):
+    if trc in TRC_SOURCE_SNIPPET:
+        return "snippet - verify"
+    if trc in TRC_SOURCE_FAMILY:
+        return "1120 family - verify"
+    return "1120 list"
 
 # Firm-defined TCC scheme (illustrative).
 TCC_DESC = {
@@ -141,14 +155,14 @@ MAP = {
     "dues_subs": ("41-900", "DUE", "", ""), "insurance": ("41-530", "GLI", "", ""), "workers_comp": ("41-530", "WCI", "", ""),
     "officer_life": ("60-240", "OLI", "", "Nondeductible Sec. 264 - M-1 L5"),
     "meals": ("41-810", "", "E650", "50% auto-limit; nondeductible half to M-1 L5c"),
-    "entertainment": ("60-216", "ENT", "E650", "Nondeductible Sec. 274(a) - M-1 L5c"),
+    "entertainment": ("60-216", "ENT", "", "Nondeductible Sec. 274(a) - M-1 L5c"),
     "office_supplies": ("41-900", "SUP", "", ""), "postage": ("41-900", "SUP", "", ""), "freight_out": ("41-900", "FRT", "", ""),
     "professional_fees": ("41-900", "PRO", "", ""), "legal_fees": ("41-900", "PRO", "", ""), "consulting_fees": ("41-900", "PRO", "", ""),
     "contract_labor": ("41-900", "CON", "", "Form 1099-NEC compliance"), "software": ("41-900", "SOF", "", ""),
     "telephone": ("41-900", "TEL", "", ""), "travel": ("41-812", "", "", ""), "utilities": ("41-900", "UTL", "", ""),
     "training": ("41-900", "TRN", "", ""), "uniforms": ("41-900", "UNI", "", ""), "janitorial": ("41-900", "JAN", "", ""),
     "research": ("41-900", "R&D", "", "2024: Sec. 174 capitalization (domestic 5-yr); 2025: Sec. 174A domestic expensing - confirm treatment"),
-    "penalties": ("60-240", "FIN", "E660", "Nondeductible Sec. 162(f) - M-1 L5"),
+    "penalties": ("60-240", "FIN", "", "Nondeductible Sec. 162(f) - M-1 L5"),
     "political": ("60-240", "LOB", "", "Nondeductible Sec. 162(e) - M-1 L5"),
     "club_dues": ("60-240", "CLB", "", "Nondeductible Sec. 274(a)(3) - M-1 L5"),
     "misc_exp": ("41-900", "MSC", "", ""),
@@ -156,7 +170,8 @@ MAP = {
     "dividend_income": ("31-110", "", "I160", "Confirm ownership % for DRD (Sch C)"),
     "gain_asset_sale": ("31-660", "", "", "Book gain; recompute tax gain/recapture on Form 4797"),
     "other_income": ("31-900", "", "", ""),
-    "unrealized_gain": ("60-450", "UGL", "", "Book-only mark-to-market; reverse on M-1 (L7 if gain, L5 if loss)"),
+    "unrealized_gain": ("60-450", "UGL", "", "Book-only mark-to-market gain - M-1 L7"),
+    "unrealized_loss": ("60-240", "UGL", "", "Book-only mark-to-market loss - M-1 L5"),
     "federal_tax_current": ("41-400", "CUR", "E550", "Nondeductible - M-1 L2"),
     "federal_tax_deferred": ("41-400", "DEF", "", "Nondeductible - M-1 L2 (M-3 deferred line)"),
 }

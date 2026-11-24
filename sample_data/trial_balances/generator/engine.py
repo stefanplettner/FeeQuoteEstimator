@@ -13,8 +13,27 @@ from industries import COMMON_X, INDUSTRIES
 YEARS = (2024, 2025)
 
 
+# Approximate 2024/2025 corporate income tax rates (single-state, 100% apportioned).
+STATE_RATE = {
+    "VT": (0.085, 0.085), "CO": (0.044, 0.044), "CA": (0.0884, 0.0884), "MN": (0.098, 0.098),
+    "GA": (0.0539, 0.0519), "NE": (0.0584, 0.052), "NC": (0.025, 0.0225), "AZ": (0.049, 0.049),
+    "OR": (0.076, 0.076), "PA": (0.0899, 0.0799), "MI": (0.06, 0.06), "NJ": (0.09, 0.09),
+    "MA": (0.08, 0.08), "UT": (0.0455, 0.045), "VA": (0.06, 0.06), "NM": (0.059, 0.059),
+    "WI": (0.079, 0.079), "FL": (0.055, 0.055), "IN": (0.049, 0.049), "TN": (0.065, 0.065),
+    "ID": (0.058, 0.053), "KY": (0.05, 0.05),
+}
+# States with no corporate income tax: gross-receipts style tax booked in Taxes & Licenses.
+GROSS_RECEIPTS_TAX = {
+    "OH": lambda rev, y: max(0.0, rev - (3_000_000 if y == 2024 else 6_000_000)) * 0.0026,  # CAT
+    "TX": lambda rev, y: rev * 0.70 * 0.0075,                                              # margin tax
+    "WA": lambda rev, y: rev * 0.015,                                                      # B&O service
+}
+
+
 def _c(dollars, rng, whole=False):
-    """dollars -> cents with realistic odd cents."""
+    """dollars -> cents with realistic odd cents (exact zero stays zero)."""
+    if abs(dollars) < 0.5:
+        return 0
     if whole:
         return int(round(dollars)) * 100
     return int(round(dollars * 100)) + rng.randint(0, 99)
@@ -55,6 +74,14 @@ class Company:
         if r.random() < 0.75:  # most companies profitable both years
             target_margin = {y: abs(m) + 0.01 for y, m in target_margin.items()}
         scale_x = ind.get("scale_x", 1.0)
+        officer_cap = self.u(240_000, 1_150_000)
+        sh_loan = self.u(25_000, 120_000)
+        due_sh = self.u(40_000, 180_000)
+        csv_life = self.u(40_000, 160_000)
+        self.nol = self.revenue * self.u(0.3, 0.8) if self.industry == "saas" else 0.0
+        self.nol_hist = {2023: self.nol}
+        dt_net = None  # net deferred tax liability (+) / asset (-), dollars
+        research_2024 = 0.0
 
         # ratios fixed per company, drift modestly between years
         ratios = {}
@@ -95,7 +122,6 @@ class Company:
             g25[dk] -= cost
             disposed_accum = cost * self.u(0.75, 0.95)
             disposal_gain[2025] = (cost - disposed_accum) * self.u(0.6, 1.8)
-            disposal_gain[2024] = self.revenue * self.u(0.0005, 0.002)
         bump = r.choice([k for k in fixed_keys if k != "land"])
         g25[bump] += capex
         gross[2025] = g25
@@ -125,6 +151,8 @@ class Company:
         debt_by_year = {2024: {k: v for k, v in debt.items()},
                         2025: {k: v * (1 - 1 / amort_years) for k, v in debt.items()}}
         has_loc = r.random() < 0.55
+        loc_bal = {2024: self.revenue * self.u(0.02, 0.06) if has_loc else 0.0}
+        loc_bal[2025] = loc_bal[2024] * self.u(0.7, 1.3)
 
         for y in YEARS:
             R = rev[y]
@@ -145,7 +173,7 @@ class Company:
                     continue
                 exp[k] = net_rev * yr[k]
             if "officer_comp" in exp:
-                exp["officer_comp"] = min(exp["officer_comp"], self.u(240_000, 1_150_000) * (1 if y == 2024 else 1.04))
+                exp["officer_comp"] = min(exp["officer_comp"], officer_cap * (1 if y == 2024 else self.u(1.02, 1.06)))
             for k in ("entertainment", "club_dues", "penalties", "political"):
                 if k in yr:
                     exp[k] = net_rev * yr[k]
@@ -159,7 +187,11 @@ class Company:
             if amort[y]:
                 exp["amortization"] = amort[y]
             total_debt = sum(debt_by_year[y].values())
-            exp["interest_exp"] = total_debt * self.u(0.055, 0.08) + (self.revenue * 0.004 if has_loc else 0)
+            if total_debt + loc_bal[y]:
+                exp["interest_exp"] = total_debt * self.u(0.055, 0.075) + loc_bal[y] * self.u(0.07, 0.09)
+            gr_tax = GROSS_RECEIPTS_TAX.get(self.state)
+            if gr_tax:
+                exp["taxes_licenses"] = exp.get("taxes_licenses", 0) + gr_tax(net_rev, y)
             # other income
             oth = {"interest_income": R * self.u(0.0002, 0.0012)}
             if "muni" in f:
@@ -175,28 +207,49 @@ class Company:
             cogs_total = sum(net_rev * yr[k] for k in ind["cogs"])
             pretax_wo_sal = net_rev - cogs_total - sum(exp.values()) + sum(oth.values())
             salaries = pretax_wo_sal - target_margin[y] * net_rev
-            floor = net_rev * 0.06 * scale_x
+            floor = net_rev * max(0.06, 0.06 * scale_x)
             if salaries < floor:
                 salaries = floor
             exp["salaries"] = salaries
             exp["payroll_taxes"] = (salaries + exp.get("officer_comp", 0) + net_rev * yr.get("cogs_labor", 0)) * self.u(0.072, 0.082)
             pretax = net_rev - cogs_total - sum(exp.values()) + sum(oth.values())
-            state_tax = max(pretax, 0) * self.u(0.035, 0.065)
-            exp["state_income_tax"] = state_tax
+            rate = 0.0 if self.state in GROSS_RECEIPTS_TAX else STATE_RATE[self.state][y - 2024]
+            state_tax = max(pretax, 0) * rate
+            if state_tax:
+                exp["state_income_tax"] = state_tax
             pretax -= state_tax
             for k, v in exp.items():
                 self.set(y, k, _c(v, r))
             for k, v in oth.items():
                 if k == "unrealized_gain" and v < 0:
-                    self.bal[y][k] = self.bal[y].get(k, 0) + _c(-v, r)  # debit = loss
+                    self.set(y, "unrealized_loss", _c(-v, r))
                 else:
                     self.set(y, k, _c(v, r))
             # federal provision (book): current on approx. taxable, deferred from DTL movement
             perm = exp.get("penalties", 0) + exp.get("political", 0) + exp.get("entertainment", 0) + exp.get("meals", 0) * 0.5 \
                 + exp.get("officer_life", 0) + exp.get("club_dues", 0) - oth.get("muni_interest", 0)
+            perm -= oth.get("unrealized_gain", 0)  # book-only MTM (treated as permanent for simplicity)
             temp = depr[y] * self.u(-0.6, 0.1)  # bonus/179 accelerates tax depreciation
-            fed_current = max(0.0, (pretax + perm + temp) * 0.21)
-            fed_deferred = -temp * 0.21 if pretax > 0 else 0
+            if "research" in exp:  # Sec. 174 (2024 capitalize, 10% mid-year amort.) / Sec. 174A (2025 expense)
+                if y == 2024:
+                    research_2024 = exp["research"]
+                    temp += research_2024 * 0.9
+                else:
+                    temp -= research_2024 * 0.2
+            taxable = pretax + perm + temp
+            nol_start = self.nol
+            if taxable < 0:
+                self.nol += -taxable
+                fed_current = 0.0
+            else:
+                used = min(self.nol, 0.8 * taxable)  # post-2017 NOL 80% limit
+                self.nol -= used
+                fed_current = (taxable - used) * 0.21
+            self.nol_hist[y] = self.nol
+            if dt_net is None:
+                dt_net = (sum(gross[2024].values()) - accum[2024]) * 0.21 * self.u(0.15, 0.3) - nol_start * 0.21
+            fed_deferred = -temp * 0.21 + (nol_start - self.nol) * 0.21
+            dt_net += fed_deferred
             self.set(y, "federal_tax_current", _c(fed_current, r))
             if abs(fed_deferred) > 100:
                 cents = _c(abs(fed_deferred), r)
@@ -249,9 +302,9 @@ class Company:
             if "securities" in f:
                 self.set(y, "invest_securities", _c(self.revenue * self.u(0.05, 0.12) * (1 if y == 2024 else 1.04), r))
             if "life" in f:
-                self.set(y, "csv_life", _c(self.u(40_000, 160_000) * (1 if y == 2024 else 1.08), r))
+                self.set(y, "csv_life", _c(csv_life * (1 if y == 2024 else 1.08), r))
             if "loan_to_sh" in f:
-                self.set(y, "loan_to_sh", _c(self.u(25_000, 120_000), r, whole=True))
+                self.set(y, "loan_to_sh", _c(sh_loan * (1 if y == 2024 else self.u(0.85, 1.1)), r, whole=True))
             if ind.get("rou"):
                 rou = exp["rent"] * self.u(2.5, 4.5)
                 self.set(y, "rou_asset", _c(rou, r))
@@ -266,7 +319,7 @@ class Company:
             self.set(y, "accrued_exp", _c(net_rev * self.u(0.004, 0.012), r))
             if ind.get("deferred_rev"):
                 self.set(y, "deferred_rev", _c(net_rev * self.u(*ind["deferred_rev"]), r))
-            if self.industry in ("manufacturing", "wholesale") and r.random() < 0.5:
+            if self.industry in ("manufacturing", "wholesale") and self.cid < "C14":
                 self.set(y, "customer_deposits", _c(net_rev * self.u(0.005, 0.015), r))
             # income taxes payable / prepaid
             paid_frac = self.u(0.75, 1.15)
@@ -282,10 +335,11 @@ class Company:
                 self.set(y, k, _c(v - cur, r))
                 self.bal[y]["current_ltd"] = self.bal[y].get("current_ltd", 0) - _c(cur, r)
             if "due_to_sh" in f:
-                self.set(y, "due_to_sh", _c(self.u(40_000, 180_000), r, whole=True))
-            dtl_base = (sum(gross[y].values()) - accum[y]) * 0.21 * 0.25
-            if dtl_base > 20_000:
-                self.set(y, "dtl", _c(dtl_base, r))
+                self.set(y, "due_to_sh", _c(due_sh * (1 if y == 2024 else self.u(0.85, 1.1)), r, whole=True))
+            if dt_net >= 0:
+                self.set(y, "dtl", _c(dt_net, r))
+            else:
+                self.set(y, "dta", _c(-dt_net, r))
             # equity
             if y == 2024:
                 self.cs = self.rng.choice([1_000, 10_000, 25_000, 100_000, 500_000])
@@ -318,30 +372,30 @@ class Company:
                 ni24 = -sum(v for k, v in self.bal[2024].items() if ACCOUNTS[k][1] not in BS_CLASSES)
                 div24 = self.bal[2024].get("dividends", 0)
                 self.bal[y]["retained_earnings"] = re24 - ni24 + div24
-            else:
-                self.bal[y]["retained_earnings"] = -_c(self.re_begin[2024], r, whole=True)
-            # ------------------- cash plug and line of credit
-            self._plug_cash(y, net_rev, has_loc)
+            if loc_bal[y]:
+                self.set(y, "loc", _c(loc_bal[y], r, whole=True))
+            # ------------------- cash / retained earnings plug
+            self._plug(y, net_rev)
 
     def _store_ni(self, y, ni):
         self.ni = getattr(self, "ni", {})
         self.ni[y] = ni
 
-    def _plug_cash(self, y, net_rev, has_loc):
-        r = self.rng
+    def _plug(self, y, net_rev):
         b = self.bal[y]
-        imbalance = sum(b.values())  # debits - credits, must become 0
-        cash_needed = -imbalance
-        min_cash = net_rev * self.u(0.02, 0.06)
-        if cash_needed < min_cash * 100:
-            draw = int(min_cash * 100 - cash_needed)
-            draw = (draw // 100_000 + 1) * 100_000  # round $1,000
-            b["loc"] = b.get("loc", 0) - draw
-            cash_needed += draw
-        elif has_loc and y == 2025 and r.random() < 0.5:
-            draw = int(net_rev * self.u(0.01, 0.03)) * 100
-            b["loc"] = b.get("loc", 0) - draw
-            cash_needed += draw
+        if y == 2024:
+            # cash at a realistic level; beginning retained earnings absorbs the difference
+            cash_needed = int(net_rev * self.u(0.04, 0.10) * 100)
+            b["retained_earnings"] = 0
+            b["retained_earnings"] = -(sum(b.values()) + cash_needed)
+        else:
+            cash_needed = -sum(b.values())
+            min_cash = net_rev * self.u(0.02, 0.04) * 100
+            if cash_needed < min_cash:
+                draw = int(min_cash - cash_needed)
+                draw = (draw // 100_000 + 1) * 100_000  # round $1,000
+                b["loc"] = b.get("loc", 0) - draw
+                cash_needed += draw
         petty = 50_000 if self.industry in ("restaurant", "retail", "auto_dealer_service") else 0
         payroll = int(cash_needed * self.u(0.04, 0.10))
         savings = int(cash_needed * self.u(0.10, 0.30)) if net_rev > 4_000_000 else 0

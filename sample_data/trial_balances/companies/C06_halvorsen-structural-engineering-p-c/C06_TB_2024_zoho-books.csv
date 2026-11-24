@@ -5,76 +5,77 @@ As of 12/31/2024
 
 Account,Account Code,Net Debit,Net Credit
 Assets
-Operating Checking,,"225,033.41",
-Payroll Checking,,"11,426.54",
-Money Market Savings,,"38,336.55",
-Accounts Receivable,,"1,215,228.09",
-Allowance for Doubtful Accounts,,,"12,352.82"
-Prepaid Expenses,,"54,301.03",
-Prepaid Insurance,,"44,554.53",
-Furniture & Fixtures,,"56,411.00",
-Vehicles,,"171,068.00",
-Computer Equipment,,"56,824.00",
-Leasehold Improvements,,"29,862.00",
-Accumulated Depreciation,,,"158,166.69"
-Security Deposits,,"16,404.00",
-Right-of-Use Asset - Operating Lease,,"1,371,357.44",
-Cash Surrender Value - Officer Life Insurance,,"146,298.77",
-Total for Assets,,"3,437,105.36","170,519.51"
+Operating Checking,,"293,932.25",
+Payroll Checking,,"30,903.05",
+Money Market Savings,,"38,732.21",
+Accounts Receivable,,"1,005,684.91",
+Allowance for Doubtful Accounts,,,"20,069.64"
+Prepaid Expenses,,"28,883.53",
+Prepaid Insurance,,"38,154.11",
+Prepaid Federal Income Tax,,"1,276.61",
+Furniture & Fixtures,,"88,716.00",
+Vehicles,,"103,970.00",
+Computer Equipment,,"75,364.00",
+Leasehold Improvements,,"99,511.00",
+Accumulated Depreciation,,,"172,997.86"
+Security Deposits,,"7,983.00",
+Right-of-Use Asset - Operating Lease,,"1,642,409.40",
+Cash Surrender Value - Officer Life Insurance,,"81,718.55",
+Total for Assets,,"3,537,238.62","193,067.50"
 Liabilities
-Accounts Payable,,,"187,971.85"
-Corporate Credit Card,,,"17,265.83"
-Accrued Wages,,,"105,159.60"
-Payroll Taxes Payable,,,"12,386.79"
-Accrued Expenses,,,"65,530.92"
-Federal Income Tax Payable,,,502.17
-State Income Tax Payable,,,636.43
-Operating Lease Liability,,,"1,450,495.84"
-Total for Liabilities,,,"1,839,949.43"
+Accounts Payable,,,"163,817.58"
+Corporate Credit Card,,,"19,660.01"
+Accrued Wages,,,"107,056.61"
+Payroll Taxes Payable,,,"15,915.39"
+Accrued Expenses,,,"27,966.58"
+State Income Tax Payable,,,"1,028.63"
+Line of Credit,,,"134,664.00"
+Operating Lease Liability,,,"1,772,969.76"
+Deferred Tax Liability,,,"12,453.86"
+Total for Liabilities,,,"2,255,532.42"
 Equities
 Common Stock,,,"1,000.00"
-Additional Paid-In Capital,,,"408,402.00"
-Retained Earnings,,,"983,149.00"
-Total for Equities,,,"1,392,551.00"
+Additional Paid-In Capital,,,"2,903.00"
+Retained Earnings,,,"1,041,443.60"
+Total for Equities,,,"1,045,346.60"
 Income
-Service Revenue,,,"378,000.22"
-Professional Services Revenue,,,"5,922,000.14"
-Interest Income,,,"6,830.76"
-Total for Income,,,"6,306,831.12"
+Service Revenue,,,"378,000.85"
+Professional Services Revenue,,,"5,922,000.51"
+Interest Income,,,"2,811.59"
+Total for Income,,,"6,302,812.95"
 Expense
-Officer Compensation,,"551,319.15",
-Salaries & Wages,,"3,308,451.33",
-Payroll Tax Expense,,"282,279.87",
-Employee Health Insurance,,"210,876.81",
-401(k) Matching Contributions,,"68,348.72",
-Rent Expense,,"469,231.28",
-Repairs & Maintenance,,"99,183.90",
-Bad Debt Expense,,"6,950.65",
-Taxes & Licenses,,"36,280.50",
-State Income Tax Expense,,"3,217.11",
-Interest Expense,,"25,200.05",
-Depreciation Expense,,"34,811.38",
-Advertising & Marketing,,"193,962.78",
-Auto & Truck Expense,,"21,061.88",
-Bank Service Charges,,"11,298.35",
-Charitable Contributions,,"19,981.83",
-Dues & Subscriptions,,"9,445.32",
-Insurance - General Liability,,"130,615.07",
-Workers' Compensation Insurance,,"62,658.65",
-Officer Life Insurance Premiums,,"21,327.23",
-Meals (50%),,"29,474.68",
-Office Supplies,,"51,624.33",
-Accounting Fees,,"56,019.83",
-Legal Fees,,"21,562.10",
-Contract Labor,,"283,715.39",
-Software & SaaS Subscriptions,,"30,798.78",
-Telephone & Internet,,"30,098.01",
-Travel,,"78,934.93",
-Utilities,,"72,667.19",
-Training & Education,,"24,936.01",
-Club Dues,,"2,234.06",
-Miscellaneous Expense,,"4,932.77",
-Federal Income Tax Expense - Current,,"16,060.48",
-Federal Income Tax Expense - Deferred,,"3,185.28",
-Total for Expense,,"6,272,745.70",
-Total,,"9,709,851.06","9,709,851.06"
+Officer Compensation,,"559,512.26",
+Salaries & Wages,,"3,250,748.90",
+Payroll Tax Expense,,"305,176.30",
+Employee Health Insurance,,"306,752.97",
+401(k) Matching Contributions,,"50,902.76",
+Rent Expense,,"445,407.42",
+Repairs & Maintenance,,"37,595.79",
+Taxes & Licenses,,"39,046.06",
+State Income Tax Expense,,"6,931.93",
+Interest Expense,,"10,208.88",
+Depreciation Expense,,"43,756.84",
+Advertising & Marketing,,"158,806.60",
+Auto & Truck Expense,,"40,811.75",
+Bank Service Charges,,"10,272.38",
+Charitable Contributions,,"14,737.04",
+Dues & Subscriptions,,"25,812.25",
+Insurance - General Liability,,"112,039.47",
+Workers' Compensation Insurance,,"51,131.35",
+Officer Life Insurance Premiums,,"23,613.91",
+Meals (50%),,"15,400.05",
+Office Supplies,,"38,216.65",
+Accounting Fees,,"79,779.44",
+Legal Fees,,"25,658.71",
+Contract Labor,,"408,457.85",
+Software & SaaS Subscriptions,,"43,925.88",
+Telephone & Internet,,"16,651.43",
+Travel,,"47,782.71",
+Utilities,,"33,426.12",
+Training & Education,,"30,350.16",
+Club Dues,,"2,476.37",
+Miscellaneous Expense,,"3,635.44",
+Federal Income Tax Expense - Current,,"17,218.74",
+Federal Income Tax Expense - Deferred,,"3,276.44",
+Total for Expense,,"6,259,520.85",
+Total,,"9,796,759.47","9,796,759.47"

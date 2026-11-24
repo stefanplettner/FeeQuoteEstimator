@@ -2,72 +2,73 @@
 Trial Balance
 End of Dec 2024
 Account,Debit,Credit
-1010 Operating Checking,"1,793,068.11",
-1020 Payroll Checking,"175,060.28",
-1030 Money Market Savings,"808,531.53",
+1010 Operating Checking,"441,187.40",
+1020 Payroll Checking,"22,472.65",
+1030 Money Market Savings,"79,701.74",
 1040 Petty Cash,500.00,
-1050 Accounts Receivable,"32,432.20",
-1060 Inventory,"93,072.24",
-1070 Prepaid Expenses,"35,992.08",
-1080 Prepaid Insurance,"40,625.85",
-1090 Prepaid Federal Income Tax,"1,083.30",
-1100 Employee Advances,"3,739.11",
-1110 Machinery & Equipment,"1,617,089.00",
-1120 Furniture & Fixtures,"553,799.00",
-1130 Computer Equipment,"491,595.00",
-1140 Leasehold Improvements,"305,157.00",
-1150 Accumulated Depreciation,,"1,243,855.94"
-1160 Security Deposits,"33,770.00",
-1170 Right-of-Use Asset - Operating Lease,"1,291,801.05",
-2010 Accounts Payable,,"235,392.37"
-2020 Corporate Credit Card,,"16,103.38"
-2030 Accrued Wages,,"86,537.98"
-2040 Payroll Taxes Payable,,"9,746.67"
-2050 Sales Tax Payable,,"59,521.41"
-2060 Accrued Expenses,,"51,492.75"
-2070 State Income Tax Payable,,"3,025.39"
-2080 Current Portion of Long-Term Debt,,"63,648.92"
-2090 Note Payable - Bank,,"381,888.25"
-2100 Operating Lease Liability,,"1,334,532.75"
-2110 Deferred Tax Liability,,"90,499.50"
-3010 Common Stock,,"1,000.00"
-3020 Retained Earnings,,"3,188,286.00"
-4010 Food Sales,,"6,882,000.83"
-4020 Beverage Sales,,"2,418,000.04"
-4030 Sales Discounts,"107,194.72",
-5010 Food Cost,"2,796,202.19",
-5020 Beverage Cost,"677,567.52",
-6000 Officer Compensation,"765,656.75",
-6010 Salaries & Wages,"1,852,284.04",
-6020 Payroll Tax Expense,"207,795.82",
-6030 Employee Health Insurance,"299,712.33",
-6040 401(k) Matching Contributions,"43,316.59",
-6050 Rent Expense,"422,533.45",
-6060 Repairs & Maintenance,"73,215.21",
-6070 Taxes & Licenses,"28,364.94",
-6080 State Income Tax Expense,"29,581.80",
-6090 Interest Expense,"29,240.92",
-6100 Depreciation Expense,"382,387.13",
-6110 Advertising & Marketing,"174,169.21",
-6120 Bank Service Charges,"8,305.86",
-6130 Merchant Processing Fees,"213,210.93",
-6140 Charitable Contributions,"17,005.76",
-6150 Dues & Subscriptions,"9,028.72",
-6160 Insurance - General Liability,"127,281.91",
-6170 Workers' Compensation Insurance,"72,303.34",
-6180 Meals (50%),"16,390.48",
-6190 Office Supplies,"23,444.70",
-6200 Accounting Fees,"51,643.91",
-6210 Legal Fees,"18,221.83",
-6220 Software & SaaS Subscriptions,"41,943.53",
-6230 Telephone & Internet,"28,597.04",
-6240 Travel,"21,263.28",
-6250 Utilities,"37,130.77",
-6260 Uniforms,"16,527.67",
-6270 Janitorial & Cleaning,"58,646.42",
-6280 Penalties & Fines,"2,768.77",
-6290 Miscellaneous Expense,"6,191.14",
-8010 Interest Income,,"9,875.14"
-9010 Federal Income Tax Expense - Current,"110,069.70",
-9020 Federal Income Tax Expense - Deferred,"28,893.19",
-Total,"16,075,407.32","16,075,407.32"
+1050 Accounts Receivable,"35,090.53",
+1060 Inventory,"105,679.91",
+1070 Prepaid Expenses,"85,012.18",
+1080 Prepaid Insurance,"31,919.84",
+1090 Prepaid Federal Income Tax,"2,324.17",
+1100 Machinery & Equipment,"1,654,771.00",
+1110 Furniture & Fixtures,"364,689.00",
+1120 Computer Equipment,"475,909.00",
+1130 Leasehold Improvements,"407,813.00",
+1140 Accumulated Depreciation,,"895,527.33"
+1150 Security Deposits,"19,810.00",
+1160 Right-of-Use Asset - Operating Lease,"1,717,383.63",
+2010 Accounts Payable,,"256,025.76"
+2020 Corporate Credit Card,,"22,866.28"
+2030 Accrued Wages,,"56,928.16"
+2040 Payroll Taxes Payable,,"10,183.81"
+2050 Sales Tax Payable,,"48,831.90"
+2060 Accrued Expenses,,"97,497.68"
+2080 State Income Tax Payable,,"9,453.58"
+2090 Line of Credit,,"307,476.00"
+2100 Current Portion of Long-Term Debt,,"75,145.97"
+2110 Note Payable - Bank,,"450,875.34"
+2120 Operating Lease Liability,,"1,753,933.57"
+2130 Deferred Tax Liability,,"72,868.49"
+3010 Common Stock,,"10,000.00"
+3020 Additional Paid-In Capital,,"79,208.00"
+3030 Retained Earnings,,"812,487.79"
+4010 Food Sales,,"6,882,000.59"
+4020 Beverage Sales,,"2,418,000.76"
+4030 Sales Discounts,"97,909.40",
+5010 Food Cost,"2,804,678.57",
+5020 Beverage Cost,"725,742.57",
+6000 Officer Compensation,"433,601.38",
+6010 Salaries & Wages,"2,276,659.51",
+6020 Payroll Tax Expense,"205,778.06",
+6030 Employee Health Insurance,"244,006.16",
+6040 401(k) Matching Contributions,"68,426.97",
+6050 Rent Expense,"393,345.85",
+6060 Repairs & Maintenance,"86,250.82",
+6070 Taxes & Licenses,"35,087.82",
+6080 State Income Tax Expense,"38,702.35",
+6090 Interest Expense,"59,238.66",
+6100 Depreciation Expense,"251,716.27",
+6110 Advertising & Marketing,"156,555.32",
+6120 Bank Service Charges,"12,045.03",
+6130 Merchant Processing Fees,"260,898.66",
+6140 Charitable Contributions,"8,203.79",
+6150 Dues & Subscriptions,"11,734.45",
+6160 Insurance - General Liability,"103,391.16",
+6170 Workers' Compensation Insurance,"44,092.15",
+6180 Meals (50%),"20,993.36",
+6190 Office Supplies,"36,726.70",
+6200 Accounting Fees,"31,935.45",
+6210 Legal Fees,"11,345.64",
+6220 Software & SaaS Subscriptions,"52,687.47",
+6230 Telephone & Internet,"16,129.18",
+6240 Travel,"29,561.18",
+6250 Utilities,"54,581.64",
+6260 Uniforms,"25,871.16",
+6270 Janitorial & Cleaning,"85,957.34",
+6280 Penalties & Fines,"2,183.71",
+6290 Miscellaneous Expense,"6,484.15",
+8010 Interest Income,,"9,762.88"
+9010 Federal Income Tax Expense - Current,"123,878.88",
+9020 Federal Income Tax Expense - Deferred,"8,409.03",
+Total,"14,269,073.89","14,269,073.89"

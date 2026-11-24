@@ -4,82 +4,78 @@ Period: 01/01/24..12/31/24
 G/L Account: Date Filter: 01/01/24..12/31/24
 
 No.,Name,Net Change Debit,Net Change Credit,Balance Debit,Balance Credit
-10100,Operating Checking,"8,026.34",,"1,511,515.74",
-10200,Payroll Checking,"1,033.59",,"107,605.10",
-10300,Money Market Savings,,"18,128.40","262,339.93",
-10400,Accounts Receivable,"481,765.46",,"6,079,066.20",
-10500,Allowance for Doubtful Accounts,,"8,995.30",,"69,179.91"
-10600,Inventory,"362,181.21",,"5,193,607.01",
-10700,Prepaid Expenses,"33,733.32",,"299,154.36",
-10800,Prepaid Insurance,794.65,,"96,989.38",
-10900,Prepaid Federal Income Tax,,"1,080.93","14,772.47",
-11000,Investments - Marketable Securities,"538,234.40",,"4,344,972.78",
-11100,Machinery & Equipment,"284,089.47",,"2,403,784.00",
-11200,Furniture & Fixtures,,"12,681.31","353,827.00",
-11300,Vehicles,,"167,156.57","2,364,798.00",
-11400,Computer Equipment,539.99,,"511,948.00",
-11500,Leasehold Improvements,,"14,584.27","301,941.00",
-11600,Accumulated Depreciation,,"208,980.84",,"3,019,845.24"
-11700,Goodwill,,,"3,915,147.00",
-11800,Customer List,"95,076.73",,"1,479,409.00",
-11900,Accumulated Amortization,,"38,221.19",,"404,494.50"
-12000,Security Deposits,,"6,262.34","97,637.00",
-12100,Cash Surrender Value - Officer Life Insurance,"2,077.64",,"58,809.27",
-20100,Accounts Payable,,"440,556.13",,"5,194,948.94"
-20200,Corporate Credit Card,,"5,535.04",,"62,692.91"
-20300,Accrued Wages,,"14,265.64",,"139,948.84"
-20400,Payroll Taxes Payable,,613.90,,"27,408.84"
-20500,Sales Tax Payable,,"17,925.98",,"400,046.22"
-20600,Accrued Expenses,,"50,473.03",,"648,586.57"
-20700,Customer Deposits,"37,597.10",,,"496,657.77"
-20900,State Income Tax Payable,216.07,,,"7,777.33"
-21000,Line of Credit,,"108,910.66",,"2,423,000.00"
-21100,Deferred Tax Liability,,"3,121.63",,"153,114.23"
-30100,Common Stock,,,,"500,000.00"
-30200,Additional Paid-In Capital,"82,813.13",,,"3,457,423.00"
-30300,Retained Earnings,,,,"11,581,513.00"
-40100,Sales - Wholesale,,"53,544,000.41",,"53,544,000.41"
-40200,Sales - E-commerce,,"4,656,000.99",,"4,656,000.99"
-40300,Sales Returns & Allowances,"843,644.59",,"843,644.59",
-40400,Sales Discounts,"290,144.79",,"290,144.79",
-50100,Cost of Goods Sold,"41,085,383.80",,"41,085,383.80",
-50200,Freight-In,"925,835.07",,"925,835.07",
-50300,Inventory Shrinkage & Adjustments,"64,168.14",,"64,168.14",
-60000,Officer Compensation,"347,349.19",,"347,349.19",
-60100,Salaries & Wages,"7,214,479.88",,"7,214,479.88",
-60200,Payroll Tax Expense,"562,940.00",,"562,940.00",
-60300,Employee Health Insurance,"735,560.42",,"735,560.42",
-60400,401(k) Matching Contributions,"165,353.23",,"165,353.23",
-60500,Rent Expense,"704,103.90",,"704,103.90",
-60600,Repairs & Maintenance,"223,112.85",,"223,112.85",
-60700,Bad Debt Expense,"92,894.99",,"92,894.99",
-60800,Taxes & Licenses,"98,594.82",,"98,594.82",
-60900,State Income Tax Expense,"52,012.46",,"52,012.46",
-61000,Interest Expense,"232,800.20",,"232,800.20",
-61100,Depreciation Expense,"562,917.96",,"562,917.96",
-61200,Amortization Expense,"98,628.26",,"98,628.26",
-61300,Advertising & Marketing,"428,043.71",,"428,043.71",
-61400,Bank Service Charges,"20,614.65",,"20,614.65",
-61500,Merchant Processing Fees,"220,171.92",,"220,171.92",
-61600,Charitable Contributions,"51,979.86",,"51,979.86",
-61700,Dues & Subscriptions,"58,641.93",,"58,641.93",
-61800,Insurance - General Liability,"216,569.72",,"216,569.72",
-61900,Workers' Compensation Insurance,"142,662.25",,"142,662.25",
-62000,Officer Life Insurance Premiums,"9,020.94",,"9,020.94",
-62100,Meals (50%),"75,980.85",,"75,980.85",
-62200,Office Supplies,"50,856.18",,"50,856.18",
-62300,Freight-Out,"1,003,211.69",,"1,003,211.69",
-62400,Accounting Fees,"176,771.62",,"176,771.62",
-62500,Legal Fees,"69,067.50",,"69,067.50",
-62600,Software & SaaS Subscriptions,"169,322.18",,"169,322.18",
-62700,Telephone & Internet,"75,614.41",,"75,614.41",
-62800,Travel,"101,691.18",,"101,691.18",
-62900,Utilities,"188,172.88",,"188,172.88",
-63000,Lobbying & Political Contributions,"14,124.65",,"14,124.65",
-63100,Miscellaneous Expense,"19,278.04",,"19,278.04",
-80100,Interest Income,,"26,797.94",,"26,797.94"
-80200,Dividend Income,,"325,331.94",,"325,331.94"
-80300,Unrealized Gain/Loss on Securities,"117,970.42",,"117,970.42",
-90100,Federal Income Tax Expense - Current,"187,923.42",,"187,923.42",
-90200,Federal Income Tax Expense - Deferred,"43,830.79",,"43,830.79",
-,Total,,,"87,138,768.58","87,138,768.58"
+10100,Operating Checking,"96,549.16",,"3,013,771.64",
+10200,Payroll Checking,"5,858.67",,"287,364.86",
+10300,Money Market Savings,,"18,383.56","767,508.19",
+10400,Accounts Receivable,"528,342.07",,"6,666,784.24",
+10500,Allowance for Doubtful Accounts,,"8,700.00",,"66,908.88"
+10600,Inventory,"444,416.99",,"6,372,851.98",
+10700,Prepaid Expenses,"56,684.18",,"502,687.56",
+10800,Prepaid Insurance,"1,404.54",,"171,427.85",
+10900,Investments - Marketable Securities,"439,578.36",,"3,548,558.00",
+11000,Machinery & Equipment,"107,691.76",,"911,219.00",
+11100,Furniture & Fixtures,,"16,710.13","466,237.00",
+11200,Vehicles,,"165,685.39","2,343,985.00",
+11300,Computer Equipment,487.71,,"462,380.00",
+11400,Leasehold Improvements,,"30,649.71","634,547.00",
+11500,Accumulated Depreciation,,"104,987.70",,"1,517,108.36"
+11600,Goodwill,,,"5,068,674.00",
+11700,Customer List,"116,927.54",,"1,819,411.00",
+11800,Accumulated Amortization,,"77,118.19",,"816,141.09"
+11900,Security Deposits,,"8,027.71","125,161.00",
+12000,Cash Surrender Value - Officer Life Insurance,"4,051.70",,"114,686.95",
+20100,Accounts Payable,,"356,462.39",,"4,203,332.50"
+20200,Corporate Credit Card,,"14,503.87",,"164,278.93"
+20300,Accrued Wages,,"24,486.28",,"240,215.41"
+20400,Payroll Taxes Payable,,495.76,,"22,134.36"
+20500,Sales Tax Payable,,"19,416.33",,"433,305.88"
+20600,Accrued Expenses,,"26,365.75",,"338,804.11"
+20700,Federal Income Tax Payable,"1,335.16",,,"17,637.50"
+20800,State Income Tax Payable,"1,899.64",,,"25,961.19"
+21000,Deferred Tax Liability,"3,270.54",,,"117,719.50"
+30100,Common Stock,,,,"25,000.00"
+30200,Retained Earnings,,,,"24,352,202.31"
+40100,Sales - Wholesale,,"53,544,000.15",,"53,544,000.15"
+40200,Sales - E-commerce,,"4,656,000.17",,"4,656,000.17"
+40300,Sales Returns & Allowances,"490,950.00",,"490,950.00",
+40400,Sales Discounts,"474,900.58",,"474,900.58",
+50100,Cost of Goods Sold,"41,804,384.76",,"41,804,384.76",
+50200,Freight-In,"645,727.27",,"645,727.27",
+50300,Inventory Shrinkage & Adjustments,"144,861.14",,"144,861.14",
+60000,Officer Compensation,"1,084,429.85",,"1,084,429.85",
+60100,Salaries & Wages,"6,103,989.28",,"6,103,989.28",
+60200,Payroll Tax Expense,"530,739.42",,"530,739.42",
+60300,Employee Health Insurance,"827,489.09",,"827,489.09",
+60400,401(k) Matching Contributions,"105,878.04",,"105,878.04",
+60500,Rent Expense,"662,881.05",,"662,881.05",
+60600,Repairs & Maintenance,"267,941.69",,"267,941.69",
+60700,Bad Debt Expense,"211,333.15",,"211,333.15",
+60800,Taxes & Licenses,"87,420.86",,"87,420.86",
+60900,State Income Tax Expense,"121,139.79",,"121,139.79",
+61000,Depreciation Expense,"555,666.19",,"555,666.19",
+61100,Amortization Expense,"121,294.74",,"121,294.74",
+61200,Advertising & Marketing,"247,148.44",,"247,148.44",
+61300,Bank Service Charges,"23,322.36",,"23,322.36",
+61400,Merchant Processing Fees,"126,841.54",,"126,841.54",
+61500,Charitable Contributions,"38,102.35",,"38,102.35",
+61600,Dues & Subscriptions,"25,502.99",,"25,502.99",
+61700,Insurance - General Liability,"354,583.09",,"354,583.09",
+61800,Workers' Compensation Insurance,"152,042.23",,"152,042.23",
+61900,Officer Life Insurance Premiums,"18,358.64",,"18,358.64",
+62000,Meals (50%),"84,910.54",,"84,910.54",
+62100,Office Supplies,"96,584.37",,"96,584.37",
+62200,Freight-Out,"1,088,384.67",,"1,088,384.67",
+62300,Accounting Fees,"122,801.39",,"122,801.39",
+62400,Legal Fees,"67,189.48",,"67,189.48",
+62500,Software & SaaS Subscriptions,"162,174.73",,"162,174.73",
+62600,Telephone & Internet,"82,244.42",,"82,244.42",
+62700,Travel,"193,867.62",,"193,867.62",
+62800,Utilities,"84,995.98",,"84,995.98",
+62900,Lobbying & Political Contributions,"40,798.48",,"40,798.48",
+63000,Miscellaneous Expense,"26,098.72",,"26,098.72",
+80100,Interest Income,,"17,932.78",,"17,932.78"
+80200,Dividend Income,,"330,422.34",,"330,422.34"
+80400,Unrealized Loss on Securities,"46,539.30",,"46,539.30",
+90100,Federal Income Tax Expense - Current,"287,977.86",,"287,977.86",
+90200,Federal Income Tax Expense - Deferred,354.09,,354.09,
+,Total,,,"90,889,105.46","90,889,105.46"

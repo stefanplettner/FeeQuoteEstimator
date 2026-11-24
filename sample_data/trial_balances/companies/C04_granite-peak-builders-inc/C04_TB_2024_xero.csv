@@ -4,91 +4,91 @@
 
 Account Code,Account,Account Type,Debit,Credit,Debit - Year to date,Credit - Year to date
 Revenue
-200,Contract Revenue,Revenue,,"27,900,000.18",,"27,900,000.18"
-260,Interest Income,Other Income,,"7,257.32",,"7,257.32"
-262,Gain on Sale of Assets,Other Income,,"47,503.70",,"47,503.70"
-264,Other Income,Other Income,,"14,112.80",,"14,112.80"
-Total Revenue,,,,"27,968,874.00",,"27,968,874.00"
+200,Contract Revenue,Revenue,,"27,900,000.53",,"27,900,000.53"
+260,Interest Income,Other Income,,"18,951.69",,"18,951.69"
+264,Other Income,Other Income,,"56,361.84",,"56,361.84"
+Total Revenue,,,,"27,975,314.06",,"27,975,314.06"
 
 Expenses
-310,Materials & Purchases,Direct Costs,"5,633,079.53",,"5,633,079.53",
-312,Direct Labor,Direct Costs,"3,531,272.52",,"3,531,272.52",
-314,Subcontractors,Direct Costs,"13,235,800.52",,"13,235,800.52",
-316,Equipment Rental - Jobs,Direct Costs,"601,571.06",,"601,571.06",
-400,Officer Compensation,Expense,"617,315.80",,"617,315.80",
-402,Salaries & Wages,Expense,"920,700.98",,"920,700.98",
-404,Payroll Tax Expense,Expense,"371,533.54",,"371,533.54",
-406,Employee Health Insurance,Expense,"280,488.04",,"280,488.04",
-408,401(k) Matching Contributions,Expense,"83,267.66",,"83,267.66",
-410,Rent Expense,Expense,"236,518.57",,"236,518.57",
-412,Repairs & Maintenance,Expense,"38,065.78",,"38,065.78",
-416,Taxes & Licenses,Expense,"34,887.44",,"34,887.44",
-418,State Income Tax Expense,Expense,"47,303.12",,"47,303.12",
-420,Interest Expense,Expense,"147,055.64",,"147,055.64",
-422,Depreciation Expense,Expense,"246,341.83",,"246,341.83",
-424,Amortization Expense,Expense,"65,932.56",,"65,932.56",
-426,Advertising & Marketing,Expense,"65,653.00",,"65,653.00",
-428,Auto & Truck Expense,Expense,"296,578.90",,"296,578.90",
-430,Bank Service Charges,Expense,"7,469.96",,"7,469.96",
-432,Charitable Contributions,Expense,"20,128.55",,"20,128.55",
-434,Dues & Subscriptions,Expense,"30,094.07",,"30,094.07",
-436,Insurance - General Liability,Expense,"140,716.70",,"140,716.70",
-438,Workers' Compensation Insurance,Expense,"57,168.58",,"57,168.58",
-440,Meals (50%),Expense,"25,305.22",,"25,305.22",
-442,Office Supplies,Expense,"24,615.57",,"24,615.57",
-444,Accounting Fees,Expense,"59,185.16",,"59,185.16",
-446,Legal Fees,Expense,"15,970.91",,"15,970.91",
-448,Software & SaaS Subscriptions,Expense,"119,803.37",,"119,803.37",
-450,Telephone & Internet,Expense,"29,166.23",,"29,166.23",
-452,Travel,Expense,"79,814.72",,"79,814.72",
-454,Utilities,Expense,"114,024.08",,"114,024.08",
-456,Uniforms,Expense,"14,953.65",,"14,953.65",
-458,Penalties & Fines,Expense,"3,979.56",,"3,979.56",
-460,Miscellaneous Expense,Expense,"12,161.52",,"12,161.52",
-505,Federal Income Tax Expense - Current,Expense,"164,865.08",,"164,865.08",
-506,Federal Income Tax Expense - Deferred,Expense,,"1,570.48",,"1,570.48"
-Total Expenses,,,"27,372,789.42","1,570.48","27,372,789.42","1,570.48"
+310,Materials & Purchases,Direct Costs,"5,547,070.59",,"5,547,070.59",
+312,Direct Labor,Direct Costs,"2,824,993.30",,"2,824,993.30",
+314,Subcontractors,Direct Costs,"13,082,915.53",,"13,082,915.53",
+316,Equipment Rental - Jobs,Direct Costs,"509,977.32",,"509,977.32",
+400,Officer Compensation,Expense,"832,669.38",,"832,669.38",
+402,Salaries & Wages,Expense,"1,674,000.49",,"1,674,000.49",
+404,Payroll Tax Expense,Expense,"420,092.11",,"420,092.11",
+406,Employee Health Insurance,Expense,"300,017.47",,"300,017.47",
+408,401(k) Matching Contributions,Expense,"100,825.62",,"100,825.62",
+410,Rent Expense,Expense,"323,655.97",,"323,655.97",
+412,Repairs & Maintenance,Expense,"50,975.74",,"50,975.74",
+414,Bad Debt Expense,Expense,"84,632.65",,"84,632.65",
+416,Taxes & Licenses,Expense,"16,122.26",,"16,122.26",
+418,State Income Tax Expense,Expense,"39,077.54",,"39,077.54",
+420,Interest Expense,Expense,"11,435.92",,"11,435.92",
+422,Depreciation Expense,Expense,"167,883.46",,"167,883.46",
+424,Amortization Expense,Expense,"46,102.16",,"46,102.16",
+426,Advertising & Marketing,Expense,"170,467.47",,"170,467.47",
+428,Auto & Truck Expense,Expense,"263,878.59",,"263,878.59",
+430,Bank Service Charges,Expense,"9,237.37",,"9,237.37",
+432,Charitable Contributions,Expense,"12,652.89",,"12,652.89",
+434,Dues & Subscriptions,Expense,"12,308.17",,"12,308.17",
+436,Insurance - General Liability,Expense,"118,369.55",,"118,369.55",
+438,Workers' Compensation Insurance,Expense,"43,967.56",,"43,967.56",
+440,Meals (50%),Expense,"59,901.92",,"59,901.92",
+442,Office Supplies,Expense,"36,076.54",,"36,076.54",
+444,Accounting Fees,Expense,"82,265.51",,"82,265.51",
+446,Legal Fees,Expense,"42,395.52",,"42,395.52",
+448,Software & SaaS Subscriptions,Expense,"98,880.25",,"98,880.25",
+450,Telephone & Internet,Expense,"39,027.73",,"39,027.73",
+452,Travel,Expense,"20,865.57",,"20,865.57",
+454,Utilities,Expense,"38,536.62",,"38,536.62",
+456,Uniforms,Expense,"18,739.28",,"18,739.28",
+458,Penalties & Fines,Expense,"15,702.91",,"15,702.91",
+460,Miscellaneous Expense,Expense,"10,575.97",,"10,575.97",
+505,Federal Income Tax Expense - Current,Expense,"172,449.58",,"172,449.58",
+506,Federal Income Tax Expense - Deferred,Expense,"15,434.81",,"15,434.81",
+Total Expenses,,,"27,314,181.32",,"27,314,181.32",
 
 Assets
-090,Operating Checking,Bank,"2,197,926.83",,"2,197,926.83",
-091,Payroll Checking,Bank,"135,078.74",,"135,078.74",
-092,Money Market Savings,Bank,"343,418.45",,"343,418.45",
-600,Accounts Receivable,Current Asset,"3,300,155.01",,"3,300,155.01",
-602,Retainage Receivable,Current Asset,"582,380.54",,"582,380.54",
-604,Allowance for Doubtful Accounts,Fixed Asset,,"68,466.95",,"68,466.95"
-606,Costs in Excess of Billings,Current Asset,"350,999.20",,"350,999.20",
-608,Prepaid Expenses,Current Asset,"241,510.19",,"241,510.19",
-610,Prepaid Insurance,Current Asset,"61,653.88",,"61,653.88",
-612,Employee Advances,Current Asset,"5,715.55",,"5,715.55",
-710,Machinery & Equipment,Fixed Asset,"1,268,534.00",,"1,268,534.00",
-712,Furniture & Fixtures,Fixed Asset,"560,064.00",,"560,064.00",
-714,Vehicles,Fixed Asset,"993,827.00",,"993,827.00",
-716,Computer Equipment,Fixed Asset,"216,352.00",,"216,352.00",
-718,Accumulated Depreciation,Fixed Asset,,"1,221,596.76",,"1,221,596.76"
-720,Goodwill,Fixed Asset,"1,749,406.00",,"1,749,406.00",
-722,Customer List,Fixed Asset,"988,978.00",,"988,978.00",
-724,Accumulated Amortization,Fixed Asset,,"227,372.58",,"227,372.58"
-614,Security Deposits,Current Asset,"97,762.00",,"97,762.00",
-Total Assets,,,"13,093,761.39","1,517,436.29","13,093,761.39","1,517,436.29"
+090,Operating Checking,Bank,"936,654.47",,"936,654.47",
+091,Payroll Checking,Bank,"134,577.52",,"134,577.52",
+092,Money Market Savings,Bank,"281,743.00",,"281,743.00",
+600,Accounts Receivable,Current Asset,"4,319,262.16",,"4,319,262.16",
+602,Retainage Receivable,Current Asset,"762,223.00",,"762,223.00",
+604,Allowance for Doubtful Accounts,Fixed Asset,,"119,035.14",,"119,035.14"
+606,Costs in Excess of Billings,Current Asset,"351,191.18",,"351,191.18",
+608,Prepaid Expenses,Current Asset,"268,297.10",,"268,297.10",
+610,Prepaid Insurance,Current Asset,"53,313.96",,"53,313.96",
+710,Machinery & Equipment,Fixed Asset,"398,486.00",,"398,486.00",
+712,Furniture & Fixtures,Fixed Asset,"330,600.00",,"330,600.00",
+714,Vehicles,Fixed Asset,"694,062.00",,"694,062.00",
+716,Computer Equipment,Fixed Asset,"364,048.00",,"364,048.00",
+718,Accumulated Depreciation,Fixed Asset,,"848,501.97",,"848,501.97"
+720,Goodwill,Fixed Asset,"2,269,409.00",,"2,269,409.00",
+722,Customer List,Fixed Asset,"691,522.00",,"691,522.00",
+724,Accumulated Amortization,Fixed Asset,,"163,457.56",,"163,457.56"
+612,Security Deposits,Current Asset,"86,789.00",,"86,789.00",
+Total Assets,,,"11,942,178.39","1,130,994.67","11,942,178.39","1,130,994.67"
 
 Liabilities
-800,Accounts Payable,Current Liability,,"2,919,990.40",,"2,919,990.40"
-802,Corporate Credit Card,Current Liability,,"86,789.62",,"86,789.62"
-804,Accrued Wages,Current Liability,,"29,650.67",,"29,650.67"
-806,Payroll Taxes Payable,Current Liability,,"14,149.23",,"14,149.23"
-808,Accrued Expenses,Current Liability,,"201,901.03",,"201,901.03"
-810,Billings in Excess of Costs,Current Liability,,"1,556,090.45",,"1,556,090.45"
-812,Retainage Payable,Current Liability,,"684,641.13",,"684,641.13"
-814,Federal Income Tax Payable,Current Liability,,365.52,,365.52
-816,State Income Tax Payable,Current Liability,,"10,859.10",,"10,859.10"
-818,Current Portion of Long-Term Debt,Current Liability,,"65,770.29",,"65,770.29"
-820,Equipment Loans Payable,Non-current Liability,,"394,617.38",,"394,617.38"
-822,Deferred Tax Liability,Non-current Liability,,"95,402.22",,"95,402.22"
-Total Liabilities,,,,"6,060,227.04",,"6,060,227.04"
+800,Accounts Payable,Current Liability,,"2,649,134.85",,"2,649,134.85"
+802,Corporate Credit Card,Current Liability,,"81,687.33",,"81,687.33"
+804,Accrued Wages,Current Liability,,"76,063.51",,"76,063.51"
+806,Payroll Taxes Payable,Current Liability,,"20,311.52",,"20,311.52"
+808,Accrued Expenses,Current Liability,,"298,237.09",,"298,237.09"
+810,Billings in Excess of Costs,Current Liability,,"1,493,931.92",,"1,493,931.92"
+812,Retainage Payable,Current Liability,,"1,023,852.86",,"1,023,852.86"
+814,Federal Income Tax Payable,Current Liability,,"19,435.84",,"19,435.84"
+816,State Income Tax Payable,Current Liability,,"8,782.26",,"8,782.26"
+818,Current Portion of Long-Term Debt,Current Liability,,"24,110.15",,"24,110.15"
+820,Equipment Loans Payable,Non-current Liability,,"144,660.75",,"144,660.75"
+822,Deferred Tax Liability,Non-current Liability,,"63,579.42",,"63,579.42"
+Total Liabilities,,,,"5,903,787.50",,"5,903,787.50"
 
 Equity
-950,Common Stock,Equity,,"10,000.00",,"10,000.00"
-960,Retained Earnings,Equity,,"4,908,443.00",,"4,908,443.00"
-Total Equity,,,,"4,918,443.00",,"4,918,443.00"
+950,Common Stock,Equity,,"25,000.00",,"25,000.00"
+952,Additional Paid-In Capital,Equity,,"2,076,327.00",,"2,076,327.00"
+960,Retained Earnings,Equity,,"2,144,936.48",,"2,144,936.48"
+Total Equity,,,,"4,246,263.48",,"4,246,263.48"
 
-Total,,,"40,466,550.81","40,466,550.81","40,466,550.81","40,466,550.81"
+Total,,,"39,256,359.71","39,256,359.71","39,256,359.71","39,256,359.71"

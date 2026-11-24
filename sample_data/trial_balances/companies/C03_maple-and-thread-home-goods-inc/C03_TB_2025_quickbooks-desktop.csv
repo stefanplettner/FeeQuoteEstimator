@@ -4,71 +4,74 @@
 Accrual Basis
 ,"Dec 31, 25",
 ,Debit,Credit
-10100 · Operating Checking,"1,382,075.87",
-10200 · Payroll Checking,"86,550.30",
+10100 · Operating Checking,"563,310.93",
+10200 · Payroll Checking,"50,822.47",
 10300 · Petty Cash,500.00,
-10400 · Accounts Receivable,"44,062.95",
-10500 · Inventory,"497,320.28",
-10600 · Prepaid Expenses,"17,710.14",
-10700 · Prepaid Insurance,"5,718.09",
-10800 · Furniture & Fixtures,"81,321.00",
-10900 · Vehicles,"298,940.00",
-11000 · Computer Equipment,"116,066.00",
-11100 · Leasehold Improvements,"122,172.00",
-11200 · Accumulated Depreciation,,"375,215.59"
-11300 · Security Deposits,"12,603.00",
-11400 · Loan Receivable - Shareholder,"84,633.00",
-11500 · Right-of-Use Asset - Operating Lease,"286,596.77",
-20100 · Accounts Payable,,"176,847.78"
-20200 · Corporate Credit Card,,"9,485.55"
-20300 · Accrued Wages,,"4,929.74"
-20400 · Payroll Taxes Payable,,"1,352.03"
-20500 · Sales Tax Payable,,"33,919.32"
-20600 · Accrued Expenses,,"24,632.57"
-20700 · Federal Income Tax Payable,,"14,645.19"
-20800 · State Income Tax Payable,,"1,949.43"
-20900 · Line of Credit,,"61,774.00"
-21000 · Operating Lease Liability,,"292,651.87"
-30100 · Common Stock,,"100,000.00"
-30200 · Additional Paid-In Capital,,"83,232.00"
-30300 · Retained Earnings,,"1,578,187.45"
-40100 · Sales,,"3,267,085.99"
-40200 · Sales - E-commerce,,"717,165.42"
-40300 · Sales Returns & Allowances,"81,978.25",
-40400 · Sales Discounts,"78,947.14",
-50100 · Cost of Goods Sold,"2,235,236.27",
-50200 · Freight-In,"38,033.25",
-50300 · Inventory Shrinkage & Adjustments,"20,854.57",
-60000 · Officer Compensation,"267,388.32",
-60100 · Salaries & Wages,"229,399.59",
-60200 · Payroll Tax Expense,"38,910.47",
-60300 · Employee Health Insurance,"91,588.88",
-60400 · 401(k) Matching Contributions,"27,190.50",
-60500 · Rent Expense,"88,430.12",
-60600 · Repairs & Maintenance,"13,110.47",
-60700 · Taxes & Licenses,"6,141.05",
-60800 · State Income Tax Expense,"13,646.57",
-60900 · Interest Expense,"16,480.48",
-61000 · Depreciation Expense,"72,259.74",
-61100 · Advertising & Marketing,"40,693.54",
-61200 · Bank Service Charges,"2,293.82",
-61300 · Merchant Processing Fees,"68,110.66",
-61400 · Charitable Contributions,"3,516.59",
-61500 · Dues & Subscriptions,"4,624.46",
-61600 · Insurance - General Liability,"27,603.35",
-61700 · Workers' Compensation Insurance,"11,280.20",
-61800 · Meals (50%),"5,474.21",
-61900 · Office Supplies,"13,195.00",
-62000 · Postage & Shipping,"15,586.26",
-62100 · Accounting Fees,"22,078.05",
-62200 · Legal Fees,"5,540.13",
-62300 · Software & SaaS Subscriptions,"28,485.85",
-62400 · Telephone & Internet,"10,726.66",
-62500 · Travel,"19,602.36",
-62600 · Utilities,"25,787.48",
-62700 · Janitorial & Cleaning,"8,353.33",
-62800 · Miscellaneous Expense,"2,772.40",
-80100 · Interest Income,,"2,999.57"
-90100 · Federal Income Tax Expense - Current,"70,834.11",
-90200 · Federal Income Tax Expense - Deferred,"3,649.97",
-TOTAL,"6,746,073.50","6,746,073.50"
+10400 · Accounts Receivable,"24,870.85",
+10500 · Inventory,"597,443.03",
+10600 · Prepaid Expenses,"22,389.89",
+10700 · Prepaid Insurance,"13,470.15",
+10800 · Prepaid Federal Income Tax,"1,684.07",
+10900 · Employee Advances,"3,140.46",
+11000 · Furniture & Fixtures,"77,329.00",
+11100 · Vehicles,"164,529.00",
+11200 · Computer Equipment,"91,346.00",
+11300 · Leasehold Improvements,"116,268.00",
+11400 · Accumulated Depreciation,,"187,817.44"
+11500 · Security Deposits,"9,511.00",
+11600 · Loan Receivable - Shareholder,"99,501.00",
+11700 · Right-of-Use Asset - Operating Lease,"484,525.79",
+20100 · Accounts Payable,,"220,467.83"
+20200 · Corporate Credit Card,,"7,345.47"
+20300 · Accrued Wages,,"12,189.36"
+20400 · Payroll Taxes Payable,,"2,787.61"
+20500 · Sales Tax Payable,,"27,531.33"
+20600 · Accrued Expenses,,"26,837.45"
+20700 · State Income Tax Payable,,"6,347.49"
+20800 · Line of Credit,,"126,031.00"
+20900 · Operating Lease Liability,,"497,055.29"
+21000 · Deferred Tax Liability,,"21,984.36"
+30100 · Common Stock,,"10,000.00"
+30200 · Additional Paid-In Capital,,"177,973.00"
+30300 · Retained Earnings,,"761,138.63"
+40100 · Sales,,"3,267,085.27"
+40200 · Sales - E-commerce,,"717,165.73"
+40300 · Sales Returns & Allowances,"75,153.09",
+40400 · Sales Discounts,"75,506.98",
+50100 · Cost of Goods Sold,"1,961,106.32",
+50200 · Freight-In,"73,579.10",
+50300 · Inventory Shrinkage & Adjustments,"33,853.11",
+60000 · Officer Compensation,"257,504.34",
+60100 · Salaries & Wages,"545,358.25",
+60200 · Payroll Tax Expense,"63,453.56",
+60300 · Employee Health Insurance,"59,035.63",
+60400 · 401(k) Matching Contributions,"17,602.80",
+60500 · Rent Expense,"113,153.51",
+60600 · Repairs & Maintenance,"14,485.32",
+60700 · Taxes & Licenses,"9,292.64",
+60800 · State Income Tax Expense,"27,825.78",
+60900 · Interest Expense,"9,259.84",
+61000 · Depreciation Expense,"49,937.17",
+61100 · Advertising & Marketing,"29,509.81",
+61200 · Bank Service Charges,"1,783.81",
+61300 · Merchant Processing Fees,"71,629.68",
+61400 · Charitable Contributions,"2,658.57",
+61500 · Dues & Subscriptions,"6,197.72",
+61600 · Insurance - General Liability,"43,292.69",
+61700 · Workers' Compensation Insurance,"12,637.12",
+61800 · Meals (50%),"14,056.32",
+61900 · Office Supplies,"14,612.07",
+62000 · Postage & Shipping,"24,774.86",
+62100 · Accounting Fees,"20,656.66",
+62200 · Legal Fees,"8,624.24",
+62300 · Software & SaaS Subscriptions,"22,099.59",
+62400 · Telephone & Internet,"4,622.29",
+62500 · Travel,"5,211.28",
+62600 · Utilities,"9,190.54",
+62700 · Janitorial & Cleaning,"12,528.84",
+62800 · Miscellaneous Expense,"3,135.89",
+80100 · Interest Income,,"4,099.75"
+80200 · Other Income,,"4,492.20"
+90100 · Federal Income Tax Expense - Current,"58,758.62",
+90200 · Federal Income Tax Expense - Deferred,"5,619.53",
+TOTAL,"6,078,349.21","6,078,349.21"

@@ -15,7 +15,7 @@ from openpyxl.utils import get_column_letter
 from catalog import ACCOUNTS, BS_CLASSES
 from companies import COMPANIES, SOFTWARE
 from engine import Company
-from gosystem_map import MAP, TCC_DESC, TRC_DESC, TRC_LINE
+from gosystem_map import MAP, TCC_DESC, TRC_DESC, TRC_LINE, trc_confidence
 from writers import assign_numbers, write_rows
 
 SEED = 20241231
@@ -41,9 +41,9 @@ def synth_prior(co):
         if ACCOUNTS[k][1] in BS_CLASSES and k not in ("cash_operating", "dividends"):
             prior[k] = v if k in ("retained_earnings", "common_stock", "land", "goodwill") else int(v * r.uniform(0.86, 1.08))
     prior["cash_operating"] = -sum(prior.values())
-    if prior["cash_operating"] < 0:  # draw on line of credit to keep cash positive
+    if prior["cash_operating"] < 0:  # keep cash positive: larger opening payables
         draw = -prior["cash_operating"] + 5_000_000
-        prior["loc"] = prior.get("loc", 0) - draw
+        prior["ap"] = prior.get("ap", 0) - draw
         prior["cash_operating"] += draw
     assert sum(prior.values()) == 0
     return prior
@@ -64,7 +64,7 @@ def mapping_workbook(co, nums, path):
     ws["A1"].font = Font(bold=True, size=12)
     cols = ["Account No.", "Account Name", "Class", "12/31/2024 Debit", "12/31/2024 Credit", "12/31/2025 Debit",
             "12/31/2025 Credit", "2024 Net (Dr+/Cr-)", "2025 Net (Dr+/Cr-)", "TRC", "TRC Description", "TCC",
-            "TCC Description (firm-defined)", "MRC (M-3)", "Form 1120 Line", "Tax Review Notes"]
+            "TCC Description (firm-defined)", "MRC (M-3)", "Form 1120 Line", "TRC Source Confidence", "Tax Review Notes"]
     ws.append(cols)
     style_header(ws, 2, len(cols))
     first = 3
@@ -75,7 +75,7 @@ def mapping_workbook(co, nums, path):
         ws.append([nums[k] or "", co.account_name(k), CLASS_LABEL[ACCOUNTS[k][1]],
                    b24 if b24 > 0 else None, -b24 if b24 < 0 else None, b25 if b25 > 0 else None, -b25 if b25 < 0 else None,
                    f"=N(D{row})-N(E{row})", f"=N(F{row})-N(G{row})", trc, TRC_DESC[trc], tcc, TCC_DESC.get(tcc, ""),
-                   mrc, TRC_LINE[trc], note])
+                   mrc, TRC_LINE[trc], trc_confidence(trc), note])
     last = ws.max_row
     tot = last + 1
     ws.append(["", "TOTAL", ""] + [f"=SUM({get_column_letter(c)}{first}:{get_column_letter(c)}{last})" for c in range(4, 10)])
@@ -84,7 +84,7 @@ def mapping_workbook(co, nums, path):
     for r in range(first, tot + 1):
         for c in range(4, 10):
             ws.cell(row=r, column=c).number_format = MONEY
-    widths = [11, 42, 17, 15, 15, 15, 15, 16, 16, 8, 40, 6, 32, 9, 18, 60]
+    widths = [11, 42, 17, 15, 15, 15, 15, 16, 16, 8, 40, 6, 32, 9, 18, 20, 60]
     for i, w in enumerate(widths, 1):
         ws.column_dimensions[get_column_letter(i)].width = w
     ws.freeze_panes = "C3"
@@ -139,8 +139,9 @@ def mapping_workbook(co, nums, path):
     ck = wb.create_sheet("Checks")
     ck.append(["Check", "2024", "2025"])
     style_header(ck, 1, 3)
-    ni = {y: co.net_income(y) / 100 for y in (2024, 2025)}
-    assets = {y: sum(v for k, v in co.bal[y].items() if ACCOUNTS[k][1] in ("A", "CA")) / 100 for y in (2024, 2025)}
+    ni = {y: round(co.net_income(y) / 100, 2) for y in (2024, 2025)}
+    assets = {y: round(sum(v for k, v in co.bal[y].items() if ACCOUNTS[k][1] in ("A", "CA")) / 100, 2) for y in (2024, 2025)}
+    receipts = {y: round(-sum(v for k, v in co.bal[y].items() if ACCOUNTS[k][1] in ("R", "CR", "O")) / 100, 2) for y in (2024, 2025)}
     div = {y: co.bal[y].get("dividends", 0) / 100 for y in (2024, 2025)}
     re_beg = {y: -co.bal[y]["retained_earnings"] / 100 for y in (2024, 2025)}
     rows = [
@@ -149,21 +150,58 @@ def mapping_workbook(co, nums, path):
         ("Total assets (Sch L L15)", assets[2024], assets[2025]),
         ("Retained earnings - beginning (per TB)", re_beg[2024], re_beg[2025]),
         ("Less: dividends / distributions", div[2024], div[2025]),
-        ("Retained earnings - ending (beg + NI - div)", re_beg[2024] + ni[2024] - div[2024], re_beg[2025] + ni[2025] - div[2025]),
+        ("Retained earnings - ending (beg + NI - div)", round(re_beg[2024] + ni[2024] - div[2024], 2), round(re_beg[2025] + ni[2025] - div[2025], 2)),
         ("Roll-forward: 2025 beginning RE = 2024 ending RE", "", "=IF(ROUND(C5-B7,2)=0,\"OK\",\"ERROR\")"),
         ("Schedule M-3 required (total assets >= $10M)", "Yes" if assets[2024] >= 10_000_000 else "No",
          "Yes" if assets[2025] >= 10_000_000 else "No"),
+        ("Book gross receipts (approx., single year)", receipts[2024], receipts[2025]),
+        ("Sec. 448(c) threshold ($30M 2024 / $31M 2025; test uses 3-yr average)", 30_000_000, 31_000_000),
+        ("Over 448(c) on single-year receipts? (163(j), 263A, 471 review)", "Yes" if receipts[2024] > 30_000_000 else "No",
+         "Yes" if receipts[2025] > 31_000_000 else "No"),
+        ("Federal NOL carryforward at year end (simplified)", round(co.nol_hist[2024], 2), round(co.nol_hist[2025], 2)),
     ]
     for row in rows:
         ck.append(list(row))
     for r in range(2, ck.max_row + 1):
         for c in (2, 3):
             ck.cell(row=r, column=c).number_format = MONEY
-    ck.column_dimensions["A"].width = 52
+    ck.column_dimensions["A"].width = 66
+    aje_sheet(wb, co)
     ck.column_dimensions["B"].width = 18
     ck.column_dimensions["C"].width = 18
     wb.save(path)
     return ni, assets
+
+
+def aje_sheet(wb, co):
+    """Proposed tax-only adjustments a preparer would post in GoSystem."""
+    ws = wb.create_sheet("Proposed Tax AJEs")
+    ws.append(["Year", "AJE", "TRC", "Description", "Debit", "Credit", "Explanation"])
+    style_header(ws, 1, 7)
+    inv_keys = ("inventory", "inventory_raw", "inventory_wip", "inventory_fg")
+    for y in (2024, 2025):
+        bi = sum(co.bal[y - 1].get(k, 0) for k in inv_keys) / 100
+        ei = sum(co.bal[y].get(k, 0) for k in inv_keys) / 100
+        if bi or ei:
+            n = f"{y}-1"
+            ws.append([y, n, "40-110", "COGS - inventory at beginning of year", round(bi, 2), None,
+                       "Form 1125-A tie: book COGS accounts are net of the inventory change but are mapped to purchases/labor/other."])
+            ws.append([y, n, "40-190", "COGS - inventory at end of year", None, round(ei, 2),
+                       "If your template already pulls 1125-A L1/L7 from Sch L 10-300, post only the 40-120 line."])
+            chg = round(ei - bi, 2)
+            ws.append([y, n, "40-120", "COGS - purchases (book COGS + EI - BI)", chg if chg > 0 else None,
+                       -chg if chg < 0 else None, "Net effect on cost of goods sold = 0; 1125-A L8 then equals book COGS."])
+        al0 = -co.bal[y - 1].get("allowance", 0) / 100
+        al1 = -co.bal[y].get("allowance", 0) / 100
+        if al0 or al1:
+            chg = round(al1 - al0, 2)
+            ws.append([y, f"{y}-M1", "Sch M-1", "Change in allowance for doubtful accounts (memo)", None, None,
+                       f"{'Add back increase' if chg > 0 else 'Deduct decrease'} of {abs(chg):,.2f} (M-1 L5 / L8); Sec. 166 specific charge-off method."])
+    for r in range(2, ws.max_row + 1):
+        for c in (5, 6):
+            ws.cell(row=r, column=c).number_format = MONEY
+    for i, wd in enumerate([6, 9, 9, 42, 15, 15, 95], 1):
+        ws.column_dimensions[get_column_letter(i)].width = wd
 
 
 def main():
@@ -184,7 +222,10 @@ def main():
         co = Company(cid, name, ind, st, rev, g, feats, assignment[i], seed=SEED + i)
         co.rng_fmt = random.Random(SEED * 7 + i)
         co.bal[2023] = synth_prior(co)
+        co.qbo_numbers = co.rng_fmt.random() < 0.5
         nums = assign_numbers(co.keys(), co.software)
+        if co.software == "QuickBooks Online" and not co.qbo_numbers:
+            nums = {k: "" for k in nums}  # QBO default: account numbers turned off
         d = OUT / f"{cid}_{slug(name)}"
         d.mkdir()
         sw_slug = slug(co.software)

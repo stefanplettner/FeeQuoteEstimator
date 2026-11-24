@@ -4,73 +4,74 @@
 Accrual Basis
 ,"Dec 31, 25",
 ,Debit,Credit
-10100 · Operating Checking,"884,167.61",
-10200 · Payroll Checking,"110,553.43",
-10300 · Money Market Savings,"349,685.09",
-10400 · Accounts Receivable,"1,332,916.88",
-10500 · Allowance for Doubtful Accounts,,"15,553.01"
-10600 · Prepaid Expenses,"105,106.99",
-10700 · Prepaid Insurance,"71,464.08",
-10800 · Investments - Marketable Securities,"651,705.93",
-10900 · Furniture & Fixtures,"199,398.00",
-11000 · Computer Equipment,"202,249.00",
-11100 · Leasehold Improvements,"87,426.00",
-11200 · Accumulated Depreciation,,"236,443.67"
-11300 · Capitalized Software,"2,103,587.26",
-11400 · Accumulated Amortization,,"1,043,693.98"
-11500 · Security Deposits,"49,848.00",
-11600 · Right-of-Use Asset - Operating Lease,"1,787,887.41",
-20100 · Accounts Payable,,"272,012.42"
-20200 · Corporate Credit Card,,"33,940.11"
-20300 · Accrued Wages,,"104,871.95"
-20400 · Payroll Taxes Payable,,"14,345.34"
-20500 · Accrued Expenses,,"139,009.32"
-20600 · Deferred Revenue,,"3,960,187.91"
-20700 · Federal Income Tax Payable,,"7,775.48"
-20800 · State Income Tax Payable,,"1,817.44"
-21000 · Operating Lease Liability,,"1,878,677.97"
-30100 · Common Stock,,"10,000.00"
-30200 · Preferred Stock,,"2,602,429.00"
-30300 · Additional Paid-In Capital,,"234,673.00"
-30400 · Retained Earnings,"2,887,781.56",
-40100 · Subscription Revenue,,"10,645,027.60"
-40200 · Professional Services Revenue,,"1,878,534.73"
-50100 · Direct Labor,"958,486.76",
-50200 · Hosting & Infrastructure,"1,457,733.08",
-60000 · Officer Compensation,"468,636.32",
-60100 · Salaries & Wages,"3,636,904.53",
-60200 · Payroll Tax Expense,"389,387.35",
-60300 · Employee Health Insurance,"246,180.40",
-60400 · 401(k) Matching Contributions,"79,615.25",
-60500 · Rent Expense,"508,373.68",
-60600 · Repairs & Maintenance,"101,099.53",
-60800 · Taxes & Licenses,"41,789.60",
-60900 · State Income Tax Expense,"12,933.43",
-61000 · Interest Expense,0.06,
-61100 · Depreciation Expense,"45,464.26",
-61200 · Amortization Expense,"701,196.50",
-61300 · Advertising & Marketing,"154,099.98",
-61400 · Bank Service Charges,"5,493.80",
-61500 · Charitable Contributions,"14,532.20",
-61600 · Dues & Subscriptions,"13,396.82",
-61700 · Insurance - General Liability,"180,275.02",
-61800 · Workers' Compensation Insurance,"37,780.61",
-61900 · Meals (50%),"65,027.42",
-62000 · Office Supplies,"48,685.22",
-62100 · Accounting Fees,"67,607.01",
-62200 · Legal Fees,"26,133.72",
-62300 · Consulting Fees,"139,988.74",
-62400 · Contract Labor,"493,212.44",
-62500 · Software & SaaS Subscriptions,"82,206.73",
-62600 · Telephone & Internet,"45,368.90",
-62700 · Travel,"80,949.44",
-62800 · Utilities,"68,834.86",
-62900 · Research & Development,"2,075,463.76",
-63000 · Miscellaneous Expense,"3,249.36",
-80100 · Interest Income,,"7,654.35"
-80200 · Dividend Income,,"35,398.64"
-80300 · Other Income,,"21,076.05"
-80400 · Unrealized Gain/Loss on Securities,,"10,741.31"
-90100 · Federal Income Tax Expense - Current,"77,786.61",
-90200 · Federal Income Tax Expense - Deferred,"2,192.65",
-TOTAL,"23,153,863.28","23,153,863.28"
+10100 · Operating Checking,"2,852,768.92",
+10200 · Payroll Checking,"341,504.89",
+10300 · Money Market Savings,"950,896.18",
+10400 · Accounts Receivable,"1,414,332.22",
+10500 · Allowance for Doubtful Accounts,,"15,368.31"
+10600 · Prepaid Expenses,"112,749.90",
+10700 · Prepaid Insurance,"31,608.02",
+10900 · Investments - Marketable Securities,"880,834.57",
+11000 · Furniture & Fixtures,"181,540.00",
+11100 · Computer Equipment,"221,774.00",
+11200 · Leasehold Improvements,"95,329.00",
+11300 · Accumulated Depreciation,,"270,410.10"
+11400 · Capitalized Software,"2,006,975.29",
+11500 · Accumulated Amortization,,"1,134,315.13"
+11600 · Security Deposits,"37,403.00",
+11700 · Right-of-Use Asset - Operating Lease,"636,407.85",
+11800 · Deferred Tax Asset,"782,134.03",
+20100 · Accounts Payable,,"326,353.10"
+20200 · Corporate Credit Card,,"12,551.11"
+20300 · Accrued Wages,,"155,133.49"
+20400 · Payroll Taxes Payable,,"23,569.64"
+20500 · Accrued Expenses,,"77,475.90"
+20600 · Deferred Revenue,,"3,812,532.56"
+20700 · Federal Income Tax Payable,,596.91
+20800 · State Income Tax Payable,,"9,217.97"
+20900 · Operating Lease Liability,,"665,623.19"
+30100 · Common Stock,,"500,000.00"
+30200 · Preferred Stock,,"3,349,934.00"
+30300 · Additional Paid-In Capital,,"617,233.00"
+30400 · Retained Earnings,"733,956.03",
+40100 · Subscription Revenue,,"10,645,027.63"
+40200 · Professional Services Revenue,,"1,878,534.61"
+50100 · Direct Labor,"990,209.27",
+50200 · Hosting & Infrastructure,"1,234,341.96",
+60000 · Officer Compensation,"984,517.70",
+60100 · Salaries & Wages,"3,653,830.46",
+60200 · Payroll Tax Expense,"422,999.42",
+60300 · Employee Health Insurance,"301,468.69",
+60400 · 401(k) Matching Contributions,"113,895.12",
+60500 · Rent Expense,"240,306.03",
+60600 · Repairs & Maintenance,"80,068.78",
+60700 · Bad Debt Expense,"30,301.18",
+60800 · Taxes & Licenses,"18,320.58",
+60900 · State Income Tax Expense,"37,986.88",
+61000 · Depreciation Expense,"40,242.54",
+61100 · Amortization Expense,"668,992.30",
+61200 · Advertising & Marketing,"89,466.03",
+61300 · Bank Service Charges,"15,233.91",
+61400 · Charitable Contributions,"24,055.93",
+61500 · Dues & Subscriptions,"21,300.86",
+61600 · Insurance - General Liability,"119,718.12",
+61700 · Workers' Compensation Insurance,"68,609.99",
+61800 · Meals (50%),"62,462.91",
+61900 · Office Supplies,"51,541.15",
+62000 · Accounting Fees,"53,547.98",
+62100 · Legal Fees,"8,301.97",
+62200 · Consulting Fees,"72,417.29",
+62300 · Contract Labor,"519,502.98",
+62400 · Software & SaaS Subscriptions,"92,741.54",
+62500 · Telephone & Internet,"36,131.37",
+62600 · Travel,"69,893.28",
+62700 · Utilities,"37,438.70",
+62800 · Research & Development,"2,031,361.87",
+62900 · Miscellaneous Expense,"9,860.64",
+80100 · Interest Income,,"8,632.44"
+80200 · Dividend Income,,"20,328.71"
+80300 · Other Income,,"6,887.24"
+80400 · Unrealized Gain on Securities,,"33,370.20"
+90100 · Federal Income Tax Expense - Current,"3,350.71",
+90200 · Federal Income Tax Expense - Deferred,"78,463.20",
+TOTAL,"23,563,095.24","23,563,095.24"

@@ -159,7 +159,8 @@ ACCOUNTS = {
     "dividend_income":     ("Dividend Income", "O"),
     "gain_asset_sale":     ("Gain on Sale of Assets", "O"),
     "other_income":        ("Other Income", "O"),
-    "unrealized_gain":     ("Unrealized Gain/Loss on Securities", "O"),
+    "unrealized_gain":     ("Unrealized Gain on Securities", "O"),
+    "unrealized_loss":     ("Unrealized Loss on Securities", "OX"),
     # ---------------- income tax ----------------
     "federal_tax_current": ("Federal Income Tax Expense - Current", "T"),
     "federal_tax_deferred": ("Federal Income Tax Expense - Deferred", "T"),

@@ -4,89 +4,85 @@ General Ledger Trial Balance
 Filter Criteria includes: Report order is by ID. Report is printed in Detail Format.
 
 Account ID,Account Description,Debit Amt,Credit Amt
-10100,Operating Checking,"1,257,860.56",
-10200,Payroll Checking,"128,411.82",
-10300,Money Market Savings,"268,036.54",
-10400,Accounts Receivable,"5,876,781.96",
-10500,Allowance for Doubtful Accounts,,"127,978.44"
-10600,Inventory - Raw Materials,"2,132,097.24",
-10700,Inventory - Work in Process,"947,599.29",
-10800,Inventory - Finished Goods,"1,658,298.16",
-10900,Prepaid Expenses,"280,741.96",
-11000,Prepaid Insurance,"127,923.08",
-11100,Employee Advances,"1,940.90",
-11200,Investments - Municipal Bonds,"2,837,837.00",
-11300,Land,"713,690.00",
-11400,Buildings,"5,468,906.00",
-11500,Machinery & Equipment,"2,822,110.00",
-11600,Furniture & Fixtures,"1,378,271.00",
-11700,Vehicles,"6,011,266.00",
-11800,Computer Equipment,"1,330,621.00",
-11900,Accumulated Depreciation,,"8,850,837.92"
-12000,Goodwill,"2,843,061.00",
-12100,Customer List,"1,025,631.00",
-12200,Accumulated Amortization,,"320,847.23"
-12300,Security Deposits,"118,383.00",
-20100,Accounts Payable,,"2,794,069.41"
-20200,Corporate Credit Card,,"90,233.94"
-20300,Accrued Wages,,"145,825.99"
-20400,Payroll Taxes Payable,,"29,985.58"
-20500,Accrued Expenses,,"347,404.83"
-20600,Customer Deposits,,"331,121.37"
-20700,Federal Income Tax Payable,,"55,604.08"
-20800,State Income Tax Payable,,"17,130.41"
-20900,Line of Credit,,"3,767,000.00"
-21000,Current Portion of Long-Term Debt,,"573,601.92"
-21100,Note Payable - Bank,,"3,441,609.76"
-21200,Deferred Tax Liability,,"465,886.65"
-30100,Common Stock,,"10,000.00"
-30200,Retained Earnings,,"15,015,978.00"
-30300,Dividends Paid,"1,057,142.00",
-30400,Treasury Stock,"291,982.00",
-40100,Sales,,"43,262,000.67"
-40200,Sales - E-commerce,,"1,338,000.50"
-40300,Sales Returns & Allowances,"462,616.02",
-40400,Sales Discounts,"154,043.58",
-50100,Materials & Purchases,"15,550,076.66",
-50200,Direct Labor,"6,439,610.07",
-50300,Manufacturing Overhead,"3,655,951.00",
-50400,Freight-In,"536,744.07",
-50500,Inventory Shrinkage & Adjustments,"131,945.58",
-60000,Officer Compensation,"380,626.90",
-60100,Salaries & Wages,"5,165,004.94",
-60200,Payroll Tax Expense,"921,406.66",
-60300,Employee Health Insurance,"1,094,789.04",
-60400,401(k) Matching Contributions,"201,483.11",
-60500,Rent Expense,"1,587,902.10",
-60600,Repairs & Maintenance,"308,232.24",
-60700,Bad Debt Expense,"80,879.10",
-60800,Taxes & Licenses,"92,865.10",
-60900,State Income Tax Expense,"103,883.50",
-61000,Interest Expense,"262,627.93",
-61100,Depreciation Expense,"1,433,388.29",
-61200,Amortization Expense,"68,375.55",
-61300,Advertising & Marketing,"398,850.89",
-61400,Bank Service Charges,"41,697.18",
-61500,Charitable Contributions,"73,208.14",
-61600,Dues & Subscriptions,"83,033.04",
-61700,Insurance - General Liability,"255,904.52",
-61800,Workers' Compensation Insurance,"196,772.13",
-61900,Meals (50%),"73,420.19",
-62000,Office Supplies,"163,257.88",
-62100,Freight-Out,"489,381.96",
-62200,Accounting Fees,"210,021.41",
-62300,Legal Fees,"120,894.37",
-62400,Software & SaaS Subscriptions,"140,097.92",
-62500,Telephone & Internet,"47,521.87",
-62600,Travel,"149,239.87",
-62700,Utilities,"317,127.53",
-62800,Uniforms,"70,948.63",
-62900,Research & Development,"472,177.95",
-63000,Lobbying & Political Contributions,"34,280.16",
-63100,Miscellaneous Expense,"10,145.47",
-80100,Interest Income,,"19,614.89"
-80200,Tax-Exempt Interest Income,,"85,135.59"
-80300,Other Income,,"48,478.19"
-90100,Federal Income Tax Expense - Current,"415,945.34",
-90200,Federal Income Tax Expense - Deferred,"163,375.97",
-,Total:,"81,138,345.37","81,138,345.37"
+10100,Operating Checking,"1,849,359.00",
+10200,Payroll Checking,"256,766.47",
+10300,Money Market Savings,"475,167.87",
+10400,Accounts Receivable,"6,526,100.85",
+10500,Allowance for Doubtful Accounts,,"127,016.63"
+10600,Inventory - Raw Materials,"2,269,690.36",
+10700,Inventory - Work in Process,"1,008,751.60",
+10800,Inventory - Finished Goods,"1,765,314.93",
+10900,Prepaid Expenses,"440,324.69",
+11000,Prepaid Insurance,"109,296.12",
+11200,Employee Advances,"3,732.24",
+11300,Investments - Municipal Bonds,"3,253,455.00",
+11400,Land,"1,319,886.00",
+11500,Buildings,"5,258,931.00",
+11600,Machinery & Equipment,"3,710,127.00",
+11700,Furniture & Fixtures,"2,918,709.00",
+11800,Vehicles,"3,353,717.00",
+11900,Computer Equipment,"2,253,088.00",
+12000,Accumulated Depreciation,,"9,554,999.13"
+12100,Security Deposits,"152,466.00",
+20100,Accounts Payable,,"2,933,066.41"
+20200,Corporate Credit Card,,"85,281.90"
+20300,Accrued Wages,,"117,148.51"
+20400,Payroll Taxes Payable,,"45,799.59"
+20500,Accrued Expenses,,"284,240.47"
+20600,Customer Deposits,,"253,917.89"
+20700,Federal Income Tax Payable,,"68,758.82"
+20800,State Income Tax Payable,,"16,451.13"
+20900,Current Portion of Long-Term Debt,,"461,033.05"
+21000,Note Payable - Bank,,"2,766,197.25"
+21100,Deferred Tax Liability,,"707,471.27"
+30100,Common Stock,,"500,000.00"
+30200,Additional Paid-In Capital,,"3,377,913.00"
+30300,Retained Earnings,,"14,948,196.47"
+30400,Dividends Paid,"1,058,307.00",
+30500,Treasury Stock,"518,563.00",
+40100,Sales,,"43,262,000.27"
+40200,Sales - E-commerce,,"1,338,000.26"
+40300,Sales Returns & Allowances,"359,549.16",
+40400,Sales Discounts,"196,325.71",
+50100,Materials & Purchases,"14,974,899.81",
+50200,Direct Labor,"6,846,392.15",
+50300,Manufacturing Overhead,"3,369,240.63",
+50400,Freight-In,"438,749.50",
+50500,Inventory Shrinkage & Adjustments,"175,216.53",
+60000,Officer Compensation,"938,430.43",
+60100,Salaries & Wages,"5,404,639.97",
+60200,Payroll Tax Expense,"1,026,433.93",
+60300,Employee Health Insurance,"807,560.96",
+60400,401(k) Matching Contributions,"280,627.25",
+60500,Rent Expense,"1,738,548.26",
+60600,Repairs & Maintenance,"176,180.01",
+60700,Bad Debt Expense,"171,451.96",
+60800,Taxes & Licenses,"84,630.80",
+60900,State Income Tax Expense,"181,267.33",
+61000,Interest Expense,"232,362.51",
+61100,Depreciation Expense,"1,555,720.09",
+61200,Advertising & Marketing,"286,288.79",
+61300,Bank Service Charges,"32,280.95",
+61400,Charitable Contributions,"36,761.18",
+61500,Dues & Subscriptions,"81,741.68",
+61600,Insurance - General Liability,"420,622.81",
+61700,Workers' Compensation Insurance,"246,550.99",
+61800,Meals (50%),"70,146.11",
+61900,Office Supplies,"49,358.45",
+62000,Freight-Out,"425,451.08",
+62100,Accounting Fees,"172,410.12",
+62200,Legal Fees,"117,637.67",
+62300,Software & SaaS Subscriptions,"98,212.06",
+62400,Telephone & Internet,"83,389.17",
+62500,Travel,"229,453.42",
+62600,Utilities,"250,099.54",
+62700,Uniforms,"72,077.36",
+62800,Research & Development,"313,545.76",
+62900,Lobbying & Political Contributions,"11,093.69",
+63000,Miscellaneous Expense,"42,834.04",
+80100,Interest Income,,"30,050.46"
+80200,Tax-Exempt Interest Income,,"97,603.76"
+80300,Other Income,,"110,355.66"
+90100,Federal Income Tax Expense - Current,"456,484.58",
+90200,Federal Income Tax Expense - Deferred,"129,082.36",
+,Total:,"81,085,501.93","81,085,501.93"
