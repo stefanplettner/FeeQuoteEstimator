@@ -1,0 +1,75 @@
+﻿"Pemberton & Vale Consulting Group, Inc."
+Trial Balance
+End of Dec 2024
+Account,Debit,Credit
+1010 Operating Checking,"625,652.82",
+1020 Payroll Checking,"82,005.02",
+1030 Money Market Savings,"299,741.30",
+1040 Accounts Receivable,"2,264,918.48",
+1050 Allowance for Doubtful Accounts,,"34,684.90"
+1060 Prepaid Expenses,"93,068.61",
+1070 Prepaid Insurance,"75,610.15",
+1080 Employee Advances,"5,940.99",
+1090 Furniture & Fixtures,"110,302.00",
+1100 Vehicles,"346,147.00",
+1110 Computer Equipment,"114,260.00",
+1120 Leasehold Improvements,"60,756.00",
+1130 Accumulated Depreciation,,"294,999.03"
+1140 Goodwill,"947,638.00",
+1150 Customer List,"421,793.00",
+1160 Accumulated Amortization,,"108,814.06"
+1170 Security Deposits,"44,011.00",
+1180 Right-of-Use Asset - Operating Lease,"3,717,252.69",
+1190 Cash Surrender Value - Officer Life Insurance,"85,766.60",
+2010 Accounts Payable,,"259,099.72"
+2020 Corporate Credit Card,,"24,690.25"
+2030 Accrued Wages,,"222,332.97"
+2040 Payroll Taxes Payable,,"17,527.75"
+2050 Accrued Expenses,,"73,803.02"
+2060 Federal Income Tax Payable,,"3,914.76"
+2070 State Income Tax Payable,,"1,114.01"
+2080 Operating Lease Liability,,"3,867,643.08"
+2090 Deferred Tax Liability,,"13,864.56"
+3010 Common Stock,,"10,000.00"
+3020 Additional Paid-In Capital,,"346,182.00"
+3030 Retained Earnings,,"3,985,597.10"
+3040 Dividends Paid,"13,022.00",
+4010 Service Revenue,,"672,000.13"
+4020 Professional Services Revenue,,"10,528,000.22"
+6000 Officer Compensation,"840,097.93",
+6010 Salaries & Wages,"5,622,435.54",
+6020 Payroll Tax Expense,"525,946.37",
+6030 Employee Health Insurance,"403,671.86",
+6040 401(k) Matching Contributions,"166,536.15",
+6050 Rent Expense,"980,220.01",
+6060 Repairs & Maintenance,"112,269.94",
+6070 Bad Debt Expense,"28,767.88",
+6080 Taxes & Licenses,"59,042.47",
+6090 State Income Tax Expense,"4,539.24",
+6100 Depreciation Expense,"66,592.89",
+6110 Amortization Expense,"28,119.60",
+6120 Advertising & Marketing,"208,716.95",
+6130 Auto & Truck Expense,"77,594.72",
+6140 Bank Service Charges,"18,801.22",
+6150 Charitable Contributions,"28,112.83",
+6160 Dues & Subscriptions,"44,139.73",
+6170 Insurance - General Liability,"267,648.09",
+6180 Workers' Compensation Insurance,"73,566.00",
+6190 Officer Life Insurance Premiums,"25,982.65",
+6200 Meals (50%),"34,907.96",
+6210 Entertainment (Nondeductible),"16,256.54",
+6220 Office Supplies,"70,058.88",
+6230 Accounting Fees,"136,533.64",
+6240 Legal Fees,"70,916.84",
+6250 Contract Labor,"791,940.05",
+6260 Software & SaaS Subscriptions,"144,054.14",
+6270 Telephone & Internet,"44,105.72",
+6280 Travel,"32,536.02",
+6290 Utilities,"168,386.45",
+6300 Training & Education,"37,555.02",
+6310 Miscellaneous Expense,"19,152.63",
+8010 Interest Income,,"12,788.93"
+8020 Other Income,,"7,500.86"
+9010 Federal Income Tax Expense - Current,"28,756.39",
+9020 Federal Income Tax Expense - Deferred,,"1,290.66"
+Total,"20,485,848.01","20,485,848.01"

@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "researched": "2026-11-24",
+    "method": "WebSearch only; WebFetch was blocked for every vendor help host in this session (intacct.com, learn.microsoft.com, help-sage50.na.sage.com, developer.xero.com, cdn.cdata.com), so full help pages could not be opened. Each entry has a 'verified' list (backed by search-result snippets from vendor or community pages) and an 'inferred' list (from product knowledge or typical exports, not confirmed in this session). Before hard-coding a parser, check every layout against a real sample export.",
+    "parser_guidance": "Every product puts 2-6 title rows above the column header. Find the header row by matching debit/credit keywords rather than using a fixed row offset. Total rows begin with 'Total' or 'TOTAL'. Amounts arrive as numbers in XLSX, but in CSV they may be strings with thousands separators, so strip ',', '$' and '(...)'."
+  },
+  "formats": [
+    {
+      "software": "QuickBooks Online",
+      "file_type": "XLSX (Export to Excel), PDF; CSV is offered in the newer 'modern' report view",
+      "header_rows": [
+        "Row 1: Company name (e.g. 'Craig's Design and Landscaping Services')",
+        "Row 2: 'Trial Balance'",
+        "Row 3: 'As of December 31, 2025'",
+        "Row 4: blank",
+        "Row 5: column header row"
+      ],
+      "columns": ["(blank, holds account name)", "Debit", "Credit"],
+      "account_display": "With account numbers off (the default), the account name only, e.g. 'Checking'. Sub-accounts appear as 'Parent:Child', e.g. 'Utilities:Gas and Electric'. With account numbers on (Settings > Advanced > Chart of accounts), the number is prefixed to the name in the same cell, e.g. '1000 Checking'. There is no separate number column.",
+      "numbering_scheme": "The default QBO chart of accounts has no account numbers. Users who turn numbering on usually adopt a 4- or 5-digit scheme: 1xxx assets, 2xxx liabilities, 3xxx equity, 4xxx income, 5xxx COGS, 6xxx-7xxx expenses, 8xxx-9xxx other income and expense.",
+      "total_row": "'TOTAL' in column A, with equal debit and credit totals",
+      "footer": "Last row (separated by a blank row) holds the basis and a timestamp, e.g. 'Accrual Basis Monday, November 24, 2025 10:15 AM GMT-08:00'. In the classic export this footer sits in the sheet body.",
+      "number_format": "Numeric cells with 2 decimals and thousands separators, no currency symbol in the Excel cells (the PDF shows '$'). Each account fills only one side, debit or credit. Zero-balance accounts are hidden by default.",
+      "comparative_columns": "No native prior-year or comparative columns. 'Display columns by' (months, quarters, years) exists in the older view but is limited. Intuit staff say to export each period and combine the files in Excel.",
+      "verified": [
+        "Report has Debit and Credit columns with equal totals; it cannot be shown as a single column (Intuit community staff)",
+        "Runs as of a single end date",
+        "Export path: Export to Excel/CSV/PDF",
+        "Accounting method (Accrual/Cash) is a report setting",
+        "No multi-period debit/credit columns; workaround is to export and add columns in Excel"
+      ],
+      "inferred": [
+        "Exact row positions of the title lines",
+        "Exact wording of the footer timestamp",
+        "Uppercase 'TOTAL'",
+        "Modern-view exports may change header order or drop the footer"
+      ],
+      "sources": [
+        "https://quickbooks.intuit.com/learn-support/en-us/reports-and-accounting/export-trial-balance-by-class-no-zeros-and-no-subtotals-and/01/701686",
+        "https://quickbooks.intuit.com/learn-support/global/reports/provide-trial-balance-that-includes-eight-columns-1-first-period/00/1552508",
+        "https://quickbooks.intuit.com/learn-support/en-us/help-articles/run-reports/00/262293",
+        "https://quickbooks.intuit.com/learn-support/en-ca/other-questions/i-d-like-to-export-a-tb-to-excel-with-the-account-numbers-in-a/00/411252"
+      ],
+      "notes": "Sub-account rows are not indented in the Trial Balance. Inactive accounts with balances can drop out of Spreadsheet Sync exports, per a community report."
+    },
+    {
+      "software": "QuickBooks Desktop (Pro/Premier/Enterprise)",
+      "file_type": "XLSX/XLS (Export > New Excel Workbook), CSV (Export > comma separated values)",
+      "header_rows": [
+        "By default the header goes to Excel Page Setup and not to sheet cells (Advanced tab option 'Send header to Page Setup in Excel'). If the header is sent to the sheet, it reads:",
+        "Left side, top-down: time (e.g. '10:15 AM'), date (e.g. '11/24/25'), basis ('Accrual Basis')",
+        "Centered: company name, 'Trial Balance', 'As of December 31, 2025'",
+        "Column header row: a date group header (e.g. 'Dec 31, 25') above 'Debit' and 'Credit'"
+      ],
+      "columns": ["(blank, holds account; Excel may add empty spacer/indent columns)", "Debit", "Credit"],
+      "account_display": "Number, a space, a middle dot (U+00B7), a space, then the name, e.g. '10100 · Checking'. Sub-accounts carry the full path, e.g. '60000 · Utilities:60100 · Gas and Electric'. Number and name share one cell, and there is no built-in option to split them.",
+      "numbering_scheme": "Account numbers are optional (Preferences > Accounting > Use account numbers). Intuit sample companies and many industry templates use 5 digits: 10000-19999 assets (10100 Checking, 11000 Accounts Receivable, 12000 Undeposited Funds, 12100 Inventory Asset), 20000-29999 liabilities (20000 Accounts Payable), 30000-39999 equity (30000 Opening Balance Equity, 32000 Owner's/Retained Earnings), 40000s income, 50000s COGS, 60000s expenses, 70000s-80000s other income and expense.",
+      "total_row": "'TOTAL'",
+      "footer": "None in the sheet body. The 'Page x of y' footer goes to Excel Page Setup.",
+      "number_format": "Numeric cells with 2 decimals and thousands separators. A side with no balance is blank, not 0. Debit and credit columns cannot be set to show signed amounts.",
+      "comparative_columns": "No comparative columns in the standard report. Accountant and Enterprise Accountant editions include the Working Trial Balance (Accountant Center), which has beginning balance, transactions, adjustments and ending balance, but it is a separate tool. 'Display columns by' Class is available ('Trial Balance by Class').",
+      "verified": [
+        "Report location: Reports > Accountant & Taxes > Trial Balance",
+        "Default columns are Debit and Credit only",
+        "Account number and description share one column on export, e.g. '10200 · A/R PATIENTS:10200.1 · adjustment' (community post)",
+        "Users split the column with Excel Text to Columns or the TBX exporter app",
+        "Signed debit/credit display is unavailable",
+        "Working trial balance exists only in the Accountant edition (user statement)"
+      ],
+      "inferred": [
+        "Exact header placement",
+        "'TOTAL' wording",
+        "The 5-digit numbering ranges above come from sample companies"
+      ],
+      "sources": [
+        "https://quickbooks.intuit.com/community/reports-and-accounting-5/account-numbers-in-a-different-column-trial-balance-47487",
+        "https://quickbooks.intuit.com/learn-support/en-us/reports-and-accounting/account-numbers-in-a-different-column-trial-balance/00/144725",
+        "https://quickbooks.intuit.com/community/reports-and-accounting-32/trial-balance-columns-113745",
+        "https://www.thomsonreuters.com/en-us/help/engagement-manager/trial-balance/prepare-to-import-data-from-quickbooks",
+        "https://quickbooks.intuit.com/community/reports-and-accounting-5/trial-balance-that-shows-beginning-ending-balance-debits-credits-net-activity-63358"
+      ],
+      "notes": "To get a separate number, split column A on ' · ' (the middle dot surrounded by spaces), then take the last ':' segment for sub-accounts. The CSV export may lose the middle-dot encoding and render it as '�' or 'Â·'."
+    },
+    {
+      "software": "Xero",
+      "file_type": "XLSX (Export > Excel), PDF, Google Sheets",
+      "header_rows": [
+        "Row 1: 'Trial Balance'",
+        "Row 2: Organisation name",
+        "Row 3: 'As at 31 December 2025' (US orgs show 'As of December 31, 2025')",
+        "Row 4: blank",
+        "Row 5: column header row"
+      ],
+      "columns": [
+        "New report: 'Account Code', 'Account', 'Account Type' (optional), 'Debit', 'Credit', 'Debit - Year to date', 'Credit - Year to date'. Optional columns can be added or removed.",
+        "Legacy report: 'Account', 'Debit', 'Credit', 'YTD Debit', 'YTD Credit'"
+      ],
+      "account_display": "The new report has separate 'Account Code' and 'Account' (name) columns. The legacy report and the API show the name with the code in parentheses, e.g. 'Sales (200)'. Bank accounts often have no code.",
+      "numbering_scheme": "3-digit codes in the default chart of accounts: 090-099 bank accounts, 200 Sales, 260 Other Revenue, 270 Interest Income, 310 Cost of Goods Sold, 400-499 expenses (e.g. 400 Advertising, 404 Bank Fees, 493 Travel), 610 Accounts Receivable, 620 Prepayments, 710-720 fixed assets, 800 Accounts Payable, 820 sales tax payable, 960 Retained Earnings, 970 Owner Funds Introduced.",
+      "total_row": "Section subtotals ('Total Revenue', 'Total Expenses', 'Total Assets', 'Total Liabilities', 'Total Equity') follow each section header (Revenue, Expenses, Assets, Liabilities, Equity). The grand total row is 'Total'.",
+      "footer": "None",
+      "number_format": "Numbers with 2 decimals and thousands separators. Blank or 0.00 for the side without a balance.",
+      "comparative_columns": "Yes in the new report: 'Compare with' prior periods or years. The legacy report shows current-month Debit/Credit plus YTD Debit/Credit.",
+      "verified": [
+        "Newer report splits account name and code into two columns and can add Account Type, Credit and Debit columns (Xero Community)",
+        "The API TrialBalance report shows month-to-date Debit and Credit plus YTD Debit and YTD Credit; the account cell is formatted as 'Name (Code)'",
+        "Filter by tracking category"
+      ],
+      "inferred": [
+        "Exact 'Debit - Year to date' / 'Credit - Year to date' header text, taken from the task brief and consistent with Xero's new report style but not confirmed by a snippet",
+        "Order of the title rows",
+        "Default code ranges, from Xero's standard chart-of-accounts template"
+      ],
+      "sources": [
+        "https://community.xero.com/business/question/39286136",
+        "https://developer.xero.com/documentation/api/accounting/reports",
+        "https://cdn.cdata.com/help/DXM/py/pg_accountingtable-trialbalance.htm",
+        "https://www.xero.com/us/guides/trial-balance/"
+      ],
+      "notes": "Accounts are grouped by section, so a parser must skip section header and subtotal rows. Rows are sorted by code within each section."
+    },
+    {
+      "software": "Sage Intacct",
+      "file_type": "Excel, CSV, PDF, Word (Reports > Trial balance); also the newer 'Customizable Trial Balance' (interactive report)",
+      "header_rows": [
+        "Company or entity name",
+        "'Trial Balance'",
+        "Period line (e.g. 'As of December 31, 2025' or 'For the period ...')",
+        "Reporting book or basis line (e.g. 'Accrual' or 'Reporting book: Accrual') and location/department filters",
+        "Column header row"
+      ],
+      "columns": [
+        "Default (help page): 'Account' (account number), 'Account title/name', 'Opening balance', 'Debit', 'Credit', 'Adjustment debit' / 'Adjustment credit' (only when adjusting journals exist and are not excluded), 'Closing balance'",
+        "With 'Show opening and closing balances as debits and credits': opening and closing each split into Debit and Credit columns",
+        "API/data field names: glaccountno, startbalance, debits, credits, adjdebits, adjcredits, endbalance, reportingperiodname"
+      ],
+      "account_display": "Separate account number and account title columns, e.g. '10100' and 'Checking - BofA'. Dimension breakouts (location, department) can add columns or row groupings.",
+      "numbering_scheme": "There is no fixed default; implementations usually use 4-6 digits (commonly 5): 1xxxx assets, 2xxxx liabilities, 3xxxx equity, 4xxxx revenue, 5xxxx COGS, 6xxxx-7xxxx operating expense, 8xxxx-9xxxx other. Numbers may carry sub-account suffixes (e.g. 10100.01).",
+      "total_row": "'Total' with totals per column",
+      "footer": "Possibly a run date/time and user line. Not confirmed.",
+      "number_format": "Opening and closing balances are signed net amounts (credits negative) unless the debit/credit split option is selected. 2 decimals.",
+      "comparative_columns": "Not in the classic report. The Customizable Trial Balance has a default 'Prior year comparison' view and comparison columns for prior period or same period last year. Financial Report Writer offers full comparatives.",
+      "verified": [
+        "Opening balance and closing balance columns",
+        "Option to show opening and closing balances as debits and credits",
+        "Adjustment columns are conditional",
+        "API fields startbalance/debits/credits/adjdebits/adjcredits/endbalance",
+        "API option debitcreditbalance (2023 R1)",
+        "Customizable TB offers prior-year comparison"
+      ],
+      "inferred": [
+        "Exact column header capitalization ('Account No.', 'Account Title', 'Beginning Balance', 'Debits', 'Credits', 'Ending Balance' from the brief); the help page labels them 'Opening balance' and 'Closing balance'",
+        "Header and footer rows",
+        "Numbering scheme"
+      ],
+      "sources": [
+        "https://www.intacct.com/ia/docs/en_US/help_action/General_Ledger/General_Ledger_reports/Trial_balance/about-trial-balance-rpt.htm",
+        "https://developer.intacct.com/api/general-ledger/trial-balances/",
+        "https://cdn.cdata.com/help/CTK/xls/pg_table-trialbalancesdepartmentdetail.htm",
+        "https://ie-kb.sage.com/portal/app/portlets/results/viewsolution.jsp?solutionid=222001000100454"
+      ],
+      "notes": "The parser should accept both header vocabularies ('Opening/Closing balance' and 'Beginning/Ending Balance'). With the split option the closing balance comes as two columns; otherwise it is one signed column."
+    },
+    {
+      "software": "Oracle NetSuite",
+      "file_type": "XLS (Excel 97 format, 65,536-row limit), CSV, PDF, Word. Export buttons are in the report footer and require the Export Lists permission.",
+      "header_rows": [
+        "Company or subsidiary name (e.g. 'Parent Company : US Sub')",
+        "'Trial Balance'",
+        "Period or as-of line, e.g. 'As of Dec 2025' or 'End of Dec 2025'",
+        "Column header row"
+      ],
+      "columns": [
+        "Debit/Credit view (default): 'Account', 'Debit', 'Credit'",
+        "Total view: 'Account', 'Total' (one signed net column)",
+        "Customized variants may add 'Account Type' or 'Amount'"
+      ],
+      "account_display": "Account number and name in one cell, separated by a space, e.g. '1000 Checking'. With hierarchy or full names, the parent path joins with ' : ', e.g. '1000 Cash : 1010 Operating Checking'. Without account numbering, the name only.",
+      "numbering_scheme": "Account numbering is optional (Accounting Preferences > Use Account Numbers). Typical 4-digit scheme: 1000s assets (1100 Accounts Receivable, 1200 Inventory), 2000s liabilities (2000 Accounts Payable), 3000s equity (3000/3100 Retained Earnings), 4000s income, 5000s COGS, 6000s+ expenses, 7000s-8000s other income and expense. System accounts are created unnumbered (Undeposited Funds, Retained Earnings, Opening Balance).",
+      "total_row": "'Total' with equal debit and credit",
+      "footer": "None in the CSV. The XLS may keep the report title rows. Not confirmed.",
+      "number_format": "Numbers with 2 decimals. Excel shows thousands separators. Each account fills only one side. A CSV opened directly in Excel can show long numbers in scientific notation.",
+      "comparative_columns": "Not in the standard TB. 'Column' can be set to Debit/Credit or Total. A customized report (Customize > edit columns or column 'By period') or Financial Report Builder is needed for comparatives. Income-statement accounts show only calendar-year-to-date activity; Retained Earnings is computed.",
+      "verified": [
+        "Debit/Credit vs Total column option",
+        "Each active account's balance as of a date",
+        "Income-statement accounts include calendar-YTD activity only",
+        "Retained earnings is computed",
+        "Export formats Excel/PDF/CSV/Word from the report footer",
+        "XLS 65,536-row limit (Validis)",
+        "A customized TB with Account, Account Type, Debit, Credit, Amount (community)"
+      ],
+      "inferred": [
+        "Exact header row text",
+        "' : ' hierarchy separator in the TB export",
+        "Numbering ranges",
+        "'Total' wording"
+      ],
+      "sources": [
+        "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_N1520986.html",
+        "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_N736119.html",
+        "https://support.validis.com/hc/en-gb/articles/38057054289812-Downloading-GL-TB-from-Netsuite",
+        "https://community.oracle.com/netsuite/english/discussion/4504770/why-would-a-report-query-on-a-trial-balance-not-have-a-credit-column",
+        "https://community.oracle.com/netsuite/english/discussion/4342086/trial-balance-export-excel-web-query-accounts-with-zero-balances-are-displayed-show-zeros-fla"
+      ],
+      "notes": "Hierarchical display may include parent rows plus 'Total - <parent>' subtotal rows. A parser must drop these to avoid double counting. Web-query exports may list every account, including zero balances."
+    },
+    {
+      "software": "Microsoft Dynamics 365 Business Central",
+      "file_type": "Excel (report 4405 'Trial Balance (Excel)'), or Excel/PDF/Word from report 6 'Trial Balance'; also 'Open in Excel' from the Chart of Accounts or G/L Balance page",
+      "header_rows": [
+        "Report 6 (RDLC/Word layout): 'Trial Balance', 'Period: 01/01/25..12/31/25', company name, filter line (e.g. 'G/L Account: Date Filter: 01/01/25..12/31/25'), page and run date",
+        "Report 4405: an Excel workbook (Business Central 2024 wave 1 and later) with a parameters/filters sheet and a data sheet ('TrialBalanceData'), plus a formatted sheet in local currency (and additional reporting currency)"
+      ],
+      "columns": [
+        "Report 6: 'No.', 'Name', 'Net Change' (Debit, Credit), 'Balance' (Debit, Credit), i.e. 6 columns: No. | Name | Net Change Debit | Net Change Credit | Balance Debit | Balance Credit",
+        "Report 4405 Excel: G/L account number, name, plus starting balance, net change and ending balance, split into debit and credit (LCY and ACY), optionally by Dimension 1/2 and business unit"
+      ],
+      "account_display": "Separate 'No.' and 'Name' columns. Heading and Begin-Total/End-Total accounts appear as rows, indented by the account's Indentation value.",
+      "numbering_scheme": "US CRONUS demo / standard US chart: 5-digit. 10000 'BALANCE SHEET' / 'ASSETS' headings, 10100 Checking account, 10400 Accounts Receivable, 20000s liabilities (20100 Accounts Payable), 30000s equity, 40000s income, 50000s COGS, 60000s+ expenses. Heading and total accounts are interleaved, e.g. '10999 Total Assets'.",
+      "total_row": "Begin-Total and End-Total accounts (e.g. 'Total Assets', 'Total Liabilities') appear inline as accounts. No single grand-total row is guaranteed; there may be a final totals line.",
+      "footer": "Page number and filters in the PDF/Word layout. None in the Excel data sheet.",
+      "number_format": "Numbers with 2 decimals. Debit and credit are both positive. Totaling accounts duplicate their children's amounts.",
+      "comparative_columns": "Yes, via separate reports: report 7 'Trial Balance/Previous Year' (net change and balance, current vs prior year with % change) and report 9 'Trial Balance/Budget'. Financial Reports (account schedules) can be fully comparative.",
+      "verified": [
+        "Report 6 shows G/L accounts with balance at date and net change over a period, filterable by dimensions",
+        "Report 4405 workbook has debit and credit columns for net change and balance, with opening and closing balances",
+        "Report 7 Trial Balance/Previous Year and report 9 Trial Balance/Budget exist",
+        "Net Change = filtered date range; Balance = as of date (Encore)"
+      ],
+      "inferred": [
+        "Exact column header text 'No.' / 'Name' / 'Net Change' / 'Balance' with Debit/Credit sub-headers (from the known RDLC layout, not confirmed in this session)",
+        "Report 4405 sheet and column names",
+        "Numbering scheme from the US CRONUS demo"
+      ],
+      "sources": [
+        "https://learn.microsoft.com/en-us/dynamics365/business-central/reports/report-6",
+        "https://learn.microsoft.com/en-us/dynamics365/business-central/reports/report-4405",
+        "https://learn.microsoft.com/en-us/dynamics365/business-central/reports/report-7",
+        "https://learn.microsoft.com/en-us/dynamics365/business-central/reports/report-9",
+        "https://www.encorebusiness.com/blog/dynamics-365-business-central-how-to-run-a-trial-balance-and-aged-reports/",
+        "https://cynthiapriebe.com/youre-not-losing-your-mind-why-the-bc-trial-balance-detail-summary-report-went-missing/"
+      ],
+      "notes": "Exclude rows whose account type is Heading, Begin-Total or End-Total. They are not posting accounts, and including them double counts. The US localization also has 'Trial Balance Detail/Summary' (report 10022, beginning balance / debit / credit / ending balance), which was moved or removed in recent versions."
+    },
+    {
+      "software": "Sage 50 (US, formerly Peachtree)",
+      "file_type": "Excel (Send To > Excel), CSV, PDF",
+      "header_rows": [
+        "Row 1: Company name",
+        "Row 2: 'General Ledger Trial Balance'",
+        "Row 3: 'As of Dec 31, 2025'",
+        "Row 4: 'Filter Criteria includes: Report order is by ID. Report is printed in Detail Format.'",
+        "Column header row"
+      ],
+      "columns": ["Account ID", "Account Description", "Debit Amt", "Credit Amt"],
+      "account_display": "Separate 'Account ID' (alphanumeric, up to 15 characters, may include a department or segment suffix such as '10200-00') and 'Account Description' columns.",
+      "numbering_scheme": "Sample companies (Bellwether Garden Supply) and many templates use 5 digits: 10000 Petty Cash, 10100 Cash on Hand, 10200 Regular Checking Account, 11000 Accounts Receivable, 12000 Inventory, 15000-17000 fixed assets and accumulated depreciation, 20000 Accounts Payable, 23000-24000 accrued and payroll liabilities, 39003-39007 equity / Retained Earnings, 40000 Sales, 50000 Cost of Sales, 60000-77500 expenses.",
+      "total_row": "'Total:' with debit and credit totals",
+      "footer": "None in the body (page numbers appear in print).",
+      "number_format": "Numbers with 2 decimals and thousands separators. Each account fills only one side. In other GL reports' Balance column, credits are negative.",
+      "comparative_columns": "Not in the GL Trial Balance. The 'Working Trial Balance' report shows 'Last Mo Balance' (prior period balance), 'Current Balance' and blank 'Reference'/adjustment columns. A separate Comparative/multi-period trial balance is a Sage 50 Canada feature only.",
+      "verified": [
+        "The General Ledger Trial Balance lists each account and its balance as of the selected date or period",
+        "Columns can be chosen on the Columns tab",
+        "Working Trial Balance report exists",
+        "Credits are negative in GL report Balance columns",
+        "Account segments are supported"
+      ],
+      "inferred": [
+        "Exact column headers 'Account ID' / 'Account Description' / 'Debit Amt' / 'Credit Amt' and the 'Filter Criteria includes' line (from Sage 50 US report layouts, not confirmed by a snippet)",
+        "'Total:' wording",
+        "Numbering ranges from the sample company"
+      ],
+      "sources": [
+        "https://help-sage50.na.sage.com/en-us/2022/Content/Reports_Forms/FinancialReports/GeneralLedgerTrialBalance.htm",
+        "https://help-sage50.na.sage.com/en-us/2024/Content/Reports_Forms/FinancialReports/WorkingTrialBalance.htm",
+        "https://help-sage50.na.sage.com/en-us/2023/Content/Reports_Forms/FinancialReports/How_Account_Balances_Appear_in_General_Ledger_and_Job_Costing_Reports.htm",
+        "https://help-sage50.na.sage.com/en-ca/core/2024/Content/Reports_Forms/Financial/TrialBalance.htm"
+      ],
+      "notes": "Sage 50 Canada (Simply Accounting) uses a different layout: 4-digit numbers (1000-1999 assets ... 5000-5999 expenses), comparative and multi-period options, and 'Debits'/'Credits' columns."
+    },
+    {
+      "software": "Zoho Books",
+      "file_type": "XLSX, CSV, PDF (Export As)",
+      "header_rows": [
+        "Row 1: Organization name",
+        "Row 2: 'Trial Balance'",
+        "Row 3: 'Basis: Accrual'",
+        "Row 4: 'As of 31/12/2025' or 'From ... To ...' (date format follows org settings)",
+        "Column header row"
+      ],
+      "columns": ["Account", "Account Code", "Net Debit", "Net Credit"],
+      "account_display": "Separate 'Account' (name) and 'Account Code' columns. Accounts are grouped under type sections (Assets, Liabilities, Equities, Income, Expense) with subtotals.",
+      "numbering_scheme": "The default chart of accounts has no account codes (Account Code is optional and user-defined).",
+      "total_row": "Section totals (e.g. 'Total for Assets') and a grand 'Total' row",
+      "footer": "Possibly a generation timestamp. Not confirmed.",
+      "number_format": "Numbers with 2 decimals. Export may include a currency symbol depending on settings.",
+      "comparative_columns": "'Compare With' previous periods or years is available on most Zoho reports. Opening and closing balance columns can be added via Customize Report Columns.",
+      "verified": [
+        "Lists the closing debit or credit balance of every account for the period (third-party glossary)",
+        "Run from Accountant reports",
+        "As of Date or Date Range filter",
+        "Opening and closing balance columns are available via Customize Report Columns",
+        "CData exposes a TrialBalanceReport table"
+      ],
+      "inferred": [
+        "Exact 'Net Debit'/'Net Credit' and 'Basis: Accrual' text",
+        "Section subtotal wording",
+        "Header order"
+      ],
+      "sources": [
+        "https://www.zoho.com/in/books/kb/reports/can-i-view-the-trial-balance-report-with-opening-and-closing-balances.md",
+        "https://help.zoho.com/portal/ar/community/topic/how-do-i-run-a-trial-balance-report-with-beginning-balance-total-debits-total-credits-ending-balance-for-the-year",
+        "https://cdn.cdata.com/help/GZN/xls/pg_table-trialbalancereport.htm",
+        "https://aaxonix.com/resources/glossary/trial-balance-zoho-books/"
+      ],
+      "notes": "Chosen as the 8th product (Zoho Books, over FreshBooks and Acumatica). FreshBooks' TB is simpler ('Account', 'Debit', 'Credit', no codes). Acumatica uses 'Account', 'Description', 'Beginning Balance', 'Debit', 'Credit', 'Ending Balance' (both inferred)."
+    }
+  ]
+}

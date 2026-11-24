@@ -1,0 +1,74 @@
+﻿"Harborview Market & Deli, Inc."
+General Ledger Trial Balance
+"As of Dec 31, 2025"
+Filter Criteria includes: Report order is by ID. Report is printed in Detail Format.
+
+Account ID,Account Description,Debit Amt,Credit Amt
+10100,Operating Checking,"102,060.22",
+10200,Payroll Checking,"11,237.32",
+10300,Petty Cash,500.00,
+10400,Accounts Receivable,"15,280.77",
+10500,Inventory,"428,316.02",
+10600,Prepaid Expenses,"21,623.36",
+10700,Prepaid Insurance,"8,183.63",
+10800,Prepaid Federal Income Tax,274.64,
+10900,Furniture & Fixtures,"67,754.00",
+11000,Vehicles,"156,426.00",
+11100,Computer Equipment,"53,867.00",
+11200,Leasehold Improvements,"51,625.00",
+11300,Accumulated Depreciation,,"193,049.91"
+11400,Security Deposits,"3,723.00",
+11500,Right-of-Use Asset - Operating Lease,"395,411.52",
+20100,Accounts Payable,,"108,039.11"
+20200,Corporate Credit Card,,"7,128.96"
+20300,Accrued Wages,,"7,088.70"
+20400,Payroll Taxes Payable,,"2,153.77"
+20500,Sales Tax Payable,,"14,744.31"
+20600,Accrued Expenses,,"26,148.51"
+20800,State Income Tax Payable,,292.35
+20900,Due to Shareholder,,"67,663.00"
+21000,Operating Lease Liability,,"419,858.24"
+21100,Deferred Tax Liability,,"15,184.75"
+30100,Common Stock,,"100,000.00"
+30200,Additional Paid-In Capital,,"95,390.00"
+30300,Retained Earnings,,"236,776.07"
+40100,Sales,,"1,920,155.23"
+40200,Sales - E-commerce,,"421,498.36"
+40300,Sales Returns & Allowances,"40,403.84",
+40400,Sales Discounts,"31,669.04",
+50100,Cost of Goods Sold,"1,271,838.65",
+50200,Freight-In,"32,146.40",
+50300,Inventory Shrinkage & Adjustments,"10,126.48",
+60000,Officer Compensation,"164,082.94",
+60100,Salaries & Wages,"339,689.97",
+60200,Payroll Tax Expense,"40,067.92",
+60300,Employee Health Insurance,"43,226.07",
+60400,401(k) Matching Contributions,"16,682.12",
+60500,Rent Expense,"93,196.04",
+60600,Repairs & Maintenance,"6,518.28",
+60700,Taxes & Licenses,"5,997.82",
+60800,State Income Tax Expense,"2,541.67",
+60900,Depreciation Expense,"36,272.75",
+61000,Advertising & Marketing,"21,230.06",
+61100,Bank Service Charges,"1,287.98",
+61200,Merchant Processing Fees,"45,146.22",
+61300,Charitable Contributions,"3,290.83",
+61400,Dues & Subscriptions,"2,481.18",
+61500,Insurance - General Liability,"20,605.14",
+61600,Workers' Compensation Insurance,"9,175.56",
+61700,Meals (50%),"2,933.42",
+61800,Office Supplies,"6,874.21",
+61900,Postage & Shipping,"10,867.97",
+62000,Accounting Fees,"8,645.95",
+62100,Legal Fees,"1,620.53",
+62200,Software & SaaS Subscriptions,"18,357.93",
+62300,Telephone & Internet,"6,681.58",
+62400,Travel,"9,524.90",
+62500,Utilities,"7,076.50",
+62600,Janitorial & Cleaning,"4,658.57",
+62700,Miscellaneous Expense,"2,062.35",
+80100,Interest Income,,"1,028.69"
+80200,Other Income,,"3,508.77"
+90100,Federal Income Tax Expense - Current,"2,643.62",
+90200,Federal Income Tax Expense - Deferred,"3,801.76",
+,Total:,"3,639,708.73","3,639,708.73"

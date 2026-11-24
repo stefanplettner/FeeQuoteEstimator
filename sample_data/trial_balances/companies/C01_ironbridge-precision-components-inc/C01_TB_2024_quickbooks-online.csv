@@ -1,0 +1,88 @@
+﻿"Ironbridge Precision Components, Inc."
+Trial Balance
+"As of December 31, 2024"
+
+,Debit,Credit
+1010 Operating Checking,"727,903.06",
+1020 Payroll Checking,"108,199.56",
+1030 Money Market Savings,"253,697.23",
+1040 Accounts Receivable,"2,714,691.20",
+1050 Allowance for Doubtful Accounts,,"53,862.26"
+1060 Inventory - Raw Materials,"1,234,395.66",
+1070 Inventory - Work in Process,"548,620.20",
+1080 Inventory - Finished Goods,"960,085.58",
+1090 Prepaid Expenses,"164,642.91",
+1100 Prepaid Insurance,"77,887.82",
+1110 Employee Advances,"1,590.22",
+1120 Investments - Municipal Bonds,"1,142,207.00",
+1130 Land,"718,203.00",
+1140 Buildings,"2,168,266.00",
+1150 Machinery & Equipment,"3,528,070.00",
+1160 Furniture & Fixtures,"566,094.00",
+1170 Vehicles,"2,009,677.00",
+1180 Computer Equipment,"915,633.00",
+1190 Accumulated Depreciation,,"3,946,850.05"
+1200 Security Deposits,"27,283.00",
+1210 Cash Surrender Value - Officer Life Insurance,"139,751.49",
+2010 Accounts Payable,,"1,382,583.84"
+2020 Corporate Credit Card,,"34,193.13"
+2030 Accrued Wages,,"90,336.16"
+2040 Payroll Taxes Payable,,"22,042.01"
+2050 Accrued Expenses,,"145,751.08"
+2060 Customer Deposits,,"182,262.99"
+2070 Federal Income Tax Payable,,"2,937.08"
+2080 Current Portion of Long-Term Debt,,"225,399.80"
+2090 Note Payable - Bank,,"1,352,398.50"
+2100 Deferred Tax Liability,,"332,512.32"
+3010 Common Stock,,"100,000.00"
+3020 Additional Paid-In Capital,,"23,800.00"
+3030 Retained Earnings,,"9,820,454.69"
+3040 Dividends Paid,"164,231.00",
+4010 Sales,,"17,848,000.48"
+4020 Sales - E-commerce,,"552,000.95"
+4030 Sales Returns & Allowances,"173,205.99",
+4040 Sales Discounts,"48,520.65",
+5010 Materials & Purchases,"6,243,003.76",
+5020 Direct Labor,"2,681,259.79",
+5030 Manufacturing Overhead,"1,773,464.25",
+5040 Freight-In,"250,375.67",
+5050 Inventory Shrinkage & Adjustments,"21,317.52",
+6000 Officer Compensation,"552,609.09",
+6010 Salaries & Wages,"2,087,494.59",
+6020 Payroll Tax Expense,"392,777.90",
+6030 Employee Health Insurance,"212,822.93",
+6040 401(k) Matching Contributions,"99,190.16",
+6050 Rent Expense,"566,212.49",
+6060 Repairs & Maintenance,"101,533.74",
+6070 Bad Debt Expense,"47,594.20",
+6080 Taxes & Licenses,"64,141.08",
+6090 Interest Expense,"109,971.58",
+6100 Depreciation Expense,"1,029,968.41",
+6110 Advertising & Marketing,"214,671.30",
+6120 Bank Service Charges,"15,742.86",
+6130 Charitable Contributions,"24,789.16",
+6140 Dues & Subscriptions,"9,615.58",
+6150 Insurance - General Liability,"199,366.11",
+6160 Workers' Compensation Insurance,"65,896.55",
+6170 Officer Life Insurance Premiums,"9,959.04",
+6180 Meals (50%),"57,002.36",
+6190 Office Supplies,"34,334.04",
+6200 Freight-Out,"237,054.22",
+6210 Accounting Fees,"92,488.46",
+6220 Legal Fees,"14,698.98",
+6230 Software & SaaS Subscriptions,"90,872.55",
+6240 Telephone & Internet,"25,529.96",
+6250 Travel,"65,977.47",
+6260 Utilities,"120,022.26",
+6270 Uniforms,"36,277.38",
+6280 Research & Development,"89,194.10",
+6290 Penalties & Fines,"7,200.50",
+6300 Miscellaneous Expense,"10,022.28",
+8010 Interest Income,,"21,837.19"
+8020 Tax-Exempt Interest Income,,"34,266.88"
+9010 Federal Income Tax Expense - Current,"121,167.72",
+9020 Federal Income Tax Expense - Deferred,"3,013.80",
+TOTAL,"$36,171,489.41","$36,171,489.41"
+
+
+"Accrual Basis Tuesday, January 14, 2025 09:42 AM GMT-05:00"

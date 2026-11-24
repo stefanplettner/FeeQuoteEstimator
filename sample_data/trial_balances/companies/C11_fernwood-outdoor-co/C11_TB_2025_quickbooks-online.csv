@@ -1,0 +1,74 @@
+﻿Fernwood Outdoor Co.
+Trial Balance
+"As of December 31, 2025"
+
+,Debit,Credit
+1010 Operating Checking,"1,004,395.06",
+1020 Payroll Checking,"78,761.48",
+1030 Money Market Savings,"270,917.64",
+1040 Accounts Receivable,"221,345.02",
+1050 Inventory,"1,244,087.16",
+1060 Prepaid Expenses,"141,805.69",
+1070 Prepaid Insurance,"25,085.39",
+1090 Investments - Marketable Securities,"838,311.05",
+1100 Machinery & Equipment,"253,639.00",
+1110 Furniture & Fixtures,"85,939.00",
+1120 Computer Equipment,"170,223.00",
+1130 Accumulated Depreciation,,"250,707.09"
+1140 Security Deposits,"45,033.00",
+2010 Accounts Payable,,"682,688.52"
+2020 Corporate Credit Card,,"35,435.01"
+2030 Accrued Wages,,"110,497.30"
+2040 Payroll Taxes Payable,,"13,059.47"
+2050 Sales Tax Payable,,"83,075.55"
+2060 Accrued Expenses,,"133,994.28"
+2070 Federal Income Tax Payable,,"6,808.71"
+2080 State Income Tax Payable,,"3,868.31"
+2090 Line of Credit,,"857,669.00"
+2100 Deferred Tax Liability,,"23,912.20"
+3010 Common Stock,,"100,000.00"
+3020 Retained Earnings,,"1,825,732.38"
+4010 Sales - E-commerce,,"15,013,536.67"
+4020 Sales Returns & Allowances,"488,068.88",
+4030 Sales Discounts,"217,285.98",
+5010 Cost of Goods Sold,"6,639,237.41",
+5020 Freight-In,"311,911.45",
+5030 Inventory Shrinkage & Adjustments,"75,115.59",
+6000 Officer Compensation,"361,815.86",
+6010 Salaries & Wages,"2,881,296.98",
+6020 Payroll Tax Expense,"251,830.20",
+6030 Employee Health Insurance,"239,564.89",
+6040 401(k) Matching Contributions,"78,549.62",
+6050 Rent Expense,"421,690.93",
+6060 Repairs & Maintenance,"29,433.13",
+6070 Taxes & Licenses,"19,321.59",
+6080 State Income Tax Expense,"27,247.99",
+6090 Interest Expense,"68,083.08",
+6100 Depreciation Expense,"60,595.27",
+6110 Advertising & Marketing,"865,540.81",
+6120 Bank Service Charges,"7,906.22",
+6130 Merchant Processing Fees,"424,254.85",
+6140 Charitable Contributions,"10,811.16",
+6150 Dues & Subscriptions,"13,088.73",
+6160 Insurance - General Liability,"52,183.53",
+6170 Workers' Compensation Insurance,"36,572.69",
+6180 Meals (50%),"44,922.95",
+6190 Office Supplies,"45,085.61",
+6200 Postage & Shipping,"854,046.05",
+6210 Accounting Fees,"36,790.06",
+6220 Legal Fees,"17,274.48",
+6230 Software & SaaS Subscriptions,"49,679.42",
+6240 Telephone & Internet,"22,875.27",
+6250 Travel,"59,709.89",
+6260 Utilities,"42,088.14",
+6270 Miscellaneous Expense,"6,606.94",
+8010 Interest Income,,"9,483.95"
+8020 Dividend Income,,"66,195.56"
+8030 Other Income,,"25,732.34"
+8040 Unrealized Loss on Securities,"23,210.39",
+9010 Federal Income Tax Expense - Current,"72,604.14",
+9020 Federal Income Tax Expense - Deferred,"6,553.67",
+TOTAL,"$19,242,396.34","$19,242,396.34"
+
+
+"Accrual Basis Tuesday, January 20, 2026 09:42 AM GMT-05:00"

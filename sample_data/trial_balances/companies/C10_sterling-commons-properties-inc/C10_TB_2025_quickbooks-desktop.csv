@@ -1,0 +1,59 @@
+﻿,,"Sterling Commons Properties, Inc."
+,,Trial Balance
+,,"As of December 31, 2025"
+Accrual Basis
+,"Dec 31, 25",
+,Debit,Credit
+10100 · Operating Checking,"96,309.36",
+10200 · Payroll Checking,"5,779.60",
+10300 · Accounts Receivable,"130,603.91",
+10400 · Prepaid Expenses,"11,748.74",
+10500 · Prepaid Insurance,"5,074.63",
+10600 · Investments - Municipal Bonds,"140,652.00",
+10700 · Land,"2,326,487.00",
+10800 · Buildings,"15,124,585.00",
+10900 · Furniture & Fixtures,"5,585,851.00",
+11000 · Accumulated Depreciation,,"8,151,902.16"
+11100 · Security Deposits,"5,967.00",
+20100 · Accounts Payable,,"79,612.71"
+20200 · Corporate Credit Card,,"3,614.02"
+20300 · Accrued Wages,,"68,477.48"
+20400 · Payroll Taxes Payable,,"6,977.40"
+20500 · Accrued Expenses,,"28,223.60"
+20600 · Line of Credit,,"1,906,501.00"
+20700 · Current Portion of Long-Term Debt,,"255,781.37"
+20800 · Mortgage Payable,,"7,737,368.07"
+20900 · Deferred Tax Liability,,"464,846.14"
+30100 · Common Stock,,"500,000.00"
+30200 · Retained Earnings,,"4,274,571.87"
+40100 · Rental Income,,"3,366,443.11"
+60000 · Officer Compensation,"35,540.65",
+60100 · Salaries & Wages,"1,674,793.50",
+60200 · Payroll Tax Expense,"134,204.10",
+60300 · Employee Health Insurance,"12,871.11",
+60400 · 401(k) Matching Contributions,"4,298.18",
+60500 · Repairs & Maintenance,"11,076.54",
+60600 · Taxes & Licenses,"2,573.65",
+60700 · Property Taxes,"276,038.97",
+60800 · Interest Expense,"473,374.11",
+60900 · Depreciation Expense,"621,313.70",
+61000 · Advertising & Marketing,"21,926.55",
+61100 · Bank Service Charges,"1,532.21",
+61200 · Charitable Contributions,"3,129.86",
+61300 · Dues & Subscriptions,"1,124.02",
+61400 · Insurance - General Liability,"16,125.64",
+61500 · Workers' Compensation Insurance,"2,463.18",
+61600 · Meals (50%),"2,299.02",
+61700 · Office Supplies,"2,421.53",
+61800 · Accounting Fees,"6,749.55",
+61900 · Legal Fees,"1,982.80",
+62000 · Software & SaaS Subscriptions,"9,641.68",
+62100 · Telephone & Internet,"2,362.18",
+62200 · Travel,"2,526.34",
+62300 · Utilities,"3,852.91",
+62400 · Janitorial & Cleaning,"105,847.37",
+62500 · Miscellaneous Expense,"1,119.73",
+80100 · Interest Income,,"2,980.83"
+80200 · Tax-Exempt Interest Income,,"4,220.07"
+90100 · Federal Income Tax Expense - Deferred,,"12,727.49"
+TOTAL,"26,864,247.32","26,864,247.32"

@@ -1,0 +1,71 @@
+﻿Trial Balance
+Period: 01/01/24..12/31/24
+"Brightpath Pet Supply, Inc."
+G/L Account: Date Filter: 01/01/24..12/31/24
+
+No.,Name,Net Change Debit,Net Change Credit,Balance Debit,Balance Credit
+10100,Operating Checking,"158,278.37",,"208,278.37",
+10200,Payroll Checking,"2,123.38",,"26,994.12",
+10300,Money Market Savings,"1,247.67",,"56,078.99",
+10400,Accounts Receivable,"9,986.58",,"80,865.07",
+10500,Inventory,"67,538.60",,"745,677.82",
+10600,Prepaid Expenses,"3,841.66",,"35,334.18",
+10700,Prepaid Insurance,654.83,,"15,502.10",
+10800,Prepaid Federal Income Tax,,95.95,"2,175.32",
+10900,Employee Advances,159.24,,"2,417.54",
+11000,Machinery & Equipment,,81.34,"100,028.00",
+11100,Furniture & Fixtures,"2,808.71",,"32,809.00",
+11200,Computer Equipment,"3,698.32",,"43,566.00",
+11300,Accumulated Depreciation,,"1,525.88",,"77,450.73"
+11400,Security Deposits,384.32,,"13,134.00",
+20100,Accounts Payable,"186,195.10",,,"405,494.19"
+20200,Corporate Credit Card,,"2,341.18",,"19,781.25"
+20300,Accrued Wages,66.07,,,"12,592.11"
+20400,Payroll Taxes Payable,,254.54,,"2,225.42"
+20500,Sales Tax Payable,"1,036.26",,,"40,696.04"
+20600,Accrued Expenses,"2,215.12",,,"39,083.44"
+20800,State Income Tax Payable,,230.26,,"4,415.09"
+20900,Line of Credit,,"24,249.66",,"335,177.00"
+21000,Deferred Tax Liability,,162.14,,"5,860.83"
+30100,Common Stock,,,,"10,000.00"
+30200,Additional Paid-In Capital,,"39,797.44",,"359,869.00"
+30300,Retained Earnings,,,"321,280.43",
+40100,Sales - E-commerce,,"6,750,000.54",,"6,750,000.54"
+40200,Sales Returns & Allowances,"266,051.90",,"266,051.90",
+40300,Sales Discounts,"71,921.21",,"71,921.21",
+50100,Cost of Goods Sold,"3,263,727.52",,"3,263,727.52",
+50200,Freight-In,"105,008.69",,"105,008.69",
+50300,Inventory Shrinkage & Adjustments,"41,596.34",,"41,596.34",
+60000,Officer Compensation,"348,164.56",,"348,164.56",
+60100,Salaries & Wages,"384,722.40",,"384,722.40",
+60200,Payroll Tax Expense,"53,679.63",,"53,679.63",
+60300,Employee Health Insurance,"87,916.74",,"87,916.74",
+60400,401(k) Matching Contributions,"35,937.71",,"35,937.71",
+60500,Rent Expense,"196,473.64",,"196,473.64",
+60600,Repairs & Maintenance,"19,009.06",,"19,009.06",
+60700,Taxes & Licenses,"6,173.70",,"6,173.70",
+60800,State Income Tax Expense,"32,841.44",,"32,841.44",
+60900,Interest Expense,"24,641.88",,"24,641.88",
+61000,Depreciation Expense,"18,578.22",,"18,578.22",
+61100,Advertising & Marketing,"599,493.70",,"599,493.70",
+61200,Bank Service Charges,"2,568.23",,"2,568.23",
+61300,Merchant Processing Fees,"184,582.42",,"184,582.42",
+61400,Charitable Contributions,"5,827.66",,"5,827.66",
+61500,Dues & Subscriptions,"9,887.04",,"9,887.04",
+61600,Insurance - General Liability,"33,352.20",,"33,352.20",
+61700,Workers' Compensation Insurance,"10,365.51",,"10,365.51",
+61800,Meals (50%),"8,603.93",,"8,603.93",
+61900,Office Supplies,"19,562.09",,"19,562.09",
+62000,Postage & Shipping,"340,655.99",,"340,655.99",
+62100,Accounting Fees,"16,117.71",,"16,117.71",
+62200,Legal Fees,"7,445.18",,"7,445.18",
+62300,Software & SaaS Subscriptions,"34,103.08",,"34,103.08",
+62400,Telephone & Internet,"7,375.44",,"7,375.44",
+62500,Travel,"7,400.15",,"7,400.15",
+62600,Utilities,"31,068.57",,"31,068.57",
+62700,Penalties & Fines,"3,716.40",,"3,716.40",
+62800,Miscellaneous Expense,"3,911.45",,"3,911.45",
+80100,Interest Income,,"4,865.32",,"4,865.32"
+90100,Federal Income Tax Expense - Current,"99,219.43",,"99,219.43",
+90200,Federal Income Tax Expense - Deferred,"1,669.20",,"1,669.20",
+,Total,,,"8,067,510.96","8,067,510.96"

@@ -1,0 +1,75 @@
+﻿"Keystone Auto Care, Inc."
+General Ledger Trial Balance
+"As of Dec 31, 2024"
+Filter Criteria includes: Report order is by ID. Report is printed in Detail Format.
+
+Account ID,Account Description,Debit Amt,Credit Amt
+10100,Operating Checking,"161,994.39",
+10200,Payroll Checking,"12,675.85",
+10300,Petty Cash,500.00,
+10400,Accounts Receivable,"161,870.71",
+10500,Inventory,"185,027.08",
+10600,Prepaid Expenses,"28,465.95",
+10700,Prepaid Insurance,"16,773.56",
+10900,Machinery & Equipment,"336,610.00",
+11000,Furniture & Fixtures,"81,221.00",
+11100,Vehicles,"327,905.00",
+11200,Computer Equipment,"85,434.00",
+11300,Leasehold Improvements,"71,107.00",
+11400,Accumulated Depreciation,,"385,864.84"
+11500,Security Deposits,"7,101.00",
+11600,Loan Receivable - Shareholder,"47,513.00",
+11700,Right-of-Use Asset - Operating Lease,"323,242.35",
+20100,Accounts Payable,,"175,917.97"
+20200,Corporate Credit Card,,"10,444.78"
+20300,Accrued Wages,,"16,405.07"
+20400,Payroll Taxes Payable,,"6,225.09"
+20500,Sales Tax Payable,,"21,642.22"
+20600,Accrued Expenses,,"31,621.79"
+20700,Federal Income Tax Payable,,"3,864.96"
+20800,State Income Tax Payable,,630.82
+20900,Current Portion of Long-Term Debt,,"29,521.21"
+21000,Note Payable - Bank,,"177,125.03"
+21100,Operating Lease Liability,,"332,642.22"
+21200,Deferred Tax Liability,,"15,486.68"
+30100,Common Stock,,"1,000.00"
+30200,Additional Paid-In Capital,,"54,653.00"
+30300,Retained Earnings,,"507,164.97"
+40100,Sales,,"1,421,200.82"
+40200,Service Revenue,,"2,318,800.77"
+40300,Sales Discounts,"23,785.00",
+50100,Cost of Goods Sold,"1,017,813.36",
+50200,Direct Labor,"774,166.19",
+60000,Officer Compensation,"310,365.80",
+60100,Salaries & Wages,"683,015.90",
+60200,Payroll Tax Expense,"140,748.92",
+60300,Employee Health Insurance,"58,760.47",
+60400,401(k) Matching Contributions,"18,173.74",
+60500,Rent Expense,"121,836.12",
+60600,Repairs & Maintenance,"19,467.79",
+60700,Taxes & Licenses,"11,328.38",
+60800,State Income Tax Expense,"9,956.82",
+60900,Interest Expense,"14,909.36",
+61000,Depreciation Expense,"110,180.04",
+61100,Advertising & Marketing,"57,896.39",
+61200,Bank Service Charges,"2,230.28",
+61300,Merchant Processing Fees,"63,750.11",
+61400,Charitable Contributions,"6,130.24",
+61500,Dues & Subscriptions,"2,420.97",
+61600,Insurance - General Liability,"41,680.36",
+61700,Workers' Compensation Insurance,"18,783.49",
+61800,Meals (50%),"9,892.61",
+61900,Entertainment (Nondeductible),"6,411.63",
+62000,Office Supplies,"10,021.03",
+62100,Accounting Fees,"14,333.79",
+62200,Legal Fees,"7,414.31",
+62300,Software & SaaS Subscriptions,"26,043.77",
+62400,Telephone & Internet,"6,522.14",
+62500,Travel,"17,759.90",
+62600,Utilities,"24,895.19",
+62700,Uniforms,"11,339.82",
+62800,Miscellaneous Expense,852.88,
+80100,Interest Income,,"3,667.47"
+90100,Federal Income Tax Expense - Current,"25,790.02",
+90200,Federal Income Tax Expense - Deferred,,"2,238.00"
+,Total:,"5,516,117.71","5,516,117.71"

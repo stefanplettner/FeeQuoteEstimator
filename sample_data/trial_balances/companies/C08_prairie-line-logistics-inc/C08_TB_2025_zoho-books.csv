@@ -1,0 +1,88 @@
+﻿"Prairie Line Logistics, Inc."
+Trial Balance
+Basis: Accrual
+As of 12/31/2025
+
+Account,Account Code,Net Debit,Net Credit
+Assets
+Operating Checking,,"1,284,066.71",
+Payroll Checking,,"117,411.74",
+Money Market Savings,,"399,065.34",
+Accounts Receivable,,"2,134,078.47",
+Allowance for Doubtful Accounts,,,"44,992.23"
+Prepaid Expenses,,"163,683.28",
+Prepaid Insurance,,"41,355.86",
+Prepaid Federal Income Tax,,409.51,
+Land,,"444,752.00",
+Buildings,,"2,865,835.00",
+Machinery & Equipment,,"2,775,834.00",
+Vehicles,,"4,351,961.00",
+Computer Equipment,,"828,967.00",
+Accumulated Depreciation,,,"6,336,754.87"
+Goodwill,,"1,878,549.00",
+Customer List,,"889,233.00",
+Accumulated Amortization,,,"352,812.45"
+Security Deposits,,"43,353.00",
+Total for Assets,,"18,218,554.91","6,734,559.55"
+Liabilities
+Accounts Payable,,,"1,071,922.49"
+Corporate Credit Card,,,"60,816.72"
+Accrued Wages,,,"123,043.24"
+Payroll Taxes Payable,,,"40,701.09"
+Accrued Expenses,,,"232,223.68"
+State Income Tax Payable,,,"1,835.45"
+Line of Credit,,,"974,461.00"
+Current Portion of Long-Term Debt,,,"302,627.94"
+Note Payable - Bank,,,"1,156,214.08"
+Equipment Loans Payable,,,"659,551.53"
+Deferred Tax Liability,,,"217,502.79"
+Total for Liabilities,,,"4,840,900.01"
+Equities
+Common Stock,,,"10,000.00"
+Retained Earnings,,,"6,455,332.22"
+Total for Equities,,,"6,465,332.22"
+Income
+Freight Revenue,,,"20,096,934.37"
+Interest Income,,,"13,533.57"
+Gain on Sale of Assets,,,"31,851.12"
+Other Income,,,"14,782.28"
+Total for Income,,,"20,157,101.34"
+Expense
+Direct Labor,,"5,802,946.01",
+Subcontractors,,"1,424,157.03",
+Fuel,,"5,015,887.60",
+Officer Compensation,,"635,432.03",
+Salaries & Wages,,"2,805,180.60",
+Payroll Tax Expense,,"730,949.33",
+Employee Health Insurance,,"138,242.31",
+401(k) Matching Contributions,,"44,504.18",
+Rent Expense,,"177,955.42",
+Repairs & Maintenance,,"29,977.71",
+Bad Debt Expense,,"44,520.80",
+Taxes & Licenses,,"22,127.04",
+State Income Tax Expense,,"12,711.84",
+Interest Expense,,"232,039.53",
+Depreciation Expense,,"1,306,832.80",
+Amortization Expense,,"59,282.19",
+Advertising & Marketing,,"63,477.62",
+Auto & Truck Expense,,"851,529.81",
+Bank Service Charges,,"3,273.77",
+Charitable Contributions,,"11,228.92",
+Dues & Subscriptions,,"11,528.41",
+Insurance - General Liability,,"133,159.22",
+Workers' Compensation Insurance,,"38,424.12",
+Meals (50%),,"32,844.56",
+Office Supplies,,"22,757.77",
+Accounting Fees,,"24,766.01",
+Legal Fees,,"25,357.53",
+Software & SaaS Subscriptions,,"42,845.61",
+Telephone & Internet,,"16,106.52",
+Travel,,"59,866.65",
+Utilities,,"72,579.13",
+Uniforms,,"19,149.78",
+Penalties & Fines,,"8,800.15",
+Miscellaneous Expense,,"4,932.70",
+Federal Income Tax Expense - Current,,"10,995.99",
+Federal Income Tax Expense - Deferred,,"42,967.52",
+Total for Expense,,"19,979,338.21",
+Total,,"38,197,893.12","38,197,893.12"

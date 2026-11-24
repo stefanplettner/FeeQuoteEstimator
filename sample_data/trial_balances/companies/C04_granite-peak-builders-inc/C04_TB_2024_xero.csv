@@ -1,0 +1,94 @@
+﻿Trial Balance
+"Granite Peak Builders, Inc."
+"As of December 31, 2024"
+
+Account Code,Account,Account Type,Debit,Credit,Debit - Year to date,Credit - Year to date
+Revenue
+200,Contract Revenue,Revenue,,"27,900,000.53",,"27,900,000.53"
+260,Interest Income,Other Income,,"18,951.69",,"18,951.69"
+264,Other Income,Other Income,,"56,361.84",,"56,361.84"
+Total Revenue,,,,"27,975,314.06",,"27,975,314.06"
+
+Expenses
+310,Materials & Purchases,Direct Costs,"5,547,070.59",,"5,547,070.59",
+312,Direct Labor,Direct Costs,"2,824,993.30",,"2,824,993.30",
+314,Subcontractors,Direct Costs,"13,082,915.53",,"13,082,915.53",
+316,Equipment Rental - Jobs,Direct Costs,"509,977.32",,"509,977.32",
+400,Officer Compensation,Expense,"832,669.38",,"832,669.38",
+402,Salaries & Wages,Expense,"1,674,000.49",,"1,674,000.49",
+404,Payroll Tax Expense,Expense,"420,092.11",,"420,092.11",
+406,Employee Health Insurance,Expense,"300,017.47",,"300,017.47",
+408,401(k) Matching Contributions,Expense,"100,825.62",,"100,825.62",
+410,Rent Expense,Expense,"323,655.97",,"323,655.97",
+412,Repairs & Maintenance,Expense,"50,975.74",,"50,975.74",
+414,Bad Debt Expense,Expense,"84,632.65",,"84,632.65",
+416,Taxes & Licenses,Expense,"16,122.26",,"16,122.26",
+418,State Income Tax Expense,Expense,"39,077.54",,"39,077.54",
+420,Interest Expense,Expense,"11,435.92",,"11,435.92",
+422,Depreciation Expense,Expense,"167,883.46",,"167,883.46",
+424,Amortization Expense,Expense,"46,102.16",,"46,102.16",
+426,Advertising & Marketing,Expense,"170,467.47",,"170,467.47",
+428,Auto & Truck Expense,Expense,"263,878.59",,"263,878.59",
+430,Bank Service Charges,Expense,"9,237.37",,"9,237.37",
+432,Charitable Contributions,Expense,"12,652.89",,"12,652.89",
+434,Dues & Subscriptions,Expense,"12,308.17",,"12,308.17",
+436,Insurance - General Liability,Expense,"118,369.55",,"118,369.55",
+438,Workers' Compensation Insurance,Expense,"43,967.56",,"43,967.56",
+440,Meals (50%),Expense,"59,901.92",,"59,901.92",
+442,Office Supplies,Expense,"36,076.54",,"36,076.54",
+444,Accounting Fees,Expense,"82,265.51",,"82,265.51",
+446,Legal Fees,Expense,"42,395.52",,"42,395.52",
+448,Software & SaaS Subscriptions,Expense,"98,880.25",,"98,880.25",
+450,Telephone & Internet,Expense,"39,027.73",,"39,027.73",
+452,Travel,Expense,"20,865.57",,"20,865.57",
+454,Utilities,Expense,"38,536.62",,"38,536.62",
+456,Uniforms,Expense,"18,739.28",,"18,739.28",
+458,Penalties & Fines,Expense,"15,702.91",,"15,702.91",
+460,Miscellaneous Expense,Expense,"10,575.97",,"10,575.97",
+505,Federal Income Tax Expense - Current,Expense,"172,449.58",,"172,449.58",
+506,Federal Income Tax Expense - Deferred,Expense,"15,434.81",,"15,434.81",
+Total Expenses,,,"27,314,181.32",,"27,314,181.32",
+
+Assets
+090,Operating Checking,Bank,"936,654.47",,"936,654.47",
+091,Payroll Checking,Bank,"134,577.52",,"134,577.52",
+092,Money Market Savings,Bank,"281,743.00",,"281,743.00",
+600,Accounts Receivable,Current Asset,"4,319,262.16",,"4,319,262.16",
+602,Retainage Receivable,Current Asset,"762,223.00",,"762,223.00",
+604,Allowance for Doubtful Accounts,Fixed Asset,,"119,035.14",,"119,035.14"
+606,Costs in Excess of Billings,Current Asset,"351,191.18",,"351,191.18",
+608,Prepaid Expenses,Current Asset,"268,297.10",,"268,297.10",
+610,Prepaid Insurance,Current Asset,"53,313.96",,"53,313.96",
+710,Machinery & Equipment,Fixed Asset,"398,486.00",,"398,486.00",
+712,Furniture & Fixtures,Fixed Asset,"330,600.00",,"330,600.00",
+714,Vehicles,Fixed Asset,"694,062.00",,"694,062.00",
+716,Computer Equipment,Fixed Asset,"364,048.00",,"364,048.00",
+718,Accumulated Depreciation,Fixed Asset,,"848,501.97",,"848,501.97"
+720,Goodwill,Fixed Asset,"2,269,409.00",,"2,269,409.00",
+722,Customer List,Fixed Asset,"691,522.00",,"691,522.00",
+724,Accumulated Amortization,Fixed Asset,,"163,457.56",,"163,457.56"
+612,Security Deposits,Current Asset,"86,789.00",,"86,789.00",
+Total Assets,,,"11,942,178.39","1,130,994.67","11,942,178.39","1,130,994.67"
+
+Liabilities
+800,Accounts Payable,Current Liability,,"2,649,134.85",,"2,649,134.85"
+802,Corporate Credit Card,Current Liability,,"81,687.33",,"81,687.33"
+804,Accrued Wages,Current Liability,,"76,063.51",,"76,063.51"
+806,Payroll Taxes Payable,Current Liability,,"20,311.52",,"20,311.52"
+808,Accrued Expenses,Current Liability,,"298,237.09",,"298,237.09"
+810,Billings in Excess of Costs,Current Liability,,"1,493,931.92",,"1,493,931.92"
+812,Retainage Payable,Current Liability,,"1,023,852.86",,"1,023,852.86"
+814,Federal Income Tax Payable,Current Liability,,"19,435.84",,"19,435.84"
+816,State Income Tax Payable,Current Liability,,"8,782.26",,"8,782.26"
+818,Current Portion of Long-Term Debt,Current Liability,,"24,110.15",,"24,110.15"
+820,Equipment Loans Payable,Non-current Liability,,"144,660.75",,"144,660.75"
+822,Deferred Tax Liability,Non-current Liability,,"63,579.42",,"63,579.42"
+Total Liabilities,,,,"5,903,787.50",,"5,903,787.50"
+
+Equity
+950,Common Stock,Equity,,"25,000.00",,"25,000.00"
+952,Additional Paid-In Capital,Equity,,"2,076,327.00",,"2,076,327.00"
+960,Retained Earnings,Equity,,"2,144,936.48",,"2,144,936.48"
+Total Equity,,,,"4,246,263.48",,"4,246,263.48"
+
+Total,,,"39,256,359.71","39,256,359.71","39,256,359.71","39,256,359.71"

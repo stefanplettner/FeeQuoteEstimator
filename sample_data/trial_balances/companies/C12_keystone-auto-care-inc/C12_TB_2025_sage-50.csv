@@ -1,0 +1,77 @@
+﻿"Keystone Auto Care, Inc."
+General Ledger Trial Balance
+"As of Dec 31, 2025"
+Filter Criteria includes: Report order is by ID. Report is printed in Detail Format.
+
+Account ID,Account Description,Debit Amt,Credit Amt
+10100,Operating Checking,"308,682.79",
+10200,Payroll Checking,"15,853.39",
+10300,Petty Cash,500.00,
+10400,Accounts Receivable,"203,829.32",
+10500,Inventory,"180,338.77",
+10600,Prepaid Expenses,"33,033.49",
+10700,Prepaid Insurance,"17,353.46",
+10800,Employee Advances,"3,717.48",
+10900,Machinery & Equipment,"336,610.00",
+11000,Furniture & Fixtures,"81,221.00",
+11100,Vehicles,"327,905.00",
+11200,Computer Equipment,"85,434.00",
+11300,Leasehold Improvements,"207,397.00",
+11400,Accumulated Depreciation,,"512,687.44"
+11500,Security Deposits,"6,245.00",
+11600,Loan Receivable - Shareholder,"42,618.00",
+11700,Right-of-Use Asset - Operating Lease,"504,011.68",
+20100,Accounts Payable,,"172,772.12"
+20200,Corporate Credit Card,,"8,127.85"
+20300,Accrued Wages,,"18,318.33"
+20400,Payroll Taxes Payable,,"7,183.83"
+20500,Sales Tax Payable,,"29,423.25"
+20600,Accrued Expenses,,"18,847.39"
+20700,Federal Income Tax Payable,,226.77
+20800,State Income Tax Payable,,"4,489.20"
+20900,Current Portion of Long-Term Debt,,"25,303.97"
+21000,Note Payable - Bank,,"151,821.41"
+21100,Operating Lease Liability,,"537,291.22"
+21200,Deferred Tax Liability,,"25,446.21"
+30100,Common Stock,,"1,000.00"
+30200,Additional Paid-In Capital,,"54,653.00"
+30300,Retained Earnings,,"584,395.21"
+40100,Sales,,"1,430,108.62"
+40200,Service Revenue,,"2,333,334.20"
+40300,Sales Discounts,"23,872.13",
+50100,Cost of Goods Sold,"997,584.30",
+50200,Direct Labor,"821,449.66",
+60000,Officer Compensation,"294,726.27",
+60100,Salaries & Wages,"525,271.74",
+60200,Payroll Tax Expense,"131,443.67",
+60300,Employee Health Insurance,"60,520.83",
+60400,401(k) Matching Contributions,"17,665.06",
+60500,Rent Expense,"116,697.68",
+60600,Repairs & Maintenance,"19,236.70",
+60700,Taxes & Licenses,"11,593.00",
+60800,State Income Tax Expense,"22,546.65",
+60900,Interest Expense,"10,953.44",
+61000,Depreciation Expense,"126,823.07",
+61100,Advertising & Marketing,"55,777.66",
+61200,Bank Service Charges,"2,148.33",
+61300,Merchant Processing Fees,"63,051.05",
+61400,Charitable Contributions,"6,195.24",
+61500,Dues & Subscriptions,"2,540.04",
+61600,Insurance - General Liability,"44,687.94",
+61700,Workers' Compensation Insurance,"18,646.52",
+61800,Meals (50%),"9,775.78",
+61900,Entertainment (Nondeductible),"6,221.46",
+62000,Office Supplies,"9,533.92",
+62100,Accounting Fees,"15,191.95",
+62200,Legal Fees,"7,554.72",
+62300,Software & SaaS Subscriptions,"26,957.48",
+62400,Telephone & Internet,"6,670.71",
+62500,Travel,"17,173.81",
+62600,Utilities,"24,461.51",
+62700,Uniforms,"12,101.98",
+62800,Miscellaneous Expense,885.16,
+80100,Interest Income,,"2,217.93"
+80200,Other Income,,"3,918.26"
+90100,Federal Income Tax Expense - Current,"46,896.94",
+90200,Federal Income Tax Expense - Deferred,"9,959.43",
+,Total:,"5,921,566.21","5,921,566.21"

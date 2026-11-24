@@ -1,0 +1,62 @@
+﻿Trial Balance
+Period: 01/01/25..12/31/25
+"Old Mill Plaza Holdings, Inc."
+G/L Account: Date Filter: 01/01/25..12/31/25
+
+No.,Name,Net Change Debit,Net Change Credit,Balance Debit,Balance Credit
+10100,Operating Checking,,"67,178.24","65,597.23",
+10200,Payroll Checking,,"4,207.63","3,068.55",
+10300,Accounts Receivable,"24,403.60",,"69,985.12",
+10400,Prepaid Expenses,"7,375.67",,"15,125.62",
+10500,Prepaid Insurance,,610.09,"1,069.40",
+10600,Employee Advances,,"5,604.15",,
+10700,Investments - Marketable Securities,,"13,534.71","124,964.12",
+10800,Land,,,"1,148,186.00",
+10900,Buildings,"796,184.00",,"8,450,463.00",
+11000,Furniture & Fixtures,,,"1,740,075.00",
+11100,Accumulated Depreciation,,"305,716.52",,"5,380,944.65"
+11200,Security Deposits,257.00,,"3,064.00",
+20100,Accounts Payable,"7,371.81",,,"38,561.20"
+20200,Corporate Credit Card,"3,800.90",,,"3,224.68"
+20300,Accrued Wages,,"21,928.37",,"56,006.13"
+20400,Payroll Taxes Payable,320.25,,,"2,913.83"
+20500,Accrued Expenses,"5,407.18",,,"13,231.85"
+20600,Line of Credit,,"585,000.00",,"585,000.00"
+20700,Current Portion of Long-Term Debt,"3,243.24",,,"77,840.57"
+20800,Mortgage Payable,"98,111.41",,,"2,354,669.40"
+20900,Deferred Tax Liability,"12,288.69",,,"233,996.23"
+30100,Common Stock,,,,"100,000.00"
+30200,Additional Paid-In Capital,,,,"65,235.00"
+30300,Retained Earnings,,,,"2,754,990.46"
+40100,Rental Income,,"2,016,291.52",,"2,016,291.52"
+60000,Officer Compensation,"14,383.66",,"14,383.66",
+60100,Salaries & Wages,"1,270,467.03",,"1,270,467.03",
+60200,Payroll Tax Expense,"92,892.08",,"92,892.08",
+60300,Employee Health Insurance,"7,682.94",,"7,682.94",
+60400,401(k) Matching Contributions,"2,177.00",,"2,177.00",
+60500,Repairs & Maintenance,"5,038.03",,"5,038.03",
+60600,Taxes & Licenses,"2,505.06",,"2,505.06",
+60700,Property Taxes,"164,409.52",,"164,409.52",
+60800,Interest Expense,"135,133.89",,"135,133.89",
+60900,Depreciation Expense,"305,716.62",,"305,716.62",
+61000,Advertising & Marketing,"6,201.05",,"6,201.05",
+61100,Bank Service Charges,694.94,,694.94,
+61200,Charitable Contributions,987.49,,987.49,
+61300,Dues & Subscriptions,"1,639.52",,"1,639.52",
+61400,Insurance - General Liability,"4,349.74",,"4,349.74",
+61500,Workers' Compensation Insurance,"1,472.47",,"1,472.47",
+61600,Meals (50%),"1,823.43",,"1,823.43",
+61700,Office Supplies,"1,201.72",,"1,201.72",
+61800,Accounting Fees,"6,114.87",,"6,114.87",
+61900,Legal Fees,"1,500.39",,"1,500.39",
+62000,Software & SaaS Subscriptions,"6,995.04",,"6,995.04",
+62100,Telephone & Internet,"2,067.97",,"2,067.97",
+62200,Travel,"2,143.91",,"2,143.91",
+62300,Utilities,"5,628.05",,"5,628.05",
+62400,Janitorial & Cleaning,"44,383.94",,"44,383.94",
+62500,Miscellaneous Expense,655.09,,655.09,
+80100,Interest Income,,662.40,,662.40
+80200,Dividend Income,,"11,867.64",,"11,867.64"
+80300,Unrealized Gain on Securities,,"2,137.99",,"2,137.99"
+90100,Federal Income Tax Expense - Deferred,,"12,289.94",,"12,289.94"
+,Total,,,"13,709,863.49","13,709,863.49"

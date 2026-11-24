@@ -1,0 +1,86 @@
+﻿"Summit Ridge Collision & Repair, Inc."
+Trial Balance
+Basis: Accrual
+As of 12/31/2024
+
+Account,Account Code,Net Debit,Net Credit
+Assets
+Operating Checking,,"211,197.82",
+Payroll Checking,,"23,392.08",
+Petty Cash,,500.00,
+Accounts Receivable,,"133,698.89",
+Inventory,,"178,452.37",
+Prepaid Expenses,,"10,757.05",
+Prepaid Insurance,,"14,526.98",
+Prepaid Federal Income Tax,,897.45,
+Machinery & Equipment,,"113,098.00",
+Furniture & Fixtures,,"80,165.00",
+Vehicles,,"276,194.00",
+Computer Equipment,,"89,023.00",
+Leasehold Improvements,,"47,850.00",
+Accumulated Depreciation,,,"192,139.02"
+Security Deposits,,"6,993.00",
+Right-of-Use Asset - Operating Lease,,"422,257.93",
+Cash Surrender Value - Officer Life Insurance,,"78,660.17",
+Total for Assets,,"1,687,663.74","192,139.02"
+Liabilities
+Accounts Payable,,,"111,020.53"
+Corporate Credit Card,,,"4,319.04"
+Accrued Wages,,,"30,049.66"
+Payroll Taxes Payable,,,"4,799.27"
+Sales Tax Payable,,,"22,996.57"
+Accrued Expenses,,,"17,797.14"
+State Income Tax Payable,,,88.74
+Line of Credit,,,"69,501.00"
+Current Portion of Long-Term Debt,,,"22,743.04"
+Note Payable - Bank,,,"136,452.83"
+Due to Shareholder,,,"94,236.00"
+Operating Lease Liability,,,"433,782.32"
+Deferred Tax Liability,,,"20,811.77"
+Total for Liabilities,,,"968,597.91"
+Equities
+Common Stock,,,"100,000.00"
+Retained Earnings,,,"423,358.46"
+Total for Equities,,,"523,358.46"
+Income
+Sales,,,"1,098,200.62"
+Service Revenue,,,"1,791,800.47"
+Sales Discounts,,"27,926.59",
+Interest Income,,,909.08
+Total for Income,,"27,926.59","2,890,910.17"
+Expense
+Cost of Goods Sold,,"698,207.98",
+Direct Labor,,"610,969.97",
+Officer Compensation,,"102,312.80",
+Salaries & Wages,,"789,592.74",
+Payroll Tax Expense,,"121,518.70",
+Employee Health Insurance,,"72,626.05",
+401(k) Matching Contributions,,"20,679.93",
+Rent Expense,,"119,793.18",
+Repairs & Maintenance,,"17,262.65",
+Taxes & Licenses,,"8,422.81",
+State Income Tax Expense,,696.84,
+Interest Expense,,"17,348.55",
+Depreciation Expense,,"54,064.02",
+Advertising & Marketing,,"16,337.51",
+Bank Service Charges,,"1,525.73",
+Merchant Processing Fees,,"51,834.63",
+Charitable Contributions,,"4,512.68",
+Dues & Subscriptions,,"4,377.60",
+Insurance - General Liability,,"32,899.13",
+Workers' Compensation Insurance,,"7,482.07",
+Officer Life Insurance Premiums,,"21,671.83",
+Meals (50%),,"7,566.48",
+Office Supplies,,"10,432.69",
+Accounting Fees,,"11,907.56",
+Legal Fees,,"1,626.31",
+Software & SaaS Subscriptions,,"13,698.05",
+Telephone & Internet,,"8,877.91",
+Travel,,"3,245.71",
+Utilities,,"11,367.03",
+Uniforms,,"7,887.47",
+Miscellaneous Expense,,948.34,
+Federal Income Tax Expense - Current,,"6,960.08",
+Federal Income Tax Expense - Deferred,,760.20,
+Total for Expense,,"2,859,415.23",
+Total,,"4,575,005.56","4,575,005.56"
